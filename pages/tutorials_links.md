@@ -4,6 +4,10 @@ description: DataHub promotes features that facilitate the detailed description 
 type: fairdom_in_use
 ---
 
+### Editing these pages
+
+* [StackEdit, a Wysiwyg MD editor](https://stackedit.io/)
+
 ### Docker & Docker compose
 
 ### OpenStack
