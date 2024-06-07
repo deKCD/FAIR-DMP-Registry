@@ -17,4 +17,10 @@ type: fairdom_in_use
 
 ### Identity Management
 
+** [Oauth on Wikipedia](https://en.wikipedia.org/wiki/OAuth)
+** [OpenID](https://goauthentik.io/)
+** [AAI: Elixir Authentication and Authorization Infrastructure](https://elixir-europe.org/platforms/compute/aai)
+** [Authentik: a simplified but powerful identity server](https://goauthentik.io/)
+** [LDAP on Wikipedia](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
+
 ### Data Management
