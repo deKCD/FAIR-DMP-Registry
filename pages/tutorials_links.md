@@ -13,6 +13,7 @@ type: fairdom_in_use
 ** [Youtube: Alternative Introduction to OpenStack](https://www.youtube.com/watch?v=_gWfFEuert8&t=1076s)
 
 ### Kubernetes
+** [Youtube: Kubernetes crash course](https://www.youtube.com/watch?v=s_o8dwzRlu4)
 
 ### Identity Management
 
