@@ -31,6 +31,10 @@ type: fairdom_in_use
 
 * [LDAP on Wikipedia](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 
+### Ansible
+
+* [Getting started - Official documentation](https://docs.ansible.com/ansible/latest/getting_started/index.html)
+
 ### Data Management
 
 
