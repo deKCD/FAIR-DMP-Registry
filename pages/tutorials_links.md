@@ -10,6 +10,8 @@ type: fairdom_in_use
 
 ### Docker & Docker compose
 
+* [Docker manual](https://docs.docker.com/manuals/)
+
 ### OpenStack
 
 * [Youtube: Introduction to OpenStack](https://www.youtube.com/playlist?list=PLT98CRl2KxKHCPoR1nHmG2Tl5Q4r1-aiJ)
@@ -125,6 +127,8 @@ type: fairdom_in_use
 
 * [Data Management and Data Literacy - YouTube](https://www.youtube.com/watch?v=CUcgHrEdt-M)
 
+#### Technical tools and languages
 
+* [Discover GO](https://go.dev/tour/welcome/1)
 
 > Written with the help of [StackEdit](https://stackedit.io/).
