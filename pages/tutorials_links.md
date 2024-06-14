@@ -35,6 +35,9 @@ type: fairdom_in_use
 
 * [Getting started - Official documentation](https://docs.ansible.com/ansible/latest/getting_started/index.html)
 
+### Terraform
+* [Terraform vs Kubernetes](https://aws.amazon.com/compare/the-difference-between-terraform-and-kubernetes/?nc1=h_ls)
+
 ### Data Management
 
 
