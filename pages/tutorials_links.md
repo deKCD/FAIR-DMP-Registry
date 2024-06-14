@@ -1,7 +1,7 @@
 ---
 title: Tutorials' Links
-description: DataHub promotes features that facilitate the detailed description of experimental metadata at the sample level, utilizing standards to ensure ISA-model compliance for ISA-JSON export.
-type: fairdom_in_use
+description: Compilation of useful links for learning things related to cloud, containerization, orchestration and data management.
+type: links
 ---
 
 ### Editing these pages
