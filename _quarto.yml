@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "CloudForDMQ"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - static_md/tutorials_links.md
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

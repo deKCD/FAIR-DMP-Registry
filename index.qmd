@@ -1,0 +1,92 @@
+---
+title: "Cloud For Data Management"
+---
+
+Documentation, tutorials and overview about Data Management in the Cloud, and to some extent outside the Cloud.
+
+# General Introduction
+
+# From pure software to Cloud
+
+## What is a data-management platform
+
+## Where do you want it to be?
+
+## Costs and benefits
+
+## Introduction to Security issues
+
+# A short overview of Data Management Platforms
+
+## Major platforms
+
+## Medium platforms
+
+## Small platforms and others
+
+## 
+
+# Being FAIR
+
+## Why it is important
+
+## Technical considerations
+
+## Non-technical considerations
+
+## Datamanagement planning
+
+# General set-up
+
+## Downloadable software
+
+## On server  and virtual servers
+
+## In Containers
+
+## On virtual environments
+
+Proxmox, VMware & clusters
+Ansible & Terraform, Slurm
+
+## On the Cloud, without orchestration
+
+VM
+Containers ~ to virtual envs
+
+## Orchestrated, introduction to Kubernetes
+
+# Backups and security
+
+# Interconnected platforms
+
+## Why -> creating a workflow
+
+## How
+
+## Making things easier
+
+## Benefits
+
+## Costs
+
+## The limits of exchange
+
+### Formats
+
+### Privacy
+
+### Security
+
+# Useful tools
+
+## R
+
+## Go
+
+## Scilab
+
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
