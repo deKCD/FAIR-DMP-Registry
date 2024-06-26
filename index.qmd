@@ -38,6 +38,8 @@ Documentation, tutorials and overview about Data Management in the Cloud, and to
 
 # General set-up
 
+## Toward provisionning
+
 ## Downloadable software
 
 ## On server  and virtual servers
@@ -47,11 +49,13 @@ Documentation, tutorials and overview about Data Management in the Cloud, and to
 ## On virtual environments
 
 Proxmox, VMware & clusters
+
 Ansible & Terraform, Slurm
 
 ## On the Cloud, without orchestration
 
 VM
+
 Containers ~ to virtual envs
 
 ## Orchestrated, introduction to Kubernetes
@@ -69,6 +73,12 @@ Containers ~ to virtual envs
 ## Benefits
 
 ## Costs
+
+More dependencies
+Added complexity
+
+Hidden complexity
+Containers are not as secure as isolated virtual machine for their host. An issue is the isolation mechanism could allow an attack on the host.
 
 ## The limits of exchange
 
