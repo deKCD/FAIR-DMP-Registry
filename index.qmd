@@ -24,11 +24,16 @@ Documentation, tutorials and overview about Data Management in the Cloud, and to
 
 ## Small platforms and others
 
-## 
+## Data Management repositories
+
+## Data Management Planning tools
 
 # Being FAIR
 
 ## Why it is important
+
+Research Results are useful if the can be used, easily Findable and Accessible, the data output should be Interoperable and Reusable.
+FAIR is being helped or made possible by the 4 Cs -> Consensus, Curation, Consolidation, Conservation
 
 ## Technical considerations
 
@@ -61,6 +66,12 @@ Containers ~ to virtual envs
 ## Orchestrated, introduction to Kubernetes
 
 # Backups and security
+
+## Planning for disaster (other term less dramatic?)
+
+## Backups and Recovery
+
+Try to check a full recovery from a really blank software stack -> doing a recovery using a local setup might miss another needed backup.
 
 # Interconnected platforms
 
@@ -96,6 +107,55 @@ Containers are not as secure as isolated virtual machine for their host. An issu
 
 ## Scilab
 
+
+# TODO
+
+Project-Management tools (Trello, GitHub projects, GitLab)
+
+Versioning and version control systems
+
+Cheat Sheets
+
+DB replication concern, also key-value storage
+
+Data format, meta-data/taxonomies/ontologies
+
+Set-up: CLI vs UI
+
+Container issue, "hot"-swap
+
+Managing load
+
+OpenStack
+
+Other clouds solution
+
+JupyterLab
+
+Elixir Auth
+
+Apache Spark / ELK
+
+Semantic queries
+
+RabbitMQ
+
+Redis
+
+# TO CONSIDER
+
+A topic for each section on how to train-> local setup (for instance Docker Desktop for K8s or Minikube), online sandboxes (script languages, documentation platforms), collab and JupyterLab...
+And propose whenever possible-> List wished tutorial as TO DO.
+
+Choice overflow
+
+# TO CHECK
+
+AI to help define a workflow
+
+# CONCERNS
+
+On which levels do we try to gain the expertise
 
 This is a Quarto website.
 
