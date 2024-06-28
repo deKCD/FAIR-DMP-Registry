@@ -1,7 +1,4 @@
 _site/
-.sass-cache/
-vendor/
-
 /.quarto/
 /_site/
 .quarto/
