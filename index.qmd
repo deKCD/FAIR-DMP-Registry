@@ -24,6 +24,12 @@ An in-depth description of data-management is presented on [RDM Kit](https://rdm
 
 # A short overview of Data Management Platforms
 
+https://bio.tools/
+
+https://rdmkit.elixir-europe.org/national_resources
+
+https://rdmkit.elixir-europe.org/tool_assembly
+
 ## Major platforms
 
 ## Medium platforms
@@ -33,6 +39,8 @@ An in-depth description of data-management is presented on [RDM Kit](https://rdm
 ## Data Management repositories
 
 ## Data Management Planning tools
+
+## Useful Tools and Platforms for Data Management
 
 # Being FAIR
 
