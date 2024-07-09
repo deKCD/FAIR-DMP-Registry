@@ -1,0 +1,17 @@
+* OpenBis
+
+* [Omero](https://www.openmicroscopy.org/omero/)
+
+[Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone)
+
+[Helm chart](https://github.com/manics/kubernetes-omero)
+
+* Seek
+
+* [NextCloud](https://nextcloud.com/)
+
+NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice.
+As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work.
+NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.
+
+[Helm chart](https://github.com/nextcloud/helm)
