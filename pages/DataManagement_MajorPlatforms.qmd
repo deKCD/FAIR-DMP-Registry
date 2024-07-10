@@ -1,14 +1,28 @@
-* OpenBis
+# For Life Science
 
-* [Omero](https://www.openmicroscopy.org/omero/)
+## OpenBis
+
+## [Omero](https://www.openmicroscopy.org/omero/)
 
 [Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone)
 
 [Helm chart](https://github.com/manics/kubernetes-omero)
 
-* Seek
+## Seek
 
-* [NextCloud](https://nextcloud.com/)
+# Materials science
+
+## [NOMAD](https://nomad-lab.eu/nomad-lab/)
+
+# Generalists
+
+## [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
+
+## [Dataverse, an open source research data repository software](https://dataverse.org/)
+
+# Others
+
+## [NextCloud](https://nextcloud.com/)
 
 NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice.
 As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook.
