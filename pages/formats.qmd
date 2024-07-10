@@ -1,0 +1,19 @@
+Common Formats are an important par of being FAIR
+
+SBML
+PeTAB
+
+    BioModels Database
+    BioPAX
+    CellML
+    MIASE
+    Systems Biology Graphical Notation
+    SED-ML
+
+
+Standards
+
+    MIRIAM
+    Systems Biology Ontology
+    KiSAO
+    BioModels.net
