@@ -1,0 +1,51 @@
+Webdav
+
+https://zenodo.org/
+
+https://about.workflowhub.eu/
+
+* "A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.": https://www.fairdatapoint.org/
+
+** Data Catalog Vocabulary: https://www.w3.org/TR/vocab-dcat-2/
+
+** https://www.dublincore.org/
+
+** Linked Data Platform: https://www.w3.org/TR/ldp/
+
+RO-Crate: https://www.researchobject.org/ro-crate/ , https://www.researchobject.org/specs/
+
+Oxford Common File Layout: https://ocfl.io/
+
+PE Tab: https://petab.readthedocs.io/en/latest/
+
+Fair Data Station: https://fairds.fairbydesign.nl/
+
+"LifeMonitor is a service to support the sustainability and reusability of published computational workflows": https://crs4.github.io/life_monitor/
+
+JAX BioConnect: https://docs.bioconnect.jax.org/
+
+https://github.com/BMCBCC/NExtSEEK
+
+A scaleable, standards based platform for sustainable data: https://arkisto-platform.github.io/
+
+"Autosubmit is a Python-based workflow manager": https://www.bsc.es/research-and-development/software-and-apps/software-list/autosubmit
+
+"COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.": https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar/
+
+Online Jupyter Notebooks: https://www.egi.eu/service/notebooks/
+
+Sync and share research data, 20GB storage data (NextCloud): https://www.eudat.eu/service-catalogue/b2drop
+
+Store and publish your research data: https://b2share.eudat.eu/
+
+Research Object Hub: https://www.rohub.org/
+
+https://www.egi.eu/service/check-in/
+
+
+
+
+--------------
+
+Presentation DM: https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html
+
