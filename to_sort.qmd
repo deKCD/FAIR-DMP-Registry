@@ -1,3 +1,5 @@
+Check EBI tools
+
 Webdav
 
 https://zenodo.org/
@@ -62,6 +64,9 @@ Commercial - "The FAIR Tool Manager embodies a collection of tools that you and 
 
 "The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another": https://www.dona.net/digitalobjectarchitecture
 
+Commercial: https://semantic-dicom.com/
+
+Dead? https://platform.rd-connect.eu/#/discover
 
 --------------
 
