@@ -64,6 +64,14 @@ Commercial - "The FAIR Tool Manager embodies a collection of tools that you and 
 
 "The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another": https://www.dona.net/digitalobjectarchitecture
 
+"OSF is a free, open platform to support your research and enable collaboration.": https://osf.io/
+
+The Hourglass model: https://www.researchgate.net/figure/Illustration-of-the-hourglass-model-which-expresses-the-need-to-align-the_fig4_258862784
+
+Data FairPort (conference result?): https://www.datafairport.org/
+
+Multiple Streams Framework (to decide policy): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861624/
+
 Commercial: https://semantic-dicom.com/
 
 Dead? https://platform.rd-connect.eu/#/discover
