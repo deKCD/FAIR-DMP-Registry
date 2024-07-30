@@ -1,6 +1,6 @@
 # For Life Science
 
-## OpenBis
+## [OpenBis](https://openbis.ch/)
 
 ## [Omero](https://www.openmicroscopy.org/omero/)
 
@@ -8,17 +8,23 @@
 
 [Helm chart](https://github.com/manics/kubernetes-omero)
 
-## Seek
+## [Seek](https://seek4science.org/)
 
 # Materials science
 
 ## [NOMAD](https://nomad-lab.eu/nomad-lab/)
+
+# Bibliography
+
+## ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials](https://www.zotero.org/)
 
 # Generalists
 
 ## [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
 
 ## [Dataverse, an open source research data repository software](https://dataverse.org/)
+
+## ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
 
 # Others
 
