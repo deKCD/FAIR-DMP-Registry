@@ -6,22 +6,22 @@ Check EBI tools
 
 Webdav
 
-Presentation DM: (https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html)
+[Presentation DM](https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html)
 
-(https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines)
+[Wikipedia list of academic DB and seach engines](https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines)
 
-Check what happened with (https://en.wikipedia.org/wiki/Clarivate)
+Check what happened with [Clarivate](https://en.wikipedia.org/wiki/Clarivate)
 
-(https://github.com/minio/minio)
+[Minio](https://github.com/minio/minio)
 
-(https://www.thehyve.nl/services/rdm-engineering-services)
+[RDM services](https://www.thehyve.nl/services/rdm-engineering-services)
 
-(https://www.ufz.de/index.php?en=50440)
+[List of solutions at UFZ](https://www.ufz.de/index.php?en=50440)
 
-(https://github.com/opendatateam)
+[OpenData team(https://github.com/opendatateam)
 
-(https://www.re3data.org/)
+[Re3Data](https://www.re3data.org/)
 
-(https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
+[Presentation DM Tu Dresden](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
 
-Law: (https://www.openjustitia.ch/FR/interne_Open_Justitia.html)
+[DM for Law (in French)](https://www.openjustitia.ch/FR/interne_Open_Justitia.html)
