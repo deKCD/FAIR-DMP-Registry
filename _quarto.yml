@@ -15,9 +15,9 @@ website:
     search: true
     contents:
         - formats.qmd
-        - DataManagement_MajorPlatforms.qmd
-        - DataManagement_MediumPlatforms.qmd
-        - DataManagement_UsefulToolsAndPlatforms.qmd
+        - pages/DataManagement_MajorPlatforms.qmd
+        - pages/DataManagement_MediumPlatforms.qmd
+        - pages/DataManagement_UsefulToolsAndPlatforms.qmd
         - to_sort.qmd
         - to_investigate.qmd
       
