@@ -10,15 +10,16 @@ website:
       - static_md/tutorials_links.md
       - about.qmd
 
-left:
-  - text: "Topics"
-    menu: 
-      - formats.qmd
-      - DataManagement_MajorPlatforms.qmd
-      - DataManagement_MediumPlatforms.qmd
-      - DataManagement_UsefulToolsAndPlatforms.qmd
-      - to_sort.qmd
-      - to_investigate.qmd
+  sidebar:
+    style : "docked"
+    search: true
+    contents:
+        - formats.qmd
+        - DataManagement_MajorPlatforms.qmd
+        - DataManagement_MediumPlatforms.qmd
+        - DataManagement_UsefulToolsAndPlatforms.qmd
+        - to_sort.qmd
+        - to_investigate.qmd
       
 format:
   html:
