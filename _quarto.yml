@@ -14,7 +14,7 @@ website:
     style : "docked"
     search: true
     contents:
-        - formats.qmd
+        - pages/formats.qmd
         - pages/DataManagement_MajorPlatforms.qmd
         - pages/DataManagement_MediumPlatforms.qmd
         - pages/DataManagement_UsefulToolsAndPlatforms.qmd
