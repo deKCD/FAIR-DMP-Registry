@@ -21,3 +21,5 @@ https://www.ufz.de/index.php?en=50440
 https://github.com/opendatateam
 
 https://www.re3data.org/
+
+https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de

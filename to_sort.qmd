@@ -6,6 +6,8 @@ https://zenodo.org/
 
 https://about.workflowhub.eu/
 
+https://bexis2.uni-jena.de/
+
 * "A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.": https://www.fairdatapoint.org/
 
 ** Data Catalog Vocabulary: https://www.w3.org/TR/vocab-dcat-2/

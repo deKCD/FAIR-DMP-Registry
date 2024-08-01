@@ -7,16 +7,19 @@ website:
     left:
       - href: index.qmd
         text: Home
-        menu: 
-          - formats.qmd
-          - DataManagement_MajorPlatforms.qmd
-          - DataManagement_MediumPlatforms.qmd
-          - DataManagement_UsefulToolsAndPlatforms.qmd
-          - to_sort.qmd
-          - to_investigate.qmd
       - static_md/tutorials_links.md
       - about.qmd
 
+left:
+  - text: "Topics"
+    menu: 
+      - formats.qmd
+      - DataManagement_MajorPlatforms.qmd
+      - DataManagement_MediumPlatforms.qmd
+      - DataManagement_UsefulToolsAndPlatforms.qmd
+      - to_sort.qmd
+      - to_investigate.qmd
+      
 format:
   html:
     theme: cosmo
