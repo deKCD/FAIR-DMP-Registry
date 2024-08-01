@@ -2,78 +2,79 @@
 title: "Scrap page: things to sort"
 ---
 
-https://zenodo.org/
+[Zenodo](https://zenodo.org/)
 
-https://about.workflowhub.eu/
+[Workflow Hub](https://about.workflowhub.eu/)
 
-https://bexis2.uni-jena.de/
+[Bexis2 DM tool](https://bexis2.uni-jena.de/)
 
-* "A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs.": https://www.fairdatapoint.org/
+** ["A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs."](https://www.fairdatapoint.org/)
 
-** Data Catalog Vocabulary: https://www.w3.org/TR/vocab-dcat-2/
+** [Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat-2/)
 
-** https://www.dublincore.org/
+** [Dublin Core](https://www.dublincore.org/)
 
-** Linked Data Platform: https://www.w3.org/TR/ldp/
+** [Linked Data Platform](https://www.w3.org/TR/ldp/)
 
-RO-Crate: https://www.researchobject.org/ro-crate/ , https://www.researchobject.org/specs/
+[RO-Crate]: (https://www.researchobject.org/ro-crate/) , 
+[RO-Crate specs](https://www.researchobject.org/specs/)
 
-Oxford Common File Layout: https://ocfl.io/
+[Oxford Common File Layout](https://ocfl.io/)
 
-PE Tab: https://petab.readthedocs.io/en/latest/
+[PE Tab](https://petab.readthedocs.io/en/latest/)
 
-Fair Data Station: https://fairds.fairbydesign.nl/
+[Fair Data Station](https://fairds.fairbydesign.nl/)
 
-ISA format: http://isa-tools.org
+[ISA format](http://isa-tools.org)
 
-Just Enough Results Model (JERM): https://jermontology.org/
+[Just Enough Results Model (JERM)](https://jermontology.org/)
 
-"LifeMonitor is a service to support the sustainability and reusability of published computational workflows": https://crs4.github.io/life_monitor/
+["LifeMonitor is a service to support the sustainability and reusability of published computational workflows"](https://crs4.github.io/life_monitor/)
 
-JAX BioConnect: https://docs.bioconnect.jax.org/
+[JAX BioConnect](https://docs.bioconnect.jax.org/)
 
-https://github.com/BMCBCC/NExtSEEK
+[A scaleable, standards based platform for sustainable data](https://arkisto-platform.github.io/)
 
-A scaleable, standards based platform for sustainable data: https://arkisto-platform.github.io/
+["Autosubmit is a Python-based workflow manager"](https://www.bsc.es/research-and-development/software-and-apps/software-list/autosubmit)
 
-"Autosubmit is a Python-based workflow manager": https://www.bsc.es/research-and-development/software-and-apps/software-list/autosubmit
+["COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms."](https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar/)
 
-"COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms.": https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar/
+[Online Jupyter Notebooks](https://www.egi.eu/service/notebooks/)
 
-Online Jupyter Notebooks: https://www.egi.eu/service/notebooks/
+[Sync and share research data, 20GB storage data (NextCloud)](https://www.eudat.eu/service-catalogue/b2drop)
 
-Sync and share research data, 20GB storage data (NextCloud): https://www.eudat.eu/service-catalogue/b2drop
+[Store and publish your research data](https://b2share.eudat.eu/)
 
-Store and publish your research data: https://b2share.eudat.eu/
+[Research Object Hub](https://www.rohub.org/)
 
-Research Object Hub: https://www.rohub.org/
+[EGI](https://www.egi.eu/service/check-in/)
 
-https://www.egi.eu/service/check-in/
+[ESO Reflex](https://www.eso.org/sci/software/esoreflex/)
 
-ESO Reflex: https://www.eso.org/sci/software/esoreflex/
+["OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."](https://openrefine.org/ https://github.com/stkenny/grefine-rdf-extension)
 
-"OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.": https://openrefine.org/ https://github.com/stkenny/grefine-rdf-extension
+[Karma data integration tool](https://usc-isi-i2.github.io/karma/)
 
-Karma data integration tool: https://usc-isi-i2.github.io/karma/
+[A System to Evaluate the FAIRness of Digital Objects](https://fairshake.cloud/)
 
-A System to Evaluate the FAIRness of Digital Objects: https://fairshake.cloud/
+[Commercial - "The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle."](https://www.fairtoolmanager.com/)
 
-Commercial - "The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle." : https://www.fairtoolmanager.com/
+["The Metadata Registry provides services to developers and consumers of controlled vocabularies"](http://metadataregistry.org/) 
 
-"The Metadata Registry provides services to developers and consumers of controlled vocabularies": http://metadataregistry.org/ Metadata Standards Catalog: https://rdamsc.bath.ac.uk/
+[Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)
 
-"The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability": https://www.openarchives.org/pmh/
+["The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability"](https://www.openarchives.org/pmh/)
 
-"The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another": https://www.dona.net/digitalobjectarchitecture
+["The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another"](https://www.dona.net/digitalobjectarchitecture)
 
-"OSF is a free, open platform to support your research and enable collaboration.": https://osf.io/
+[]"OSF is a free, open platform to support your research and enable collaboration."] (https://osf.io/)
 
-The Hourglass model: https://www.researchgate.net/figure/Illustration-of-the-hourglass-model-which-expresses-the-need-to-align-the_fig4_258862784
+[The Hourglass model](https://www.researchgate.net/figure/Illustration-of-the-hourglass-model-which-expresses-the-need-to-align-the_fig4_258862784)
 
-Data FairPort (conference result?): https://www.datafairport.org/
+[Data FairPort (conference result?)](https://www.datafairport.org/)
 
-Multiple Streams Framework (to decide policy): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861624/
+[Multiple Streams Framework (to decide policy)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861624/)
 
-Commercial: https://semantic-dicom.com/
+[Commercial DM](https://semantic-dicom.com/)
 
-Dead? https://platform.rd-connect.eu/#/discover
+[RD Connect - Dead?](https://platform.rd-connect.eu/#/discover)
