@@ -89,6 +89,10 @@ Containers ~ to virtual envs
 
 Try to check a full recovery from a really blank software stack -> doing a recovery using a local setup might miss another needed backup.
 
+## Extending Kubernetes
+
+Code to manifest: https://cdk8s.io/
+
 # Interconnected platforms
 
 ## Why -> creating a workflow
