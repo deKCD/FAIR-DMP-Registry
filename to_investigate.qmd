@@ -17,3 +17,7 @@ https://github.com/minio/minio
 https://www.thehyve.nl/services/rdm-engineering-services
 
 https://www.ufz.de/index.php?en=50440
+
+https://github.com/opendatateam
+
+https://www.re3data.org/
