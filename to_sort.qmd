@@ -1,6 +1,6 @@
-Check EBI tools
-
-Webdav
+---
+title: "Scrap page: things to sort"
+---
 
 https://zenodo.org/
 
@@ -75,13 +75,3 @@ Multiple Streams Framework (to decide policy): https://www.ncbi.nlm.nih.gov/pmc/
 Commercial: https://semantic-dicom.com/
 
 Dead? https://platform.rd-connect.eu/#/discover
-
---------------
-
-Presentation DM: https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html
-
-
-
-https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines
-
-Check what happened with https://en.wikipedia.org/wiki/Clarivate

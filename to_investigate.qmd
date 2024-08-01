@@ -1,0 +1,19 @@
+---
+title: "Scrap page: things to investigate"
+---
+
+Check EBI tools
+
+Webdav
+
+Presentation DM: https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html
+
+https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines
+
+Check what happened with https://en.wikipedia.org/wiki/Clarivate
+
+https://github.com/minio/minio
+
+https://www.thehyve.nl/services/rdm-engineering-services
+
+https://www.ufz.de/index.php?en=50440

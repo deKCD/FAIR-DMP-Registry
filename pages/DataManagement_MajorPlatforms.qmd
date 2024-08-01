@@ -1,6 +1,8 @@
-# For Life Science
+---
+title: "Major Data Management platforms"
+---
 
-## [OpenBis](https://openbis.ch/)
+# For Life Science
 
 ## [Omero](https://www.openmicroscopy.org/omero/)
 
@@ -10,15 +12,31 @@
 
 ## [Seek](https://seek4science.org/)
 
+[Docker Compose(one instance on one server!)](https://docs.seek4science.org/tech/docker/docker-compose.html)
+
+## [Aruna Object Storage (AOS)](https://aruna-storage.org/)
+
+"Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface."
+
 # Materials science
 
 ## [NOMAD](https://nomad-lab.eu/nomad-lab/)
+
+# Digital Lab Notebooks
+
+## [OpenBis](https://openbis.ch/)
+
+## [eLabFTW](https://www.elabftw.net/)
+
+[Docker](https://doc.elabftw.net/install.html)
 
 # Bibliography
 
 ## ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials](https://www.zotero.org/)
 
 # Generalists
+
+## [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
 
 ## [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
 
