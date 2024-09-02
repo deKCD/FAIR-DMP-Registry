@@ -4,25 +4,25 @@ title: "Useful tools and platforms for Data Management"
 
 # To be part of an assembly
 
-[Authentik](https://goauthentik.io/) is a central authority provider.
+* [Authentik](https://goauthentik.io/) is a central authority provider.
 
-Keycloak
+* Keycloak
 
-Authelia
+* Authelia
 
 # As extra of a solution or an assembly
 
-[Heimdall](https://heimdall.site/) is n web-application that provide a dashboard on other web-applications
+* [Heimdall](https://heimdall.site/) is n web-application that provide a dashboard on other web-applications
 
-[GreyLog]
+* [GreyLog]
 
 # For tutorials
 
 Documentations systems
 
-JupyterLab
+* JupyterLab
 
-Collab
+* Collab
 
-[WebTop, "Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser."](https://github.com/linuxserver/docker-webtop)
+* [WebTop, "Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser."](https://github.com/linuxserver/docker-webtop)
 

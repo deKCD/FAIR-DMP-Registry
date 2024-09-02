@@ -4,49 +4,59 @@ title: "Major Data Management platforms"
 
 # For Life Science
 
-## [Omero](https://www.openmicroscopy.org/omero/)
+* [Omero](https://www.openmicroscopy.org/omero/)
+
+Omero is an open source imaging platform for microscopy outputs.
 
 [Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone)
 
 [Helm chart](https://github.com/manics/kubernetes-omero)
 
-## [Seek](https://seek4science.org/)
+* [Seek](https://seek4science.org/)
 
 [Docker Compose(one instance on one server!)](https://docs.seek4science.org/tech/docker/docker-compose.html)
 
-## [Aruna Object Storage (AOS)](https://aruna-storage.org/)
+* [Aruna Object Storage (AOS)](https://aruna-storage.org/)
 
 "Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface."
 
+* [XNAT](https://www.xnat.org/)
+
+XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI).
+
+[Docker Compose](https://github.com/NrgXnat/xnat-docker-compose)
+
+* [REDCap – Research Electronic Data Capture - Universitätsrechenzentrum Heidelberg](https://www.urz.uni-heidelberg.de/de/service-katalog/software-und-anwendungen/redcap-research-electronic-data-capture)
+
 # Materials science
 
-## [NOMAD](https://nomad-lab.eu/nomad-lab/)
+* [NOMAD](https://nomad-lab.eu/nomad-lab/)
 
 # Digital Lab Notebooks
 
-## [OpenBis](https://openbis.ch/)
+* [OpenBis](https://openbis.ch/)
 
-## [eLabFTW](https://www.elabftw.net/)
+* [eLabFTW](https://www.elabftw.net/)
 
 [Docker](https://doc.elabftw.net/install.html)
 
 # Bibliography
 
-## ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials](https://www.zotero.org/)
+* ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials](https://www.zotero.org/)
 
 # Generalists
 
-## [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
+* [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
 
-## [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
+* [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
 
-## [Dataverse, an open source research data repository software](https://dataverse.org/)
+* [Dataverse, an open source research data repository software](https://dataverse.org/)
 
-## ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
+* ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
 
 # Others
 
-## [NextCloud](https://nextcloud.com/)
+* [NextCloud](https://nextcloud.com/)
 
 NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice.
 As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook.
