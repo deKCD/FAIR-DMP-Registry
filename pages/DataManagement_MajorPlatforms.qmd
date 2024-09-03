@@ -54,6 +54,8 @@ XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan imag
 
 * ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
 
+* [BARTOC is a register Thesauri, Ontologies & Classifications](https://bartoc.org/)
+
 # Others
 
 * [NextCloud](https://nextcloud.com/)

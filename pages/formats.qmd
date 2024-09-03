@@ -10,6 +10,9 @@ PeTAB
     Systems Biology Graphical Notation
     SED-ML
 
+Controlled vocabularies
+
+* [AGROVOC, Linked Open Dara about agriculture](https://www.fao.org/agrovoc/home)
 
 Standards
 
@@ -17,3 +20,5 @@ Standards
     Systems Biology Ontology
     KiSAO
     BioModels.net
+    
+* [Sharable Content Object Reference Model (SCORM)](https://adlnet.gov/past-projects/scorm/)
