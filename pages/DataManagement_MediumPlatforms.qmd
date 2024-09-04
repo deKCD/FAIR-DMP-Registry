@@ -1,5 +1,5 @@
 ---
-title: "Medium Data Management platforms"
+title: "DeKCD - Medium Data Management platforms - Draft"
 ---
 
 # For Life Science

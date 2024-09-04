@@ -1,5 +1,5 @@
 ---
-title: "Cloud For Data Management"
+title: "DeKCD - Cloud For Data Management"
 ---
 
 Documentation, tutorials and overview about Data Management in the Cloud, and to some extent outside the Cloud.

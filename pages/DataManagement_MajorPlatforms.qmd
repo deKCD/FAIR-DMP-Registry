@@ -1,5 +1,5 @@
 ---
-title: "Major Data Management platforms"
+title: "DeKCD - Major Data Management platforms - Draft"
 ---
 
 # For Life Science
