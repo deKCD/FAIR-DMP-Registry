@@ -1,24 +1,37 @@
-Common Formats are an important par of being FAIR
+---
+title: "DeKCD - Formats and standards - Draft"
+---
 
-SBML
-PeTAB
+## Common Formats are an important part of being FAIR
 
-    BioModels Database
-    BioPAX
-    CellML
-    MIASE
-    Systems Biology Graphical Notation
-    SED-ML
+* SBML
 
-Controlled vocabularies
+* PeTAB
+
+* BioModels Database
+
+* BioPAX
+
+* CellML
+
+* MIASE
+
+* Systems Biology Graphical Notation
+
+* SED-ML
+
+## Controlled vocabularies
 
 * [AGROVOC, Linked Open Dara about agriculture](https://www.fao.org/agrovoc/home)
 
-Standards
+## Standards
 
-    MIRIAM
-    Systems Biology Ontology
-    KiSAO
-    BioModels.net
+* MIRIAM
+
+* Systems Biology Ontology
+
+* KiSAO
+
+* BioModels.net
     
 * [Sharable Content Object Reference Model (SCORM)](https://adlnet.gov/past-projects/scorm/)

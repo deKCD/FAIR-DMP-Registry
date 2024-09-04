@@ -2,9 +2,9 @@
 title: "DeKCD - Major Data Management platforms - Draft"
 ---
 
-# For Life Science
+## For Life Science
 
-## Open Source or free
+### Open Source or free
 
 * [Omero](https://www.openmicroscopy.org/omero/)
 
@@ -32,7 +32,7 @@ XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan imag
 
 Free for non-profit institutions but not Open Source, available upon request.
 
-## Commercials
+### Commercials
 
 * [Oracle Clinical, an Electronic Health Record and Data Management platform](https://www.oracle.com/life-sciences/clinical-trials/)
 
@@ -40,7 +40,7 @@ Free for non-profit institutions but not Open Source, available upon request.
 
 * [Castor, Electronic Health Record](https://www.castoredc.com/electronic-data-capture-system/)
 
-# Materials science
+## Materials science
 
 * [NOMAD](https://nomad-lab.eu/nomad-lab/)
 
@@ -54,7 +54,7 @@ With a set of [docker images](https://github.com/pyiron/docker-stacks)
 
 No container-based installation.
 
-# Digital Lab Notebooks
+## Digital Lab Notebooks
 
 * [OpenBis](https://openbis.ch/)
 
@@ -62,11 +62,11 @@ No container-based installation.
 
 [Docker](https://doc.elabftw.net/install.html)
 
-# Bibliography
+## Bibliography
 
 * ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials](https://www.zotero.org/)
 
-# Generalists
+## Generalists
 
 * [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
 
@@ -106,7 +106,7 @@ Based on INVENIO Digital Library framework.
 
 [Default docker-compose installation](https://scicatproject.github.io/scicatlive/latest/)
 
-# Others
+## Others
 
 * [NextCloud](https://nextcloud.com/)
 

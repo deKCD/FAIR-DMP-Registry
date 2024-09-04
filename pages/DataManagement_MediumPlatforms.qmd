@@ -2,7 +2,7 @@
 title: "DeKCD - Medium Data Management platforms - Draft"
 ---
 
-# For Life Science
+## For Life Science
 
 * [NextSeek](https://github.com/BMCBCC/NExtSEEK)
 
@@ -10,14 +10,14 @@ title: "DeKCD - Medium Data Management platforms - Draft"
 
 Running on ASP, no containerization.
 
-# Documents
+## Documents
 
 * [Open Contracts](https://jsv4.github.io/OpenContracts/)
 
-# Bibliography
+## Bibliography
 
 * [ILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)](https://inveniosoftware.org/products/ils/)
 
-# Generalists
+## Generalists
 
 * [Coscine, Research Data Management platform, based on RDS](https://about.coscine.de/)

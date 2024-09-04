@@ -1,8 +1,8 @@
 ---
-title: "Useful tools and platforms for Data Management"
+title: "DeKCD - Useful tools and platforms for Data Management - Draft"
 ---
 
-# To be part of an assembly
+## To be part of an assembly
 
 * [Authentik](https://goauthentik.io/) is a central authority provider.
 
@@ -10,7 +10,7 @@ title: "Useful tools and platforms for Data Management"
 
 * Authelia
 
-# As extra of a solution or an assembly
+## As extra of a solution or an assembly
 
 * [Heimdall](https://heimdall.site/) is n web-application that provide a dashboard on other web-applications
 
@@ -20,7 +20,7 @@ title: "Useful tools and platforms for Data Management"
 
 With installation with [docker, docker-compose, kubernetes and helm charts](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
 
-# For tutorials
+## For tutorials
 
 Documentations systems
 
