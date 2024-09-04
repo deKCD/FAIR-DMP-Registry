@@ -46,6 +46,14 @@ Free for non-profit institutions but not Open Source, available upon request.
 
 With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat), also on [Youtube](https://www.youtube.com/watch?v=FqTTeAgqiuw)
 
+* [pyiron, compley workflow made based on JupiterLab](https://pyiron.org/) and [pyiron workflow](https://github.com/pyiron/pyiron_workflow) with many [extensions](https://github.com/pyiron)
+
+With a set of [docker images](https://github.com/pyiron/docker-stacks)
+
+* [HELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle](https://heliport.hzdr.de/)
+
+No container-based installation.
+
 # Digital Lab Notebooks
 
 * [OpenBis](https://openbis.ch/)
@@ -68,6 +76,8 @@ With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutor
 
 * [Dataverse, an open source research data repository software](https://dataverse.org/)
 
+No container-based installation.
+
 * ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
 
 * [BARTOC is a register Thesauri, Ontologies & Classifications](https://bartoc.org/)
@@ -78,7 +88,23 @@ No container-based installation, though docker and docker-compose are used for t
 
 * [INVENIO, a framework for large-scale digital repositories](https://invenio.readthedocs.io/en/latest/)
 
-No container-based installation
+No container-based installation.
+
+* [RODARE, ROssendorf DAta REpository, Online Data Repository](https://rodare.hzdr.de/about/)
+
+Based on INVENIO Digital Library framework.
+
+* [REANA, Reproducible and reusable research data analysis platform](https://reanahub.io/)
+
+[Kubernetes, Helm and Kubernetes in Docker](https://docs.reana.io/administration/)
+
+* [UNICORE, A European Federation Software Suite](https://www.unicore.eu/)
+
+[Docker image but mostly for evaluation](https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore)
+
+* [SciCat, management and annotation of scientific data](https://scicatproject.github.io/)
+
+[Default docker-compose installation](https://scicatproject.github.io/scicatlive/latest/)
 
 # Others
 

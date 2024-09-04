@@ -16,6 +16,10 @@ title: "Useful tools and platforms for Data Management"
 
 * [GreyLog]
 
+* [Grafana, Grafana is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data sources (wikipedia)](https://grafana.com/)
+
+With installation with [docker, docker-compose, kubernetes and helm charts](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
+
 # For tutorials
 
 Documentations systems
