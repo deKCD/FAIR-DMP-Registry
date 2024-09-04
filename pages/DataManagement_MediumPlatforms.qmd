@@ -14,6 +14,10 @@ Running on ASP, no containerization.
 
 * [Open Contracts](https://jsv4.github.io/OpenContracts/)
 
+# Bibliography
+
+* [ILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)](https://inveniosoftware.org/products/ils/)
+
 # Generalists
 
 * [Coscine, Research Data Management platform, based on RDS](https://about.coscine.de/)

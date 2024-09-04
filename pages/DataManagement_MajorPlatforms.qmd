@@ -72,6 +72,14 @@ With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutor
 
 * [BARTOC is a register Thesauri, Ontologies & Classifications](https://bartoc.org/)
 
+* [RDM, turn-key resaerch data management repository](https://inveniordm.docs.cern.ch/)
+
+No container-based installation, though docker and docker-compose are used for the set-up.
+
+* [INVENIO, a framework for large-scale digital repositories](https://invenio.readthedocs.io/en/latest/)
+
+No container-based installation
+
 # Others
 
 * [NextCloud](https://nextcloud.com/)
