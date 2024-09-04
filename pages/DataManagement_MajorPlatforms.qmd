@@ -4,6 +4,8 @@ title: "Major Data Management platforms"
 
 # For Life Science
 
+## Open Source or free
+
 * [Omero](https://www.openmicroscopy.org/omero/)
 
 Omero is an open source imaging platform for microscopy outputs.
@@ -22,15 +24,27 @@ Omero is an open source imaging platform for microscopy outputs.
 
 * [XNAT](https://www.xnat.org/)
 
-XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI).
+XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). [Presentation on usage](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
 
 [Docker Compose](https://github.com/NrgXnat/xnat-docker-compose)
 
-* [REDCap – Research Electronic Data Capture - Universitätsrechenzentrum Heidelberg](https://www.urz.uni-heidelberg.de/de/service-katalog/software-und-anwendungen/redcap-research-electronic-data-capture)
+* [REDCap – Research Electronic Data Capture](https://www.project-redcap.org/)
+
+Free for non-profit institutions but not Open Source, available upon request.
+
+## Commercials
+
+* [Oracle Clinical, an Electronic Health Record and Data Management platform](https://www.oracle.com/life-sciences/clinical-trials/)
+
+* [MediData, a set of platforms for clinical trials, Electronic Health Record and Data management](https://www.medidata.com)
+
+* [Castor, Electronic Health Record](https://www.castoredc.com/electronic-data-capture-system/)
 
 # Materials science
 
 * [NOMAD](https://nomad-lab.eu/nomad-lab/)
+
+With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat), also on [Youtube](https://www.youtube.com/watch?v=FqTTeAgqiuw)
 
 # Digital Lab Notebooks
 
@@ -49,6 +63,8 @@ XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan imag
 * [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
 
 * [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
+
+[Docker Compose](https://docs.ckan.org/en/2.11/maintaining/installing/index.html)
 
 * [Dataverse, an open source research data repository software](https://dataverse.org/)
 
