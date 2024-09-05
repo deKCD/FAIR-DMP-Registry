@@ -6,15 +6,35 @@ title: "DeKCD - Useful tools and platforms for Data Management - Draft"
 
 * [Authentik](https://goauthentik.io/) is a central authority provider.
 
-* Keycloak
+[Docker and Kubernetes installations](https://docs.goauthentik.io/docs/installation/)
 
-* Authelia
+* [Keycloak, Open Source Identity and Access Management](https://www.keycloak.org/)
+
+[Docker and Kubernetes installations](https://www.keycloak.org/guides#getting-started)
+
+* [Authelia, an open-source authentication and authorization server](https://www.authelia.com/)
+
+[Docker and Kubernetes installations](https://www.authelia.com/integration/deployment/introduction/)
+
+* [MinIO, a S3 compatible high performance object store](https://github.com/minio/minio)
+
+Containerization via PodMan, not production.
+
+* [Apache Spark, engine for large-scale analytics](https://spark.apache.org/)
+
+A commonly used engine for storing and analysing Scientific data.
+
+[Kubernetes installations](https://spark.apache.org/docs/latest/running-on-kubernetes.html)
 
 ## As extra of a solution or an assembly
 
-* [Heimdall](https://heimdall.site/) is n web-application that provide a dashboard on other web-applications
+* [Heimdall](https://heimdall.site/) is a web-application that provide a dashboard on other web-applications
 
-* [GreyLog]
+[Docker installation](https://hub.docker.com/r/linuxserver/heimdall/)
+
+* [GreyLog, centralized log management application](https://graylog.org/)
+
+[Docker and docker-compose installations](https://graylog.org/downloads/)
 
 * [Grafana, Grafana is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data sources (wikipedia)](https://grafana.com/)
 
@@ -24,9 +44,13 @@ With installation with [docker, docker-compose, kubernetes and helm charts](http
 
 Documentations systems
 
-* JupyterLab
+* [JupyterLab, "web-based interactive development environment for notebooks, code, and data"](https://jupyter.org/)
 
-* Collab
+[Installation of Jupyter Hub (multi-user) on Kubernetes](https://z2jh.jupyter.org/en/stable/)
+
+* [Collab is a Google-hosted Jupyter Notebook service, useful for online tutorials](https://colab.google/)
 
 * [WebTop, "Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser."](https://github.com/linuxserver/docker-webtop)
+
+[Docker and docker-compose installations](https://github.com/linuxserver/docker-webtop?tab=readme-ov-file#usage)
 

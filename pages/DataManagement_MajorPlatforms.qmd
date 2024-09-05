@@ -42,7 +42,7 @@ Free for non-profit institutions but not Open Source, available upon request.
 
 ## Materials science
 
-* [NOMAD](https://nomad-lab.eu/nomad-lab/)
+* [NOMAD, management and sharing of material science data (online)](https://nomad-lab.eu/nomad-lab/)
 
 With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat), also on [Youtube](https://www.youtube.com/watch?v=FqTTeAgqiuw)
 
@@ -53,6 +53,32 @@ With a set of [docker images](https://github.com/pyiron/docker-stacks)
 * [HELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle](https://heliport.hzdr.de/)
 
 No container-based installation.
+
+## Geomatics
+
+### Open Source
+
+* [GeoServer, "an open source server for sharing geospatial data"](https://geoserver.org/)
+
+No container-based installation.
+
+* [MapGuide Open Source, " a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services."](https://www.osgeo.org/projects/mapguide-open-source/) and [MapServer, a mapping engine](https://mapserver.org/), part of a large portofolio of [Geospatial tools](https://www.osgeo.org/)
+
+No container-based installation.
+
+* [Mapnik, open-source mapping toolkit](https://mapnik.org/)
+
+No container-based installation.
+
+* [ArangoDB, open-source and commercial graph and spatial database](https://arangodb.com/)
+
+[Docker and Kubernetes installations](https://arangodb.com/download-major/)
+
+### Commercials
+
+* [ESRI ArcGIS, geospatial platform](https://www.esri.com/en-us/arcgis/geospatial-platform/overview)
+
+* [SMARTGeo, visualization and analytics platform](https://smartgeo.io/)
 
 ## Digital Lab Notebooks
 
@@ -105,6 +131,22 @@ Based on INVENIO Digital Library framework.
 * [SciCat, management and annotation of scientific data](https://scicatproject.github.io/)
 
 [Default docker-compose installation](https://scicatproject.github.io/scicatlive/latest/)
+
+## Authority control
+
+* [ORCID, Open Researcher and Contributor ID](https://orcid.org/)
+
+* [ROR, "a global, community-led registry of open persistent identifiers for research organizations"](https://ror.org/)
+
+* [DOI, Digital Object Identifier](https://www.doi.org/)
+
+* [ISSN, International Identifier for serials](https://www.issn.org/)
+
+* [ISBN,  International Standard Book Number](https://www.isbn-international.org/)
+
+* [VIAF, Virtual International Authority File](https://viaf.org/)
+
+* [GeoNames, database of placenames](https://www.geonames.org/)
 
 ## Others
 

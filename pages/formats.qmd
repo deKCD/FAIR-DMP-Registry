@@ -2,7 +2,7 @@
 title: "DeKCD - Formats and standards - Draft"
 ---
 
-## Common Formats are an important part of being FAIR
+**Common Formats are an important part of being FAIR**
 
 * SBML
 
