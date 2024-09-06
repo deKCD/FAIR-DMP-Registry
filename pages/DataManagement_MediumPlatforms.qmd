@@ -10,9 +10,14 @@ title: "DeKCD - Medium Data Management platforms - Draft"
 
 Running on ASP, no containerization.
 
+* [OpenClinica, clinical research EDC platform](https://www.openclinica.com/)
+
+No containerization, java-based.
+
+
 ## Documents
 
-* [Open Contracts](https://jsv4.github.io/OpenContracts/)
+* Open Contracts, [Community Edition](https://www.openclinica.com/get-free-community-edition-software/) & [Commercial](https://jsv4.github.io/OpenContracts/)
 
 ## Bibliography
 

@@ -2,8 +2,6 @@
 title: "Scrap page: things to sort"
 ---
 
-[Zenodo](https://zenodo.org/)
-
 [Workflow Hub](https://about.workflowhub.eu/)
 
 ** ["A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the original paper on FAIR on how (meta)data could be presented on the web using existing standards, and without the need of APIs."](https://www.fairdatapoint.org/)
@@ -19,17 +17,9 @@ title: "Scrap page: things to sort"
 
 [Oxford Common File Layout](https://ocfl.io/)
 
-[PE Tab](https://petab.readthedocs.io/en/latest/)
-
 [Fair Data Station](https://fairds.fairbydesign.nl/)
 
-[ISA format](http://isa-tools.org)
 
-[Just Enough Results Model (JERM)](https://jermontology.org/)
-
-["LifeMonitor is a service to support the sustainability and reusability of published computational workflows"](https://crs4.github.io/life_monitor/)
-
-[JAX BioConnect](https://docs.bioconnect.jax.org/)
 
 [A scaleable, standards based platform for sustainable data](https://arkisto-platform.github.io/)
 
@@ -49,6 +39,8 @@ title: "Scrap page: things to sort"
 
 [ESO Reflex](https://www.eso.org/sci/software/esoreflex/)
 
+With some other tools (left menu). Check tools from ESA, EUMETSAT & NASA
+
 ["OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."](https://openrefine.org/ https://github.com/stkenny/grefine-rdf-extension)
 
 [Karma data integration tool](https://usc-isi-i2.github.io/karma/)
@@ -65,7 +57,7 @@ title: "Scrap page: things to sort"
 
 ["The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another"](https://www.dona.net/digitalobjectarchitecture)
 
-[]"OSF is a free, open platform to support your research and enable collaboration."] (https://osf.io/)
+["OSF is a free, open platform to support your research and enable collaboration."] (https://osf.io/)
 
 [The Hourglass model](https://www.researchgate.net/figure/Illustration-of-the-hourglass-model-which-expresses-the-need-to-align-the_fig4_258862784)
 

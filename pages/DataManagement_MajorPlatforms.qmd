@@ -2,6 +2,15 @@
 title: "DeKCD - Major Data Management platforms - Draft"
 ---
 
+## Progress
+
+* TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures.
+The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).
+
+* Missing: pharmaceutical, urbanism, astronomy (seems to be online catalogues and desktop tools mostly), controlled vocabulary (most listed [here](https://github.com/gbv/bartoc.org/wiki/Software-for-controlled-vocabularies))
+
+* Incomplete: geomatics
+
 ## For Life Science
 
 ### Open Source or free
@@ -9,6 +18,8 @@ title: "DeKCD - Major Data Management platforms - Draft"
 * [Omero](https://www.openmicroscopy.org/omero/)
 
 Omero is an open source imaging platform for microscopy outputs.
+
+Extensive API.
 
 [Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone)
 
@@ -18,6 +29,12 @@ Omero is an open source imaging platform for microscopy outputs.
 
 [Docker Compose(one instance on one server!)](https://docs.seek4science.org/tech/docker/docker-compose.html)
 
+Extensive API.
+
+Related:
+
+** [Just Enough Results Model (JERM)](https://jermontology.org/)
+
 * [Aruna Object Storage (AOS)](https://aruna-storage.org/)
 
 "Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface."
@@ -26,11 +43,23 @@ Omero is an open source imaging platform for microscopy outputs.
 
 XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). [Presentation on usage](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
 
+Extensive API.
+
 [Docker Compose](https://github.com/NrgXnat/xnat-docker-compose)
 
 * [REDCap – Research Electronic Data Capture](https://www.project-redcap.org/)
 
 Free for non-profit institutions but not Open Source, available upon request.
+
+Extensive API.
+
+* [ISA format, set of format and related tools for bioscience experiment](http://isa-tools.org)
+
+* [RightField](https://rightfield.org.uk/)
+
+* ["LifeMonitor is a service to support the sustainability and reusability of published computational workflows"](https://crs4.github.io/life_monitor/)
+
+* [JAX BioConnect](https://docs.bioconnect.jax.org/)
 
 ### Commercials
 
@@ -44,6 +73,8 @@ Free for non-profit institutions but not Open Source, available upon request.
 
 * [NOMAD, management and sharing of material science data (online)](https://nomad-lab.eu/nomad-lab/)
 
+Extensive API.
+
 With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat), also on [Youtube](https://www.youtube.com/watch?v=FqTTeAgqiuw)
 
 * [pyiron, compley workflow made based on JupiterLab](https://pyiron.org/) and [pyiron workflow](https://github.com/pyiron/pyiron_workflow) with many [extensions](https://github.com/pyiron)
@@ -54,6 +85,8 @@ With a set of [docker images](https://github.com/pyiron/docker-stacks)
 
 No container-based installation.
 
+Extensive API and extensions support.
+
 ## Geomatics
 
 ### Open Source
@@ -62,9 +95,13 @@ No container-based installation.
 
 No container-based installation.
 
+Extensive API and many extensions.
+
 * [MapGuide Open Source, " a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services."](https://www.osgeo.org/projects/mapguide-open-source/) and [MapServer, a mapping engine](https://mapserver.org/), part of a large portofolio of [Geospatial tools](https://www.osgeo.org/)
 
 No container-based installation.
+
+Extensive API via the related tools.
 
 * [Mapnik, open-source mapping toolkit](https://mapnik.org/)
 
@@ -74,23 +111,37 @@ No container-based installation.
 
 [Docker and Kubernetes installations](https://arangodb.com/download-major/)
 
+* [GeoNetwork, catalog application to manage spatially referenced resources](https://geonetwork-opensource.org/)
+
+No container-based installation.
+
+Extensive API.
+
 ### Commercials
 
 * [ESRI ArcGIS, geospatial platform](https://www.esri.com/en-us/arcgis/geospatial-platform/overview)
 
 * [SMARTGeo, visualization and analytics platform](https://smartgeo.io/)
 
+* [CARTO, cloud-based spatial analysis](https://carto.com/)
+
 ## Digital Lab Notebooks
 
 * [OpenBis](https://openbis.ch/)
+
+Extensive API.
 
 * [eLabFTW](https://www.elabftw.net/)
 
 [Docker](https://doc.elabftw.net/install.html)
 
+Extensive API.
+
 ## Bibliography
 
 * ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials](https://www.zotero.org/)
+
+Many extensions providing some web API support.
 
 ## Generalists
 
@@ -106,7 +157,11 @@ No container-based installation.
 
 * ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
 
+Extensive API.
+
 * [BARTOC is a register Thesauri, Ontologies & Classifications](https://bartoc.org/)
+
+[Docker and docker-compose installation supported but mostly supposed to be used online as a register](https://github.com/gbv/bartoc.org/blob/main/docker/README.md)
 
 * [RDM, turn-key resaerch data management repository](https://inveniordm.docs.cern.ch/)
 
@@ -124,13 +179,19 @@ Based on INVENIO Digital Library framework.
 
 [Kubernetes, Helm and Kubernetes in Docker](https://docs.reana.io/administration/)
 
+Extensive API.
+
 * [UNICORE, A European Federation Software Suite](https://www.unicore.eu/)
 
 [Docker image but mostly for evaluation](https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore)
 
-* [SciCat, management and annotation of scientific data](https://scicatproject.github.io/)
+Extensive API.
+
+* [SciCat, management and annotation of scientific data based on Elastic Search](https://scicatproject.github.io/)
 
 [Default docker-compose installation](https://scicatproject.github.io/scicatlive/latest/)
+
+Extensive API.
 
 ## Authority control
 
@@ -157,3 +218,5 @@ As such, it should be considered a support application before all: a tool to sup
 NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.
 
 [Helm chart](https://github.com/nextcloud/helm)
+
+Extensive API.

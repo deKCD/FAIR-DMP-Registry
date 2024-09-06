@@ -6,7 +6,7 @@ title: "DeKCD - Formats and standards - Draft"
 
 * SBML
 
-* PeTAB
+* [PE Tab, "data format for specifying parameter estimation problems in systems biology"](https://petab.readthedocs.io/en/latest/)
 
 * BioModels Database
 
