@@ -1,10 +1,7 @@
 ---
 title: "About"
 ---
-
-Source for the global [website](https://abecam.github.io/CloudForDM/)
-
-It is currently a collection of many related pages and might be cut (using forks) for organisation, and eventually reorganized later in a global site.
+This web site is currently a collection of many related pages and might be cut (using forks) for organisation, and eventually reorganized later in a global site.
 
 General information, tutorials, tips and warning about Data Management within a Cloud. It also apply to non-Cloud environment, and will present the different possibilities, from server based installation to a cloud-based setup of interconnected tools.
 The various solutions, issues and characteristic of Cloud will also be covered.
