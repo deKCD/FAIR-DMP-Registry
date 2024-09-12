@@ -11,6 +11,20 @@ The first step is to complete a dry list of solution with their adaptability to 
 
 * Incomplete: geomatics
 
+## Process
+
+Top-Down approach: first listing with technical information (online, containers, ...), then API support. Finally interoperability (data format of API), possibility of transfer to other domains and adaptability to cloud.
+Major platforms are easy-to-find and popular platforms.
+Draft should be in to_sort or to_investigate pages.
+
+## To Work-On
+
+* Write about non-software dedicated DM approach (for instance semantic-web, RDF or Apache Spark).
+
+* Better presentation, without making editing more complex
+
+* How to present transferability
+
 ## For Life Science
 
 ### Open Source or free
@@ -139,7 +153,9 @@ Extensive API.
 
 ## Bibliography
 
-* ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials](https://www.zotero.org/)
+* ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials"](https://www.zotero.org/)
+
+Mostly online with browser's extension. It is a tool to help getting information from web-sites, organize and cite.
 
 Many extensions providing some web API support.
 
