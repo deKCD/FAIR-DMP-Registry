@@ -8,8 +8,6 @@ title: "Scrap page: things to sort"
 
 ** [Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat-2/)
 
-** [Dublin Core](https://www.dublincore.org/)
-
 ** [Linked Data Platform](https://www.w3.org/TR/ldp/)
 
 [RO-Crate]: (https://www.researchobject.org/ro-crate/) , 
@@ -70,3 +68,7 @@ With some other tools (left menu). Check tools from ESA, EUMETSAT & NASA
 [Commercial DM](https://semantic-dicom.com/)
 
 [RD Connect - Dead?](https://platform.rd-connect.eu/#/discover)
+
+
+
+------------------------------------------------

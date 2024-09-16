@@ -2,7 +2,7 @@
 title: "DeKCD - Medium Data Management platforms - Draft"
 ---
 
-## For Life Science
+## Life Science
 
 * [NextSeek](https://github.com/BMCBCC/NExtSEEK)
 

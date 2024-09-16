@@ -25,9 +25,13 @@ Draft should be in to_sort or to_investigate pages.
 
 * How to present transferability
 
-## For Life Science
+## Life Science
 
 ### Open Source or free
+
+* [Galaxy, an web-based platform for biomedical research, allowing cloud-based workflows](https://usegalaxy.org/)
+
+Galaxy is already a cloud-based solution, widely used.
 
 * [Omero](https://www.openmicroscopy.org/omero/)
 
@@ -83,6 +87,14 @@ Extensive API.
 
 * [Castor, Electronic Health Record](https://www.castoredc.com/electronic-data-capture-system/)
 
+## Pharmaceutics
+
+* [LabKey, an open-source platform that helps manage biomedical research data, focusing on clinical and laboratory data](https://www.labkey.org)
+
+* [CIViC (Clinical Interpretation of Variants in Cancer), an open-access platform that curates and manages clinical cancer variant data. It is used for pharmaceutical oncology research.](https://civicdb.org)
+
+* [CINECA, a federated cloud platform designed for pharmaceutical and biomedical data sharing across Europe](https://www.cineca-project.eu)
+
 ## Materials science
 
 * [NOMAD, management and sharing of material science data (online)](https://nomad-lab.eu/nomad-lab/)
@@ -131,6 +143,14 @@ No container-based installation.
 
 Extensive API.
 
+* [GeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management](https://geonode.org)
+
+API Support: Yes  
+
+* [OpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research](https://www.openstreetmap.org) 
+
+API Support: Yes  
+
 ### Commercials
 
 * [ESRI ArcGIS, geospatial platform](https://www.esri.com/en-us/arcgis/geospatial-platform/overview)
@@ -138,6 +158,24 @@ Extensive API.
 * [SMARTGeo, visualization and analytics platform](https://smartgeo.io/)
 
 * [CARTO, cloud-based spatial analysis](https://carto.com/)
+
+## Urbanism
+
+### Open Source or free
+
+* [Metropolis (Urban Observatory Data), offers large-scale urban data and insights about cities, covering everything from mobility patterns to energy consumption](https://use.metropolis.org)
+
+* [CitySDK, a toolkit offering standard API specifications for urban services, helping cities release open data and enabling developers to create city-related applications](http://www.citysdk.eu)
+
+Extensive API.
+
+### Commercials
+
+* [ESRI ArcGIS Urban](https://urban.arcgis.com/)
+
+* [Google Urban Mobility, provides data on urban transport, such as real-time traffic, transit options, and pedestrian data, used in urban planning and mobility solutions](https://developers.google.com/transit)
+
+Extensive API.
 
 ## Digital Lab Notebooks
 
@@ -151,6 +189,40 @@ Extensive API.
 
 Extensive API.
 
+## Astronomy
+
+* [Virtual Observatory (VO), the International Virtual Observatory Alliance (IVOA) provides resources for discovering and accessing astronomical data, including standards for data sharing and interoperability](https://www.ivoa.net/)
+
+* [ALMA Science Archive, the ALMA archive gives access to data from the Atacama Large Millimeter/submillimeter Array, providing public access to radio astronomy dataset](https://almascience.nrao.edu/aq/)
+
+* [European Space Agency (ESA) Archives, ESA’s space science archives, including data from missions like Gaia and Hubble, offering open access to space mission data](https://www.cosmos.esa.int/web/esdc)
+
+* [NASA’s Astrophysics Data System (ADS), ADS is a digital library for astronomy and physics, linking research papers with relevant datasets and providing extensive search capabilities](https://ui.adsabs.harvard.edu/)
+
+* [SIMBAD (Set of Identifications, Measurements, and Bibliography for Astronomical Data), SIMBAD is a database providing detailed records of celestial objects and their bibliographical references](http://simbad.u-strasbg.fr/simbad/)
+
+* [SkyServer (Sloan Digital Sky Survey, SDSS), SkyServer provides access to data from the Sloan Digital Sky Survey, with resources for professional astronomers and public users](http://skyserver.sdss.org/)
+
+* [TESS Data Portal, the TESS Data Portal provides access to data from the Transiting Exoplanet Survey Satellite, focusing on exoplanet discovery](https://archive.stsci.edu/missions-and-data/tess)
+
+* [ESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis](http://archive.eso.org/)
+
+## Humanities
+
+* [TAPAS (TEI Archiving, Publishing, and Access Service), a platform for archiving and publishing TEI (Text Encoding Initiative) documents.](http://www.tapasproject.org)
+
+* [Humanities Commons, a network for scholars to share work and connect, with the CORE repository](https://hcommons.org)
+
+* [Omeka, a content management system for digital collections and exhibitions](https://omeka.org)
+
+No container-based installation.
+
+Extensive API.
+
+* [Archaeology Data Service (ADS), for archiving digital data in archaeology.](https://archaeologydataservice.ac.uk)
+
+* [Europeana, providing access to cultural heritage data from European institutions](https://www.europeana.eu)
+
 ## Bibliography
 
 * ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials"](https://www.zotero.org/)
@@ -161,6 +233,10 @@ Many extensions providing some web API support.
 
 ## Generalists
 
+* [Open Science Framework (OSF), a platform that supports open research](https://osf.io)
+
+Extensive API.
+
 * [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
 
 * [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
@@ -170,6 +246,7 @@ Many extensions providing some web API support.
 * [Dataverse, an open source research data repository software](https://dataverse.org/)
 
 No container-based installation.
+Extensive API.
 
 * ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
 

@@ -1,0 +1,119 @@
+---
+title: "DeKCD - Major taxonomies/classifications"
+---
+
+## For Life Sciences
+
+* [MeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences](https://meshb.nlm.nih.gov/)
+        
+Tools: MeSH Browser, PubMed
+
+* [NCBI Taxonomy, classification of organisms](https://www.ncbi.nlm.nih.gov/taxonomy)
+        
+Tool: NCBI Taxonomy Browser
+
+* [HUGO Gene Nomenclature, nomenclature for human genes](https://www.genenames.org/)
+
+Tool: HGNC Database
+
+* [UniProt Controlled Vocabulary, vocabulary for protein sequences and functions](https://www.uniprot.org/)
+
+Tool: UniProt Browser
+
+## For Health and Medicine
+
+* [SNOMED CT (Systematized Nomenclature of Medicine -- Clinical Terms), comprehensive, multilingual healthcare terminology](https://www.snomed.org/)
+        
+Tools: SNOMED CT Browser, IHTSDO
+
+* [LOINC (Logical Observation Identifiers Names and Codes), standard vocabulary for clinical observations and lab results](https://loinc.org/)
+
+Tool: LOINC Browser
+
+* [ICD-10 (International Classification of Diseases, 10th Revision), codes for diseases, conditions, and health issues.](https://icd.who.int/browse10/)
+
+Tools: ICD-10 Browser, WHO
+
+* [RxNorm, standard names for clinical drugs](https://www.nlm.nih.gov/research/umls/rxnorm/)
+
+Tool: RxNav Browser
+
+* [UMLS (Unified Medical Language System), integrates biomedical vocabularies](https://www.nlm.nih.gov/research/umls/)
+
+Tool: UMLS Metathesaurus Browser
+
+## For Chemistry
+
+* [IUPAC Nomenclature, system for naming chemical compounds](https://iupac.org/what-we-do/nomenclature/)
+ 
+Tool: IUPAC Nomenclature Browser
+
+* [CAS Registry, database of chemical substances](https://www.cas.org/)
+
+Tools: SciFinder, CAS Registry Browser
+
+* [InChI (International Chemical Identifier), identifier for chemical substances](https://www.inchi-trust.org/)
+
+Tools: InChI Resolver, PubChem
+
+* [PubChem, public database of chemical molecules](https://pubchem.ncbi.nlm.nih.gov/)
+
+Tools: PubChem Search, NIH Entrez
+
+## For Environmental Science
+
+* [AGROVOC, multilingual controlled vocabulary for agriculture, forestry, and environment](https://agrovoc.fao.org/)
+
+Tool: AGROVOC Browser
+
+* [EPA Terminology Services, terminology for environmental protection and related subjects](https://www.epa.gov/tsca-inventory)
+
+Tool: EPA Terminology Browser
+
+## For Earth Sciences & Geospatial Data
+
+* [CF Conventions (Climate and Forecast Metadata), metadata for climate and geospatial data](https://cfconventions.org/)
+
+Tool: CF Standard Names Browser
+
+* [GCMD Science Keywords (Global Change Master Directory), vocabulary for Earth science data](https://gcmd.earthdata.nasa.gov/)
+
+Tool: NASA Earth Science Data Browser
+
+* [INSPIRE Directive, vocabulary for spatial data and metadata.](https://inspire.ec.europa.eu/)
+
+Tool: INSPIRE Geoportal
+
+## For Physics & Engineering
+
+* [Physics Subject Headings (PhySH), vocabulary for physical sciences literature](https://physh.aps.org/)
+
+Tool: PhySH Browser
+
+* [CSD (Crystallography Structural Database), database of crystal structures](https://www.ccdc.cam.ac.uk/)
+
+Tool: CSD System Browser
+
+* [International Electrotechnical Vocabulary (IEV), standardized terms in electrical technologies](https://www.electropedia.org/)
+
+Tool: IEV Online Browser
+
+## For Social Sciences & Humanities
+
+* [DDC (Dewey Decimal Classification),  classification system for organizing knowledge](https://www.oclc.org/dewey/)
+
+Tool: WebDewey Browser
+
+* [Getty Vocabularies (AAT, TGN, ULAN), vocabulary for art, architecture, and geographic names](http://www.getty.edu/research/tools/vocabularies/)
+
+Tool: Getty Vocabularies Browser
+
+## Generalists
+
+* [Dublin Core Metadata Initiative (DCMI), standard for metadata terms](http://dublincore.org/)
+
+Tool: DCMI Metadata Terms Browser
+
+* [ISO 25964 Thesaurus Standard, thesaurus construction and controlled vocabulary standard](https://www.iso.org/standard/53657.html)
+
+Tool: ISO Online Browsing Platform

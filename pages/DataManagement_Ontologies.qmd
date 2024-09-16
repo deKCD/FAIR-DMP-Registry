@@ -1,0 +1,80 @@
+---
+title: "DeKCD - Major Ontologies/Thesauruses"
+---
+
+## Life Science
+
+### Ontology Lookup Service
+
+Most ontologies for life sciences are listed by the [Ontology Lookup Service](https://www.ebi.ac.uk/ols4/ontologies).
+As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.
+
+### Major Ontologies
+
+* [Gene Ontology, provides consistent descriptions of gene products across species.](http://geneontology.org/)
+  
+* [Protein Ontology (PRO), describes protein forms and relationships between them](https://proconsortium.org/)
+  
+* [Plant Ontology (PO), provides structured vocabularies for plant anatomy and development](http://www.plantontology.org/)
+
+* [Human Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans](https://hpo.jax.org/)
+
+* [Cell Ontology (CL), classifies cell types in animals](https://obofoundry.org/ontology/cl.html)
+
+* [Sequence Ontology (SO), provides terms to describe biological sequence features](http://www.sequenceontology.org/)
+
+* [Ontology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations](http://obi-ontology.org/)
+
+## For Health & Medical Sciences
+
+* [Foundational Model of Anatomy (FMA), represents a reference ontology for human anatomy](http://si.washington.edu/projects/fma)
+
+* [National Cancer Institute Thesaurus (NCIT), contains terms for cancers and related diseases](https://ncithesaurus.nci.nih.gov/)
+
+* [ICD-11 (International Classification of Diseases), used for health statistics, diagnosis, and reimbursement codes](https://icd.who.int/)
+
+* [RXNorm, provides normalized names for clinical drugs](https://www.nlm.nih.gov/research/umls/rxnorm/)
+
+## For Environmental & Ecological Sciences
+
+### Community Ontology Repository
+
+The [Community Ontology Repository](http://cor.esipfed.org/ont#/) lists the Ontologies for Earth Sciences
+
+### Major Ontologies
+
+* [EnvO (Environment Ontology), describes environments for use in ecology and environmental health](http://environmentontology.org/)
+
+* [EOL (Encyclopedia of Life), a comprehensive reference for all known species of life on Earth](https://eol.org/)
+
+* [GEMET (General Multilingual Environmental Thesaurus). a thesaurus covering environmental terms](https://www.eionet.europa.eu/gemet)
+
+* [Semantic Web for Earth and Environmental Terminology (SWEET), provides a highly expressive suite of ontologies for Earth sciences](http://sweetontology.net/sweetAll)
+
+## For Chemistry & Chemical Sciences*
+
+* [ChEBI (Chemical Entities of Biological Interest), focuses on ‘small’ chemical compounds](https://www.ebi.ac.uk/chebi/)
+
+* [ChEMBL, manages chemical information, including bioactive compounds](https://www.ebi.ac.uk/chembl/)
+
+* [Chemical Information Ontology (CHEMINF), describes chemical information and data formats](https://obofoundry.org/ontology/cheminf.html)
+
+## For Astronomy & Space Sciences
+
+* [Unified Astronomy Thesaurus (UAT), a modern and open thesaurus for the astronomy community](https://astrothesaurus.org/)
+
+## For Social Sciences
+
+* [Basic Formal Ontology (BFO), a top-level ontology framework used across many domains including social sciences](http://ifomis.org/bfo/)
+
+## For Physics
+
+* [Physical Quantities and Units Ontology (QUDT), for physical quantities, units of measure, and associated standards](https://www.qudt.org/)
+
+## For Engineering
+
+* [MDO (Materials Domain Ontology),  "An Ontology for the Materials Design Domain"](https://liusemweb.github.io/mdo/full/1.1/index.html)
+
+## Generalist
+
+* [Dublin Core Metadata Initiative (DCMI), provides a standard for resource description and discovery on the web](https://www.dublincore.org/)
