@@ -10,42 +10,29 @@ title: "Scrap page: things to sort"
 
 ** [Linked Data Platform](https://www.w3.org/TR/ldp/)
 
-[RO-Crate]: (https://www.researchobject.org/ro-crate/) , 
-[RO-Crate specs](https://www.researchobject.org/specs/)
-
-[Oxford Common File Layout](https://ocfl.io/)
-
 [Fair Data Station](https://fairds.fairbydesign.nl/)
 
-[RSpace](https://www.researchspace.com/)
-
-Which domain?
-
-[A scaleable, standards based platform for sustainable data](https://arkisto-platform.github.io/)
-
-["Autosubmit is a Python-based workflow manager"](https://www.bsc.es/research-and-development/software-and-apps/software-list/autosubmit)
+* ["Autosubmit is a Python-based workflow manager"](https://www.bsc.es/research-and-development/software-and-apps/software-list/autosubmit)
 
 ["COMP Superscalar (COMPSs) is a framework which aims to ease the development and execution of parallel applications for distributed infrastructures, such as Clusters, Clouds and containerized platforms."](https://www.bsc.es/research-and-development/software-and-apps/software-list/comp-superscalar/)
 
 [Online Jupyter Notebooks](https://www.egi.eu/service/notebooks/)
 
-[Sync and share research data, 20GB storage data (NextCloud)](https://www.eudat.eu/service-catalogue/b2drop)
+* [Sync and share research data, 20GB storage data (NextCloud)](https://www.eudat.eu/service-catalogue/b2drop)
 
-[Store and publish your research data](https://b2share.eudat.eu/)
+** [Store and publish your research data](https://b2share.eudat.eu/)
 
-[Research Object Hub](https://www.rohub.org/)
+* [Research Object Hub](https://www.rohub.org/)
 
-[EGI](https://www.egi.eu/service/check-in/)
+* [EGI](https://www.egi.eu/service/check-in/)
 
 [ESO Reflex](https://www.eso.org/sci/software/esoreflex/)
 
 With some other tools (left menu). Check tools from ESA, EUMETSAT & NASA
 
-["OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."](https://openrefine.org/ https://github.com/stkenny/grefine-rdf-extension)
+* ["OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."](https://openrefine.org/ https://github.com/stkenny/grefine-rdf-extension)
 
 [Karma data integration tool](https://usc-isi-i2.github.io/karma/)
-
-[A System to Evaluate the FAIRness of Digital Objects](https://fairshake.cloud/)
 
 [Commercial - "The FAIR Tool Manager embodies a collection of tools that you and your colleagues can use to easily implement FAIR data management. This single application covers the entire FAIR data management lifecyle."](https://www.fairtoolmanager.com/)
 
@@ -53,11 +40,10 @@ With some other tools (left menu). Check tools from ESA, EUMETSAT & NASA
 
 [Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)
 
-["The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability"](https://www.openarchives.org/pmh/)
+* ["The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) is a low-barrier mechanism for repository interoperability"](https://www.openarchives.org/pmh/)
 
-["The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another"](https://www.dona.net/digitalobjectarchitecture)
+* ["The Digital Object (DO) Architecture (also known as the DO Architecture or simply the DOA) is a logical extension of the Internet architecture that addresses the need to support information management more generally than just conveying information in digital form from one location in the Internet to another"](https://www.dona.net/digitalobjectarchitecture)
 
-["OSF is a free, open platform to support your research and enable collaboration."] (https://osf.io/)
 
 [The Hourglass model](https://www.researchgate.net/figure/Illustration-of-the-hourglass-model-which-expresses-the-need-to-align-the_fig4_258862784)
 

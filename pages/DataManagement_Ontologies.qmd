@@ -9,6 +9,10 @@ title: "DeKCD - Major Ontologies/Thesauruses"
 Most ontologies for life sciences are listed by the [Ontology Lookup Service](https://www.ebi.ac.uk/ols4/ontologies).
 As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.
 
+### BioPortal, Biomedical Repository
+
+Similarly, most biomedical ontologies are listed on [BioPortal](https://bioportal.bioontology.org/)
+
 ### Major Ontologies
 
 * [Gene Ontology, provides consistent descriptions of gene products across species.](http://geneontology.org/)

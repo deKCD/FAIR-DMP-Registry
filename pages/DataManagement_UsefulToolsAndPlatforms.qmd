@@ -26,6 +26,8 @@ A commonly used engine for storing and analysing Scientific data.
 
 [Kubernetes installations](https://spark.apache.org/docs/latest/running-on-kubernetes.html)
 
+* [RDF, "The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web"](https://www.w3.org/RDF/)
+
 ## As extra of a solution or an assembly
 
 * [Heimdall](https://heimdall.site/) is a web-application that provide a dashboard on other web-applications

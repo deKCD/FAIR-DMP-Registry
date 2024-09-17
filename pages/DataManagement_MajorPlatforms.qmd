@@ -77,7 +77,9 @@ Extensive API.
 
 * ["LifeMonitor is a service to support the sustainability and reusability of published computational workflows"](https://crs4.github.io/life_monitor/)
 
-* [JAX BioConnect](https://docs.bioconnect.jax.org/)
+* [JAX BioConnect, "s an index of research data that supports data sharing, high-quality curation, and consistent data description"](https://docs.bioconnect.jax.org/)
+
+* [BioModels, a repository of mathematical models of biological and biomedical systems](https://www.ebi.ac.uk/biomodels/)
 
 ### Commercials
 
@@ -188,6 +190,12 @@ Extensive API.
 [Docker](https://doc.elabftw.net/install.html)
 
 Extensive API.
+
+* [RSpace, electronic noteboook and inventory management](https://www.researchspace.com/)
+
+[Docker Compose](https://github.com/rspace-os/rspace-docker)
+
+Extensive API and SDK.
 
 ## Astronomy
 

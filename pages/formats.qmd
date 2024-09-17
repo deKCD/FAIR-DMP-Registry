@@ -4,34 +4,23 @@ title: "DeKCD - Formats and standards - Draft"
 
 **Common Formats are an important part of being FAIR**
 
-* SBML
+* [SBML, Systems Biology Markup Language](https://sbml.org/)
 
 * [PE Tab, "data format for specifying parameter estimation problems in systems biology"](https://petab.readthedocs.io/en/latest/)
 
-* BioModels Database
+* [BioPAX, "a standard language that aims to enable integration, exchange, visualization and analysis of biological pathway data"](https://www.biopax.org/)
 
-* BioPAX
+* [CellML, to store and exchange computer-based mathematical models, based on XML](https://www.cellml.org/)
 
-* CellML
+* [MIASE, Minimum information about a simulation experiment](https://en.wikipedia.org/wiki/Minimum_information_about_a_simulation_experiment)
 
-* MIASE
+* [SBGN, Systems Biology Graphical Notation](https://sbgn.github.io/)
 
-* Systems Biology Graphical Notation
+* [SED-ML, Simulation Experiment Description Markup Language](https://sed-ml.org/)
 
-* SED-ML
+* [RO-Crate](https://www.researchobject.org/ro-crate/) , 
+[RO-Crate specs](https://www.researchobject.org/specs/)
 
-## Controlled vocabularies
+* [Oxford Common File Layout](https://ocfl.io/)
 
-* [AGROVOC, Linked Open Dara about agriculture](https://www.fao.org/agrovoc/home)
-
-## Standards
-
-* MIRIAM
-
-* Systems Biology Ontology
-
-* KiSAO
-
-* BioModels.net
-    
 * [Sharable Content Object Reference Model (SCORM)](https://adlnet.gov/past-projects/scorm/)

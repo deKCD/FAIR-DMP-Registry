@@ -18,10 +18,8 @@ Check what happened with [Clarivate](https://en.wikipedia.org/wiki/Clarivate)
 
 [List of solutions at UFZ](https://www.ufz.de/index.php?en=50440)
 
-[OpenData team(https://github.com/opendatateam)
+[OpenData team](https://github.com/opendatateam)
 
-[Re3Data](https://www.re3data.org/)
+* [Re3Data](https://www.re3data.org/)
 
 [Presentation DM Tu Dresden](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
-
-[DM for Law (in French)](https://www.openjustitia.ch/FR/interne_Open_Justitia.html)
