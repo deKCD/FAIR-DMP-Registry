@@ -12,8 +12,6 @@ Webdav
 
 Check what happened with [Clarivate](https://en.wikipedia.org/wiki/Clarivate)
 
-[Minio](https://github.com/minio/minio)
-
 [RDM services](https://www.thehyve.nl/services/rdm-engineering-services)
 
 [List of solutions at UFZ](https://www.ufz.de/index.php?en=50440)

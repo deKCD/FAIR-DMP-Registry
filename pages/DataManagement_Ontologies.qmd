@@ -2,6 +2,13 @@
 title: "DeKCD - Major Ontologies/Thesauruses"
 ---
 
+## BARTOC, Basic Register of Thesauri, Ontologies & Classifications
+
+Many ontologies, thesauri and classifications are listed on [BARTOC](https://bartoc.org/)
+BARTOC also lists other [registries](https://bartoc.org/registries)
+
+[Extensive API](https://bartoc.org/api/)
+
 ## Life Science
 
 ### Ontology Lookup Service
@@ -9,9 +16,13 @@ title: "DeKCD - Major Ontologies/Thesauruses"
 Most ontologies for life sciences are listed by the [Ontology Lookup Service](https://www.ebi.ac.uk/ols4/ontologies).
 As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.
 
+[Extensive API](https://www.ebi.ac.uk/ols4/help)
+
 ### BioPortal, Biomedical Repository
 
 Similarly, most biomedical ontologies are listed on [BioPortal](https://bioportal.bioontology.org/)
+
+[Extensive API](http://data.bioontology.org/documentation)
 
 ### Major Ontologies
 

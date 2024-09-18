@@ -26,8 +26,6 @@ title: "Scrap page: things to sort"
 
 * [EGI](https://www.egi.eu/service/check-in/)
 
-[ESO Reflex](https://www.eso.org/sci/software/esoreflex/)
-
 With some other tools (left menu). Check tools from ESA, EUMETSAT & NASA
 
 * ["OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data."](https://openrefine.org/ https://github.com/stkenny/grefine-rdf-extension)

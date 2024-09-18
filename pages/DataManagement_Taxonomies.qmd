@@ -2,6 +2,10 @@
 title: "DeKCD - Major taxonomies/classifications"
 ---
 
+## Bartoc.org list of software for controlled vocabularies
+
+Bartoc offers a list of software for controlled vocabularies that can be extended on [GitHub](https://github.com/gbv/bartoc.org/wiki/Software-for-controlled-vocabularies)
+
 ## For Life Sciences
 
 * [MeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences](https://meshb.nlm.nih.gov/)
