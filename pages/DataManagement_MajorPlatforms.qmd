@@ -29,23 +29,25 @@ Draft should be in to_sort or to_investigate pages.
 
 * [Galaxy, an web-based platform for biomedical research, allowing cloud-based workflows](https://usegalaxy.org/)
 
-Galaxy is already a cloud-based solution, widely used.
+    + Galaxy is already a cloud-based solution, widely used.
+    + It is a very powerful tool and as such with [tutorials](https://training.galaxyproject.org/), [documentation](https://galaxyproject.org/get-started/), [training events](https://training.galaxyproject.org/training-material/events/index.html), [faqs](https://training.galaxyproject.org/training-material/faqs/) and [discussions](https://help.galaxyproject.org/)
+    + [Extensive API](https://training.galaxyproject.org/training-material/api/)
+    + Interoperability **HIGH**: Return well-documented JSON.
+    + **Mostly** cross-domain: though mostly for life-science applications, it can support any kind of workflow. Tools for other domains can be added.
 
-* [Omero](https://www.openmicroscopy.org/omero/)
+* [Omero, an open source imaging platform for microscopy outputs](https://www.openmicroscopy.org/omero/)
 
-Omero is an open source imaging platform for microscopy outputs.
-
-Extensive API.
-
-[Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone)
-
-[Helm chart](https://github.com/manics/kubernetes-omero)
+    + [Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone) and [Helm chart](https://github.com/manics/kubernetes-omero)
+    + [Extensive API](https://omero.readthedocs.io/en/v5.6.13/developers/json-api.html)
+    + Interoperability **HIGH**: Return well-documented JSON.
+    + **Mostly** cross-domain: despite being targeted at microscopy image, can have an use for any image data management. Omero can be extended using [OMERO.scripts](https://omero.readthedocs.io/en/v5.6.13/developers/scripts/index.html) which are written in MATLAB or Python. It also offers binding in Python, C++, MATLAB and Java.
 
 * [Seek](https://seek4science.org/)
 
-[Docker Compose(one instance on one server!)](https://docs.seek4science.org/tech/docker/docker-compose.html)
-
-Extensive API.
+    + [Docker Compose(one instance on one server!)](https://docs.seek4science.org/tech/docker/docker-compose.html)
+    + [Extensive API](https://docs.seek4science.org/help/user-guide/api.html)
+    + Interoperability **HIGH**: Return well-documented JSON.
+    + **Mostly** cross-domain: Seek is highly configurable and could be used as a sharing platform for other domains, without any coding needs.
 
 Related:
 
@@ -299,9 +301,10 @@ All are inherently cross-platform and most follow the FAIR principle.
 
 * [RODARE, ROssendorf DAta REpository, Online Data Repository](https://rodare.hzdr.de/about/)
 
-    + Based on INVENIO Digital Library framework.
+    + Based on INVENIO Digital Library framework, fork of Zenodo.
     + Explain [how it is FAIR](https://rodare.hzdr.de/about/principles/)
-    + 
+    + [Extensive API, per community](https://rodare.hzdr.de/communities/)
+    + Interoperability **MEDIUM/HIGH**: It lacks a simple API documentation.
 
 * [REANA, Reproducible and reusable research data analysis platform](https://reanahub.io/)
 
@@ -327,24 +330,42 @@ All are inherently cross-platform and most follow the FAIR principle.
     + [Extensive API](https://www.re3data.org/api/doc)
     + Interoperability **HIGH**: Return XML following a given schema.
 
+* [udata, social platform dedicated to open data](https://github.com/opendatateam/udata)
+
+    +  [Docker compose and docker images](https://udata.readthedocs.io/en/stable/docker-deployment/)
+    + [Extensive API using RDF](https://udata.readthedocs.io/en/stable/rdf/)
+    + Interoperability **HIGH**: Return RDF following the [Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat/).
+
 ## Authority control
 
 * [ORCID, Open Researcher and Contributor ID](https://orcid.org/)
 
     + Online.
-
     + [Extensive API](https://info.orcid.org/documentation/api-tutorials/api-tutorial-read-data-on-a-record/)
+    + Interoperability **HIGH**: provide a [defined model with XSD](https://github.com/ORCID/orcid-model)
+    + Fully cross-domains
 
-    + 
 * [ROR, "a global, community-led registry of open persistent identifiers for research organizations"](https://ror.org/)
+
+    + Online
+    + [Extensive API](https://ror.readme.io/docs/rest-api)
+    + Interoperability **HIGH**: Return well-documented JSON and the metadata is [fully documented](https://ror.readme.io/docs/updates)
+    + Fully cross-domains
 
 * [DOI, Digital Object Identifier](https://www.doi.org/)
 
+    + Fully cross-domains
+    + No need for API: the DOI reference the object
+    + Interoperability **HIGH**: Fully [documented](https://www.doi.org/the-identifier/what-is-a-doi/)
+
 * [ISSN, International Identifier for serials](https://www.issn.org/)
+    + Fully cross-domains
 
 * [ISBN,  International Standard Book Number](https://www.isbn-international.org/)
+    + Fully cross-domain
 
 * [VIAF, Virtual International Authority File](https://viaf.org/)
+    + Fully cross-domain
 
 * [GeoNames, database of placenames](https://www.geonames.org/)
 
@@ -352,10 +373,11 @@ All are inherently cross-platform and most follow the FAIR principle.
 
 * [NextCloud](https://nextcloud.com/)
 
-NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugin, such as a plugin to integrate an office suite, such as LibreOffice.
+NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugins, such as a plugin to integrate an office suite, such as LibreOffice.
 As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook.
 NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.
 
-[Helm chart](https://github.com/nextcloud/helm)
-
-Extensive API.
+    + [Docker](https://docs.nextcloud.com/server/latest/admin_manual/office/example-docker.html), [Docker compose](https://github.com/nextcloud/all-in-one/blob/main/manual-install/latest.yml) and Kubernetes installation, with [Helm chart](https://github.com/nextcloud/helm) 
+    + [Extensive API](https://docs.nextcloud.com/server/latest/developer_manual/client_apis/general.html)
+    + Interoperability **HIGH**: The API is well documented and there is several ways of doing things. Then NextCloud is highly flexible, so the use will need to be defined clearly and there might need to restrict it using the API for uploads in order to integrate it in an assembly.
+    + Fully cross-domain
