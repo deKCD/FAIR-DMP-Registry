@@ -55,21 +55,25 @@ Related:
 
 * [Aruna Object Storage (AOS)](https://aruna-storage.org/)
 
-"Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface."
+    + "Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface."
+
+    + Online but provide a [Docker Compose installation](https://github.com/ArunaStorage/aruna?tab=readme-ov-file#getting-started)
+    + [Extensive API](https://github.com/ArunaStorage/api)
+    + Interoperability **HIGH**: well documented, uses protocol-buffers and the gRPC framework and exposes the S3 API .
+    + **Fully** cross-domain: can be used for any kind of storage.
 
 * [XNAT](https://www.xnat.org/)
 
-XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). [Presentation on usage](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
-
-Extensive API.
-
-[Docker Compose](https://github.com/NrgXnat/xnat-docker-compose)
+    + XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). [Presentation on usage](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
+    + [Docker Compose installation](https://www.xnat.org/download/), [Docker Compose](https://github.com/NrgXnat/xnat-docker-compose)
+    + [Extensive API](https://wiki.xnat.org/xnat-api/xnat-rest-api-directory)
+    + Interoperability **HIGH**: return well-documented JSON.
+    + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications. In the medical domain, support many applications via [plugins](https://marketplace.xnat.org/plugins/)
 
 * [REDCap – Research Electronic Data Capture](https://www.project-redcap.org/)
 
-Free for non-profit institutions but not Open Source, available upon request.
-
-Extensive API.
+    + Free for non-profit institutions but not Open Source, available upon request.
+    + Extensive API.
 
 * [ISA format, set of format and related tools for bioscience experiment](http://isa-tools.org)
 
