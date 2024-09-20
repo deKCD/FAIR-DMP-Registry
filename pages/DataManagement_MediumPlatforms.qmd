@@ -8,13 +8,26 @@ title: "DeKCD - Medium Data Management platforms - Draft"
 
 * [Bexis2 DM tool. Research Data management software for BioDiversity](https://bexis2.uni-jena.de/)
 
-Running on ASP, no containerization.
+    + Running on ASP, no containerization.
 
 * [OpenClinica, clinical research EDC platform](https://www.openclinica.com/)
 
-No containerization, java-based.
+    + No containerization, java-based.
 
 Extensive API.
+
+* [RightField](https://rightfield.org.uk/)
+
+    + Standalone tool in Java that could be containerized with a little technical effort.
+    + Well documented, using standard Excel spreadsheets and standard ontologies formats.
+    + Interoperability **high**: well documented.
+    + **Fully** cross-domain
+
+* [JAX BioConnect, "an index of research data that supports data sharing, high-quality curation, and consistent data description"](https://docs.bioconnect.jax.org/)
+    + Online
+    + [Command-line based API, well documented](https://docs.bioconnect.jax.org/tools/jbq/)
+    + Interoperability **high**: well documented, follow the ISA schema.
+    + **Not** cross-domain: dedicated to bioscience
 
 ## Documents
 

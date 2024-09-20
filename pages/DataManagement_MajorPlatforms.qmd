@@ -2,6 +2,16 @@
 title: "DeKCD - Major Data Management platforms - Draft"
 ---
 
+## FAIR - **F**indable, **A**ccessible, **I**nteroperable, **R**esuable
+
+The Data Management platforms listed should respect the FAIR principle to some extend. The details follow this idea: if a platform offers an extensive API but it is very difficult to find a documentation, then it is not findable or accessible, thus should be considered as such.
+On the other hand, a platform based on common standards such as RDF or Apache Spark might be interoperable and reusable without needing to document RDF or Apache Spark as their documentation are easily available.
+
+## Contributions are welcome
+
+Feel free to contribute by forking the repository or creating an issue.
+We filled the information by the best of our knowlegde and after a reasonable amount of research, but that does not prevent us from doing mistakes. Once again we will be glad for any correction.
+
 ## Progress
 
 * TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures.
@@ -32,26 +42,24 @@ Draft should be in to_sort or to_investigate pages.
     + Galaxy is already a cloud-based solution, widely used.
     + It is a very powerful tool and as such with [tutorials](https://training.galaxyproject.org/), [documentation](https://galaxyproject.org/get-started/), [training events](https://training.galaxyproject.org/training-material/events/index.html), [faqs](https://training.galaxyproject.org/training-material/faqs/) and [discussions](https://help.galaxyproject.org/)
     + [Extensive API](https://training.galaxyproject.org/training-material/api/)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
     + **Mostly** cross-domain: though mostly for life-science applications, it can support any kind of workflow. Tools for other domains can be added.
 
 * [Omero, an open source imaging platform for microscopy outputs](https://www.openmicroscopy.org/omero/)
 
     + [Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone) and [Helm chart](https://github.com/manics/kubernetes-omero)
     + [Extensive API](https://omero.readthedocs.io/en/v5.6.13/developers/json-api.html)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
     + **Mostly** cross-domain: despite being targeted at microscopy image, can have an use for any image data management. Omero can be extended using [OMERO.scripts](https://omero.readthedocs.io/en/v5.6.13/developers/scripts/index.html) which are written in MATLAB or Python. It also offers binding in Python, C++, MATLAB and Java.
 
 * [Seek](https://seek4science.org/)
 
     + [Docker Compose(one instance on one server!)](https://docs.seek4science.org/tech/docker/docker-compose.html)
     + [Extensive API](https://docs.seek4science.org/help/user-guide/api.html)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
     + **Mostly** cross-domain: Seek is highly configurable and could be used as a sharing platform for other domains, without any coding needs.
 
-Related:
-
-** [Just Enough Results Model (JERM)](https://jermontology.org/)
+    + Related: [Just Enough Results Model (JERM)](https://jermontology.org/)
 
 * [Aruna Object Storage (AOS)](https://aruna-storage.org/)
 
@@ -67,37 +75,70 @@ Related:
     + XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). [Presentation on usage](https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de)
     + [Docker Compose installation](https://www.xnat.org/download/), [Docker Compose](https://github.com/NrgXnat/xnat-docker-compose)
     + [Extensive API](https://wiki.xnat.org/xnat-api/xnat-rest-api-directory)
-    + Interoperability **HIGH**: return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
     + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications. In the medical domain, support many applications via [plugins](https://marketplace.xnat.org/plugins/)
 
 * [REDCap – Research Electronic Data Capture](https://www.project-redcap.org/)
 
     + Free for non-profit institutions but not Open Source, available upon request.
-    + Extensive API.
+    + No containerization.
+    + Extensive API, but most documentation is for registered members.
+    + Interoperability **unknown but presumably high/medium**.
+    + **Probably not** cross-domain: software adaptation is limited to built-in software development tools. There is no public documentation.
 
-* [ISA format, set of format and related tools for bioscience experiment](http://isa-tools.org)
+* [ISA format, set of formats and related tools for bioscience experiment](http://isa-tools.org)
 
-* [RightField](https://rightfield.org.uk/)
+    + Standalone tools that could be containerized with a little technical effort.
+    + Formats and tools are well-documented
+    + Interoperability **high**: well-documented workflow (https://isa-tools.org/software-suite.html), all format explained.
+    + **Mostly not** cross-domain: these are dedicated tools for biosciense. However everything is open-source and could be used as base for other tools.
 
 * ["LifeMonitor is a service to support the sustainability and reusability of published computational workflows"](https://crs4.github.io/life_monitor/)
+    + A github app for workflows hosted on GitHub, also with [docker-compose installation](https://github.com/crs4/life_monitor?tab=readme-ov-file#getting-started)
+    + [Extensive API, well documented](https://api.lifemonitor.eu/static/specs/apidocs.html#overview)
+    + Interoperability **high**: uses well-documented JSON.
+    + **Mostly not** cross-domain: it could be used to test different domains' workflow, but it does not seem to be obvious.
 
-* [JAX BioConnect, "s an index of research data that supports data sharing, high-quality curation, and consistent data description"](https://docs.bioconnect.jax.org/)
+* [Workflow Hub, registry for describing, sharing and publishing scientific computational workflow](https://about.workflowhub.eu/)
+    + Online, based on Seek
+    + [Extensive API, well documented](https://about.workflowhub.eu/developer/)
+    + Interoperability **high**: uses well-documented JSON.
+    + **Fully** cross-domain: "WorkflowHub is a domain-agnostic workflow registry designed around FAIR principles."
 
 * [BioModels, a repository of mathematical models of biological and biomedical systems](https://www.ebi.ac.uk/biomodels/)
+    + Online only.
+    + [Extensive APIs](https://www.ebi.ac.uk/biomodels/dev)
+    + Interoperability **high**: uses well-documented JSON or XML.
+    + **Not** cross-domain: by definition
 
 ### Commercials
 
 * [Oracle Clinical, an Electronic Health Record and Data Management platform](https://www.oracle.com/life-sciences/clinical-trials/)
+    + No easily findable public documentation
+    + **Not** cross-domain
 
 * [MediData, a set of platforms for clinical trials, Electronic Health Record and Data management](https://www.medidata.com)
+    + No easily findable public documentation
+    + **Not** cross-domain
 
 * [Castor, Electronic Health Record](https://www.castoredc.com/electronic-data-capture-system/)
+    + [Extensive API, well documented](https://data.castoredc.com/api)
+    + Interoperability **high**: uses well-documented JSON.
+    + **Not** cross-domain
 
 ## Pharmaceutics
 
 * [LabKey, an open-source platform that helps manage biomedical research data, focusing on clinical and laboratory data](https://www.labkey.org)
+    + A limited free edition and several paid versions,
+    + [Extensive APIs, well documented](https://www.labkey.org/Documentation/wiki-page.view?name=viewApis)
+    + Interoperability **medium/high**: APIs are well-documented but are programmatic only (i.e no REST API)
+    + **Moderately cross-domain**: while many function could be used for other domain, it is mostly dedicated to biomedical research.
 
 * [CIViC (Clinical Interpretation of Variants in Cancer), an open-access platform that curates and manages clinical cancer variant data. It is used for pharmaceutical oncology research.](https://civicdb.org)
+    + Mostly online, fully Open Source, no containerization.
+    + [Extensive API, well documented](https://griffithlab.github.io/civic-v2/)
+    + Interoperability **high**: uses well-documented JSON.
+    + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications
 
 * [CINECA, a federated cloud platform designed for pharmaceutical and biomedical data sharing across Europe](https://www.cineca-project.eu)
 
@@ -105,9 +146,11 @@ Related:
 
 * [NOMAD, management and sharing of material science data (online)](https://nomad-lab.eu/nomad-lab/)
 
-Extensive API.
+    + With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat), also on [Youtube](https://www.youtube.com/watch?v=FqTTeAgqiuw)
+    + Online first, but with [docker compose installation](https://nomad-lab.eu/prod/v1/docs/howto/oasis/install.html). Another instance of NOMAD, called NOMAD Oasis, can upload to the central NOMAD installation.
+    + [Extensive API, well documented](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html)
+    + Interoperability **HIGH**: uses well-documented JSON.
 
-With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat), also on [Youtube](https://www.youtube.com/watch?v=FqTTeAgqiuw)
 
 * [pyiron, compley workflow made based on JupiterLab](https://pyiron.org/) and [pyiron workflow](https://github.com/pyiron/pyiron_workflow) with many [extensions](https://github.com/pyiron)
 
@@ -125,19 +168,17 @@ Extensive API and extensions support.
 
 * [GeoServer, "an open source server for sharing geospatial data"](https://geoserver.org/)
 
-No container-based installation.
-
-Extensive API and many extensions.
+    + No container-based installation.
+    + Extensive API and many extensions.
 
 * [MapGuide Open Source, " a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services."](https://www.osgeo.org/projects/mapguide-open-source/) and [MapServer, a mapping engine](https://mapserver.org/), part of a large portofolio of [Geospatial tools](https://www.osgeo.org/)
 
-No container-based installation.
-
-Extensive API via the related tools.
+    + No container-based installation.
+    + Extensive API via the related tools.
 
 * [Mapnik, open-source mapping toolkit](https://mapnik.org/)
 
-No container-based installation.
+    + No container-based installation.
 
 * [ArangoDB, open-source and commercial graph and spatial database](https://arangodb.com/)
 
@@ -145,17 +186,16 @@ No container-based installation.
 
 * [GeoNetwork, catalog application to manage spatially referenced resources](https://geonetwork-opensource.org/)
 
-No container-based installation.
-
-Extensive API.
+    + No container-based installation.
+    + Extensive API.
 
 * [GeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management](https://geonode.org)
 
-API Support: Yes  
+    + API Support: Yes  
 
 * [OpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research](https://www.openstreetmap.org) 
 
-API Support: Yes  
+    + API Support: Yes  
 
 ### Commercials
 
@@ -173,7 +213,7 @@ API Support: Yes
 
 * [CitySDK, a toolkit offering standard API specifications for urban services, helping cities release open data and enabling developers to create city-related applications](http://www.citysdk.eu)
 
-Extensive API.
+    + Extensive API.
 
 ### Commercials
 
@@ -187,19 +227,19 @@ Extensive API.
 
 * [OpenBis](https://openbis.ch/)
 
-Extensive API.
+    + Extensive API.
 
 * [eLabFTW](https://www.elabftw.net/)
 
 [Docker](https://doc.elabftw.net/install.html)
 
-Extensive API.
+    + Extensive API.
 
 * [RSpace, electronic noteboook and inventory management](https://www.researchspace.com/)
 
 [Docker Compose](https://github.com/rspace-os/rspace-docker)
 
-Extensive API and SDK.
+    + Extensive API and SDK.
 
 ## Astronomy
 
@@ -223,9 +263,9 @@ Astronomy is largely standardized and relies on many tools developed over severa
 
 * [ESO Reflex](https://www.eso.org/sci/software/esoreflex/)
 
-Based on [Kepler, which seems out of support](https://kepler-project.org/users/downloads.html), standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the [VLT Instrument Pipelines](https://www.eso.org/sci/software/pipelines/)
+    + Based on [Kepler, which seems out of support](https://kepler-project.org/users/downloads.html), standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the [VLT Instrument Pipelines](https://www.eso.org/sci/software/pipelines/)
 
-Standalone, no container-based installation.
+    + Standalone, no container-based installation.
 
 ## Humanities
 
@@ -235,9 +275,8 @@ Standalone, no container-based installation.
 
 * [Omeka, a content management system for digital collections and exhibitions](https://omeka.org)
 
-No container-based installation.
-
-Extensive API.
+    + No container-based installation.
+    + Extensive API.
 
 * [Archaeology Data Service (ADS), for archiving digital data in archaeology.](https://archaeologydataservice.ac.uk)
 
@@ -247,9 +286,8 @@ Extensive API.
 
 * ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials"](https://www.zotero.org/)
 
-Mostly online with browser's extension. It is a tool to help getting information from web-sites, organize and cite.
-
-Many extensions providing some web API support.
+    + Mostly online with browser's extension. It is a tool to help getting information from web-sites, organize and cite.
+    + Many extensions providing some web API support.
 
 ## Generalists
 
@@ -259,13 +297,13 @@ All are inherently cross-platform and most follow the FAIR principle.
 
     + Online
     + [Extensive API](https://developer.osf.io/)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
 
 * [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
 
     + [Docker Compose](https://github.com/rdmorganiser/rdmo-docker-compose)
     + [Extensive API](https://rdmo.readthedocs.io/en/latest/administration/api.html)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
 
 * [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
 
@@ -277,25 +315,25 @@ All are inherently cross-platform and most follow the FAIR principle.
 
     + [Docker Compose and Kubernetes](https://guides.dataverse.org/en/latest/developers/containers.html)
     + [Extensive API](https://guides.dataverse.org/en/latest/api/index.html)
-    + Interoperability **HIGH**: Return documented JSON.
+    + Interoperability **HIGH**: uses documented JSON.
 
 * ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
 
     + Mostly used online, but provide a [Docker Compose](https://github.com/zenodo/zenodo-rdm)
     + [Extensive API](https://developers.zenodo.org/)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
 
 * [BARTOC is a register of Thesauri, Ontologies & Classifications](https://bartoc.org/)
 
     + [Docker and docker-compose installation supported but mostly supposed to be used online as a register](https://github.com/gbv/bartoc.org/blob/main/docker/README.md)
     + [Extensive API](https://bartoc.org/vocabularies?search=BARTOC)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
 
 * [RDM, turn-key research data management repository](https://inveniordm.docs.cern.ch/)
 
     + [Docker image](https://inveniordm.docs.cern.ch/maintenance/docker-images/)
     + [Extensive API](https://inveniordm.docs.cern.ch/reference/rest_api_index/)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
 
 * [INVENIO, a framework for large-scale digital repositories](https://invenio.readthedocs.io/en/latest/)
 
@@ -320,19 +358,19 @@ All are inherently cross-platform and most follow the FAIR principle.
 
     + [Docker image but mostly for evaluation](https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore)
     + [Extensive API](https://unicore-docs.readthedocs.io/en/latest/user-docs/rest-api/index.html)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
 
 * [SciCat, management and annotation of scientific data based on Elastic Search](https://scicatproject.github.io/)
 
     + [Default docker-compose installation](https://scicatproject.github.io/scicatlive/latest/)
     + [Extensive API](https://scicatproject.github.io/api-documentation/)
-    + Interoperability **HIGH**: Return well-documented JSON.
+    + Interoperability **HIGH**: uses well-documented JSON.
 
 * [re3data, registry of research data repositories](https://www.re3data.org/)
 
     + Online.
     + [Extensive API](https://www.re3data.org/api/doc)
-    + Interoperability **HIGH**: Return XML following a given schema.
+    + Interoperability **HIGH**: uses XML following a given schema.
 
 * [udata, social platform dedicated to open data](https://github.com/opendatateam/udata)
 
@@ -353,7 +391,7 @@ All are inherently cross-platform and most follow the FAIR principle.
 
     + Online
     + [Extensive API](https://ror.readme.io/docs/rest-api)
-    + Interoperability **HIGH**: Return well-documented JSON and the metadata is [fully documented](https://ror.readme.io/docs/updates)
+    + Interoperability **HIGH**: uses well-documented JSON and the metadata is [fully documented](https://ror.readme.io/docs/updates)
     + Fully cross-domains
 
 * [DOI, Digital Object Identifier](https://www.doi.org/)
