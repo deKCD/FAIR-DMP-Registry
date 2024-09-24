@@ -133,8 +133,6 @@ Draft should be in to_sort or to_investigate pages.
     + Interoperability **high**: uses well-documented JSON.
     + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications
 
-* [CINECA, a federated cloud platform designed for pharmaceutical and biomedical data sharing across Europe](https://www.cineca-project.eu)
-
 ## Materials science
 
 * [NOMAD, management and sharing of material science data (online)](https://nomad-lab.eu/nomad-lab/)
@@ -142,17 +140,20 @@ Draft should be in to_sort or to_investigate pages.
     + Online first, but with [docker compose installation](https://nomad-lab.eu/prod/v1/docs/howto/oasis/install.html). Another instance of NOMAD, called NOMAD Oasis, can upload to the central NOMAD installation.
     + [Extensive API, well documented](https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html)
     + Interoperability **HIGH**: uses well-documented JSON.
+    + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications.
 
 
-* [pyiron, compley workflow made based on JupiterLab](https://pyiron.org/) and [pyiron workflow](https://github.com/pyiron/pyiron_workflow) with many [extensions](https://github.com/pyiron)
-
-With a set of [docker images](https://github.com/pyiron/docker-stacks)
+* [pyiron, complex workflow made based on JupiterLab](https://pyiron.org/) and [pyiron workflow](https://github.com/pyiron/pyiron_workflow) with many [extensions](https://github.com/pyiron)
+    + With a set of [docker images](https://github.com/pyiron/docker-stacks)
+    + Based on JupiterLab, supporting a [command-line interface](https://pyiron.readthedocs.io/en/latest/source/commandline.html) that can be easily extended, and well documented.
+    + Interoperability **HIGH**: standard JupiterLab capabililities, all documented.
+    + **Fully** cross-domain: even if dedicated to material science, its integration to JupiterLab makes using any part usable in other domains.
 
 * [HELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle](https://heliport.hzdr.de/)
-
-No container-based installation.
-
-Extensive API and extensions support.
+    + No container-based installation. Mosty online versions, restricted to members of Helmhotz or associated institutions.
+    + Extensive API and extensions support.
+    + Interoperability **HIGH**: uses well-documented JSON.
+    + **Fully** cross-domain: already extended for other uses. But the online versions are currently restricted to members of Helmhotz or associated institutions.
 
 ## Geomatics
 
@@ -160,14 +161,21 @@ Extensive API and extensions support.
 
 * [GeoServer, "an open source server for sharing geospatial data"](https://geoserver.org/)
     + No container-based installation.
-    + Extensive API and many extensions.
+    + [Extensive API](https://docs.geoserver.org/latest/en/user/) and many extensions, well documented.
+    + Interoperability **HIGH**: support many common formats, well documented.
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [MapGuide Open Source, " a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services."](https://www.osgeo.org/projects/mapguide-open-source/) and [MapServer, a mapping engine](https://mapserver.org/), part of a large portofolio of [Geospatial tools](https://www.osgeo.org/)
     + No container-based installation.
     + Extensive API via the related tools.
+    + Interoperability **HIGH**: support many common formats, documented. One issue of the OSGeo portfolio is the high number of projects with many subpages. As such the contribution to the community is very high, but it can be difficult to navigate. 
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [Mapnik, open-source mapping toolkit](https://mapnik.org/)
-    + No container-based installation.
+    + No container-based installation as it is a toolkit to develop mapping applications.
+    + Mostly to be used as an API or through Python bindings. It is largely [documented](https://github.com/mapnik/mapnik/wiki/LearningMapnik) but mostly aimed as developers.
+    Interoperability **MEDIUM/HIGH**: it is aimed at helping develop any kind of mapping applications, but will probably be out of reach as such for non-developers.
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [ArangoDB, open-source and commercial graph and spatial database](https://arangodb.com/)
     + [Docker and Kubernetes installations](https://arangodb.com/download-major/)
@@ -248,9 +256,7 @@ Astronomy is largely standardized and relies on many tools developed over severa
 * [ESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis](http://archive.eso.org/)
 
 * [ESO Reflex](https://www.eso.org/sci/software/esoreflex/)
-
     + Based on [Kepler, which seems out of support](https://kepler-project.org/users/downloads.html), standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the [VLT Instrument Pipelines](https://www.eso.org/sci/software/pipelines/)
-
     + Standalone, no container-based installation.
 
 ## Humanities
@@ -271,7 +277,6 @@ Astronomy is largely standardized and relies on many tools developed over severa
 ## Bibliography
 
 * ["Zotero is free and open-source reference management software to manage bibliographic data and related research materials"](https://www.zotero.org/)
-
     + Mostly online with browser's extension. It is a tool to help getting information from web-sites, organize and cite.
     + Many [extensions](https://www.zotero.org/support/plugins) providing some web API support.
     + Interoperability **HIGH**: again with many plugins but also [integrations](https://www.zotero.org/support/word_processor_integration).
@@ -282,86 +287,72 @@ Astronomy is largely standardized and relies on many tools developed over severa
 All are inherently cross-platform and most follow the FAIR principle.
 
 * [Open Science Framework (OSF), a platform that supports open research](https://osf.io)
-
     + Online
     + [Extensive API](https://developer.osf.io/)
     + Interoperability **HIGH**: uses well-documented JSON.
 
 * [RDMO - Research Data Management Organiser](https://rdmorganiser.github.io/en/)
-
     + [Docker Compose](https://github.com/rdmorganiser/rdmo-docker-compose)
     + [Extensive API](https://rdmo.readthedocs.io/en/latest/administration/api.html)
     + Interoperability **HIGH**: uses well-documented JSON.
 
 * [The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)](https://ckan.org/)
-
     + [Docker Compose](https://docs.ckan.org/en/2.11/maintaining/installing/index.html)
     + [API](https://docs.ckan.org/en/2.11/api/index.html)
     + Interoperability **MEDIUM**: the API is not documented fully.
 
 * [Dataverse, an open source research data repository software](https://dataverse.org/)
-
     + [Docker Compose and Kubernetes](https://guides.dataverse.org/en/latest/developers/containers.html)
     + [Extensive API](https://guides.dataverse.org/en/latest/api/index.html)
     + Interoperability **HIGH**: uses documented JSON.
 
 * ["Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN"](https://zenodo.org/)
-
     + Mostly used online, but provide a [Docker Compose](https://github.com/zenodo/zenodo-rdm)
     + [Extensive API](https://developers.zenodo.org/)
     + Interoperability **HIGH**: uses well-documented JSON.
 
 * [BARTOC is a register of Thesauri, Ontologies & Classifications](https://bartoc.org/)
-
     + [Docker and docker-compose installation supported but mostly supposed to be used online as a register](https://github.com/gbv/bartoc.org/blob/main/docker/README.md)
     + [Extensive API](https://bartoc.org/vocabularies?search=BARTOC)
     + Interoperability **HIGH**: uses well-documented JSON.
 
 * [RDM, turn-key research data management repository](https://inveniordm.docs.cern.ch/)
-
     + [Docker image](https://inveniordm.docs.cern.ch/maintenance/docker-images/)
     + [Extensive API](https://inveniordm.docs.cern.ch/reference/rest_api_index/)
     + Interoperability **HIGH**: uses well-documented JSON.
 
 * [INVENIO, a framework for large-scale digital repositories](https://invenio.readthedocs.io/en/latest/)
-
     + Framework to develop repositories, such as RDM
     + [API](https://invenio-records-rest.readthedocs.io/en/latest/)
     + Interoperability **HIGH**: All documented, used to build other repositories.
 
 * [RODARE, ROssendorf DAta REpository, Online Data Repository](https://rodare.hzdr.de/about/)
-
     + Based on INVENIO Digital Library framework, fork of Zenodo.
     + Explain [how it is FAIR](https://rodare.hzdr.de/about/principles/)
     + [Extensive API, per community](https://rodare.hzdr.de/communities/)
     + Interoperability **MEDIUM/HIGH**: It lacks a simple API documentation.
 
 * [REANA, Reproducible and reusable research data analysis platform](https://reanahub.io/)
-
     + [Kubernetes, Helm and Kubernetes in Docker](https://docs.reana.io/administration/)
     + [Extensive APIs](https://docs.reana.io/reference/)
     + Interoperability **HIGH**: use a yaml file which is [fully documented](https://docs.reana.io/reference/reana-yaml/)
 
 * [UNICORE, A European Federation Software Suite](https://www.unicore.eu/)
-
     + [Docker image but mostly for evaluation](https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore)
     + [Extensive API](https://unicore-docs.readthedocs.io/en/latest/user-docs/rest-api/index.html)
     + Interoperability **HIGH**: uses well-documented JSON.
 
 * [SciCat, management and annotation of scientific data based on Elastic Search](https://scicatproject.github.io/)
-
     + [Default docker-compose installation](https://scicatproject.github.io/scicatlive/latest/)
     + [Extensive API](https://scicatproject.github.io/api-documentation/)
     + Interoperability **HIGH**: uses well-documented JSON.
 
 * [re3data, registry of research data repositories](https://www.re3data.org/)
-
     + Online.
     + [Extensive API](https://www.re3data.org/api/doc)
     + Interoperability **HIGH**: uses XML following a given schema.
 
 * [udata, social platform dedicated to open data](https://github.com/opendatateam/udata)
-
     +  [Docker compose and docker images](https://udata.readthedocs.io/en/stable/docker-deployment/)
     + [Extensive API using RDF](https://udata.readthedocs.io/en/stable/rdf/)
     + Interoperability **HIGH**: Return RDF following the [Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat/).
@@ -369,21 +360,18 @@ All are inherently cross-platform and most follow the FAIR principle.
 ## Authority control
 
 * [ORCID, Open Researcher and Contributor ID](https://orcid.org/)
-
     + Online.
     + [Extensive API](https://info.orcid.org/documentation/api-tutorials/api-tutorial-read-data-on-a-record/)
     + Interoperability **HIGH**: provide a [defined model with XSD](https://github.com/ORCID/orcid-model)
     + **Fully** cross-domains
 
 * [ROR, "a global, community-led registry of open persistent identifiers for research organizations"](https://ror.org/)
-
     + Online
     + [Extensive API](https://ror.readme.io/docs/rest-api)
     + Interoperability **HIGH**: uses well-documented JSON and the metadata is [fully documented](https://ror.readme.io/docs/updates)
     + **Fully** cross-domains
 
 * [DOI, Digital Object Identifier](https://www.doi.org/)
-
     + No need for API: the DOI reference the object
     + Interoperability **HIGH**: Fully [documented](https://www.doi.org/the-identifier/what-is-a-doi/)
     + **Fully** cross-domains
@@ -415,9 +403,8 @@ All are inherently cross-platform and most follow the FAIR principle.
 ## Others
 
 * [NextCloud](https://nextcloud.com/)
-
     + NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugins, such as a plugin to integrate an office suite, such as LibreOffice.
-As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook.
+    As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook.
     NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.
 
     + [Docker](https://docs.nextcloud.com/server/latest/admin_manual/office/example-docker.html), [Docker compose](https://github.com/nextcloud/all-in-one/blob/main/manual-install/latest.yml) and Kubernetes installation, with [Helm chart](https://github.com/nextcloud/helm) 
