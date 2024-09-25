@@ -18,8 +18,8 @@ website:
         - pages/DataManagement_MajorPlatforms.qmd
         - pages/DataManagement_MediumPlatforms.qmd
         - pages/DataManagement_UsefulToolsAndPlatforms.qmd
-        - to_sort.qmd
-        - to_investigate.qmd
+        - pages/DataManagement_Ontologies.qmd
+        - pages/DataManagement_Taxonomies.qmd
       
 format:
   html:
