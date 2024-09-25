@@ -25,6 +25,8 @@ Top-Down approach: first listing with technical information (online, containers,
 Major platforms are easy-to-find and popular platforms.
 Draft should be in to_sort or to_investigate pages.
 
+The format is keep as simple as possible so it is easier to modify. We find it more important to encourage contributions as to keep the list up-to-date. This is why we don't use tables for instance. 
+
 ## To Work-On
 
 * Write about non-software dedicated DM approach (for instance semantic-web, RDF or Apache Spark).
