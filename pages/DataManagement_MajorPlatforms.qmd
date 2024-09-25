@@ -177,27 +177,48 @@ Draft should be in to_sort or to_investigate pages.
     Interoperability **MEDIUM/HIGH**: it is aimed at helping develop any kind of mapping applications, but will probably be out of reach as such for non-developers.
     + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
-* [ArangoDB, open-source and commercial graph and spatial database](https://arangodb.com/)
+* [ArangoDB, open-source and commercial graph and spatial database](https://arangodb.com/), community version limited to 100gb of data on a single cluster and non-commercial use.
     + [Docker and Kubernetes installations](https://arangodb.com/download-major/)
+    + [Extensive API, well documented, also built-in using Swagger.IO](https://docs.arangodb.com/stable/develop/http-api/#restful-api)
+    + Interoperability **HIGH**: it is all well-documented and uses JSON. 
+    + **Fully** cross-domain: it is a general multi-model database
 
 * [GeoNetwork, catalog application to manage spatially referenced resources](https://geonetwork-opensource.org/)
-    + No container-based installation.
-    + Extensive API.
+    + [Docker image](https://docs.geonetwork-opensource.org/4.4/install-guide/installing-with-docker/)
+    + [Extensive API, well documented](https://docs.geonetwork-opensource.org/4.4/api/)
+    + Interoperability **HIGH**: uses well-documented JSON.
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [GeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management](https://geonode.org)
-    + API Support: Yes  
+    + [Docker-based installation](https://docs.geonode.org/en/master/install/basic/index.html)
+    + [Extensive API, very well documented](https://docs.geonode.org/en/master/devel/index.html)
+    + Interoperability **HIGH**: uses well-documented JSON.
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [OpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research](https://www.openstreetmap.org) 
-
-    + API Support: Yes  
+    + Mostly online with the map of the full world, with many surrounding tools
+    + [Extensive API, very well documented](https://wiki.openstreetmap.org/wiki/API)
+    + Interoperability **HIGH**: uses well-documented XML, JSON. Maps are either using a text-based format, giving a large size but easy to use, such as [OSM XML](https://wiki.openstreetmap.org/wiki/OSM_XML) or a binary format such as [PBF](https://wiki.openstreetmap.org/wiki/PBF_Format), giving a small size but harder to use. The list of map format is on the [wiki](https://wiki.openstreetmap.org/wiki/Category:OSM_file_formats)
+    + **Mostly** cross-domain, it can be use for any domain. Its usage can be quite complex though, depending on several aspects: extracting a small map can be rather easy using one tool, extracting a large map (such as for a country) can be complex depending on the level of detail needed. The binary format for large map
 
 ### Commercials
 
 * [ESRI ArcGIS, geospatial platform](https://www.esri.com/en-us/arcgis/geospatial-platform/overview)
+    + Many [tutorials](https://learn.arcgis.com/en/gallery/) which are rather hard to navigate and an [extensive developer documentation](https://developers.arcgis.com/documentation/), not linked on the product page.
+    + [Extensive APIs, well documented](https://developers.arcgis.com/documentation/) with many [Open Source tools and samples](https://esri.github.io/)
+    + Interoperability **HIGH**: many APIs and tools, with documentation and samples.   
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [SMARTGeo, visualization and analytics platform](https://smartgeo.io/)
+    + No easily findable public documentation
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [CARTO, cloud-based spatial analysis](https://carto.com/)
+    + [All documentation is available publicly](https://docs.carto.com/) with a [set of tutorials covering the bases of geospatial data as well](https://academy.carto.com/)
+    + Offer [several possibilities of connections, all documented](https://docs.carto.com/carto-user-manual/connections) and several [well documented APIs](https://docs.carto.com/carto-for-developers/key-concepts/apis).
+    + Interoperability **HIGH**: APIs uses well-documented JSON
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+
 
 ## Urbanism
 
