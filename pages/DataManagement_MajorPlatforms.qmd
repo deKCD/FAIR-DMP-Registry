@@ -165,19 +165,19 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + No container-based installation.
     + [Extensive API](https://docs.geoserver.org/latest/en/user/) and many extensions, well documented.
     + Interoperability **HIGH**: support many common formats, well documented.
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [MapGuide Open Source, " a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services."](https://www.osgeo.org/projects/mapguide-open-source/) and [MapServer, a mapping engine](https://mapserver.org/), part of a large portofolio of [Geospatial tools](https://www.osgeo.org/)
     + No container-based installation.
     + Extensive API via the related tools.
     + Interoperability **HIGH**: support many common formats, documented. One issue of the OSGeo portfolio is the high number of projects with many subpages. As such the contribution to the community is very high, but it can be difficult to navigate. 
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [Mapnik, open-source mapping toolkit](https://mapnik.org/)
     + No container-based installation as it is a toolkit to develop mapping applications.
     + Mostly to be used as an API or through Python bindings. It is largely [documented](https://github.com/mapnik/mapnik/wiki/LearningMapnik) but mostly aimed as developers.
     Interoperability **MEDIUM/HIGH**: it is aimed at helping develop any kind of mapping applications, but will probably be out of reach as such for non-developers.
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [ArangoDB, open-source and commercial graph and spatial database](https://arangodb.com/), community version limited to 100gb of data on a single cluster and non-commercial use.
     + [Docker and Kubernetes installations](https://arangodb.com/download-major/)
@@ -189,19 +189,19 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + [Docker image](https://docs.geonetwork-opensource.org/4.4/install-guide/installing-with-docker/)
     + [Extensive API, well documented](https://docs.geonetwork-opensource.org/4.4/api/)
     + Interoperability **HIGH**: uses well-documented JSON.
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [GeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management](https://geonode.org)
     + [Docker-based installation](https://docs.geonode.org/en/master/install/basic/index.html)
     + [Extensive API, very well documented](https://docs.geonode.org/en/master/devel/index.html)
     + Interoperability **HIGH**: uses well-documented JSON.
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [OpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research](https://www.openstreetmap.org) 
     + Mostly online with the map of the full world, with many surrounding tools
     + [Extensive API, very well documented](https://wiki.openstreetmap.org/wiki/API)
     + Interoperability **HIGH**: uses well-documented XML, JSON. Maps are either using a text-based format, giving a large size but easy to use, such as [OSM XML](https://wiki.openstreetmap.org/wiki/OSM_XML) or a binary format such as [PBF](https://wiki.openstreetmap.org/wiki/PBF_Format), giving a small size but harder to use. The list of map format is on the [wiki](https://wiki.openstreetmap.org/wiki/Category:OSM_file_formats)
-    + **Mostly** cross-domain, it can be use for any domain. Its usage can be quite complex though, depending on several aspects: extracting a small map can be rather easy using one tool, extracting a large map (such as for a country) can be complex depending on the level of detail needed. The binary format for large map
+    + **Mostly** cross-domain: it can be use for any domain. Its usage can be quite complex though, depending on several aspects: extracting a small map can be rather easy using one tool, extracting a large map (such as for a country) can be complex depending on the level of detail needed. The binary format for large map
 
 ### Commercials
 
@@ -209,17 +209,17 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + Many [tutorials](https://learn.arcgis.com/en/gallery/) which are rather hard to navigate and an [extensive developer documentation](https://developers.arcgis.com/documentation/), not linked on the product page.
     + [Extensive APIs, well documented](https://developers.arcgis.com/documentation/) with many [Open Source tools and samples](https://esri.github.io/)
     + Interoperability **HIGH**: many APIs and tools, with documentation and samples.   
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [SMARTGeo, visualization and analytics platform](https://smartgeo.io/)
     + No easily findable public documentation
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 * [CARTO, cloud-based spatial analysis](https://carto.com/)
     + [All documentation is available publicly](https://docs.carto.com/) with a [set of tutorials covering the bases of geospatial data as well](https://academy.carto.com/)
     + Offer [several possibilities of connections, all documented](https://docs.carto.com/carto-user-manual/connections) and several [well documented APIs](https://docs.carto.com/carto-for-developers/key-concepts/apis).
     + Interoperability **HIGH**: APIs uses well-documented JSON
-    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
+    + **Mostly** cross-domain: it is dedicated to geospatial data but could be use for any domain as such. 
 
 
 ## Urbanism
@@ -227,36 +227,52 @@ The format is keep as simple as possible so it is easier to modify. We find it m
 ### Open Source or free
 
 * [Metropolis (Urban Observatory Data), offers large-scale urban data and insights about cities, covering everything from mobility patterns to energy consumption](https://use.metropolis.org)
+    + Online collection of urban case studies.
+    + No API
+    + No interoperability, per definition
+    + **Partly** cross-domain: as the case studies are about urbanism with themes which can be relevant for other domains.
 
 * [CitySDK, a toolkit offering standard API specifications for urban services, helping cities release open data and enabling developers to create city-related applications](http://www.citysdk.eu)
-
-    + Extensive API.
+    + SDK to build Smart City services and applications,
+    + Encourages to build a [standardised API, using JSON, XML or CSV](https://www.citysdk.eu/wp-content/uploads/2017/11/20171116_APIrecommendations_WEB.pdf)
+    + Interoperability **HIGH**: encourages the use of [standards](https://www.citysdk.eu/citysdk-toolkit/components-of-the-toolkit/)
+    + **Mostly** cross-domain: it should to be used for city management, but does not restrict on any use.
 
 ### Commercials
 
 * [ESRI ArcGIS Urban](https://urban.arcgis.com/)
+    + ArcGIS Urban is part of the ArcGIS portfolio, so have the same characteristics.
+    + Many [tutorials](https://learn.arcgis.com/en/gallery/) which are rather hard to navigate and an [extensive developer documentation](https://developers.arcgis.com/documentation/), not linked on the product page.
+    + [Extensive APIs, well documented](https://developers.arcgis.com/documentation/) with many [Open Source tools and samples](https://esri.github.io/)
+    + Interoperability **HIGH**: many APIs and tools, with documentation and samples.
+    + **Mostly** cross-domain, it is dedicated to geospatial data but could be use for any domain as such. 
 
-* [Google Urban Mobility, provides data on urban transport, such as real-time traffic, transit options, and pedestrian data, used in urban planning and mobility solutions](https://developers.google.com/transit)
+* [Google Transit, provides data on urban transport, such as real-time traffic, transit options, and pedestrian data, used in urban planning and mobility solutions](https://developers.google.com/transit)
+    + it is an online feed using the GTFS format with some [documented changes for the realtime transit](https://developers.google.com/transit/gtfs-realtime/reference).
+    + Interoperability **HIGH**: straightforward and well documented
+    + **Not** cross-domain, as per definition.
 
-Extensive API.
 
 ## Digital Lab Notebooks
 
 * [OpenBis](https://openbis.ch/)
-
-    + Extensive API.
+    + [Docker image](https://unlimited.ethz.ch/display/openbis/openBIS+Download+Page)
+    + [Extensive APIs, well documented](https://openbis.readthedocs.io/en/20.10.x/software-developer-documentation/apis/index.html)
+    + Interoperability **HIGH**: while there is no REST APIs, the other APIs are well documented and the Python API is simple to use even for non-developers.
+    + **Fully** cross-domain: OpenBis is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured. Then it is not the easiest platform to set-up and configure.
 
 * [eLabFTW](https://www.elabftw.net/)
-
-[Docker](https://doc.elabftw.net/install.html)
-
-    + Extensive API.
+    + [Docker](https://doc.elabftw.net/install.html)
+    + [Extensive APIs, well documented](https://doc.elabftw.net/api.html)
+    + Interoperability **HIGH**: the REST API uses well-documented JSON and the Python API offers plenty of examples.
+    + **Fully** cross-domain: eLabFTW is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured.
 
 * [RSpace, electronic noteboook and inventory management](https://www.researchspace.com/)
-
-[Docker Compose](https://github.com/rspace-os/rspace-docker)
-
-    + Extensive API and SDK.
+    + Open Source and commercial solutions.
+    + [Docker Compose](https://github.com/rspace-os/rspace-docker)
+    + [Extensive API and SDK, well documented](https://documentation.researchspace.com/category/ifpi5pwbck-for-developers).
+    + Interoperability **HIGH**: uses well-documented JSON.
+    + **Fully** cross-domain: eLabFTW is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured.
 
 ## Astronomy
 

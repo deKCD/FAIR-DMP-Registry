@@ -24,3 +24,5 @@ title: "DeKCD - Formats and standards - Draft"
 * [Oxford Common File Layout](https://ocfl.io/)
 
 * [Sharable Content Object Reference Model (SCORM)](https://adlnet.gov/past-projects/scorm/)
+
+* [General Transit Feed Specification (GTFS)](https://gtfs.org/)
