@@ -301,17 +301,36 @@ Astronomy is largely standardized and relies on many tools developed over severa
 ## Humanities
 
 * [TAPAS (TEI Archiving, Publishing, and Access Service), a platform for archiving and publishing TEI (Text Encoding Initiative) documents.](http://www.tapasproject.org)
+    + Online only.
+    + Uses the [Text Encoding Initiative XML format (TEI)](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
+    + No easily findable API
+    + Interoperability **LOW/MEDIUM**: despite the lack of API, each element is findable online and is composed of a well-documented XML and images.
+    + **Not** cross-domain, as per definition.
 
 * [Humanities Commons, a network for scholars to share work and connect, with the CORE repository](https://hcommons.org)
+    + Online only.
+    + No easily findable API
+    + Interoperability **LOW**: it is a repository of documents that are in binary format (docx, pdf for instance), with only metadata in XML
+    + **Not** cross-domain, as per definition.
 
 * [Omeka, a content management system for digital collections and exhibitions](https://omeka.org)
-
-    + No container-based installation.
-    + Extensive API.
+    + No container-based installation, though it was dockerized previously.
+    + 2 versions, Omeka S for sharable resource pool across multiple sites and Omeka Classic for individual projects.
+    + [Extensive PHP API, more limited REST API, well documented](https://omeka.org/s/docs/developer/api/)
+    + Interoperability **MEDIUM/HIGH**: uses JSON, seems to be lacking examples and/or samples. Offer a [DSpace connector](https://omeka.org/s/docs/user-manual/modules/dspaceconnector/) and [Zortero Import](https://omeka.org/s/docs/user-manual/modules/zoteroimport/)
+    + **Fully** cross-domain: can be used for referencing any kind of digital resources.
 
 * [Archaeology Data Service (ADS), for archiving digital data in archaeology.](https://archaeologydataservice.ac.uk)
+    + Online only.
+    + No API but a [harvesting interface using OAI-PMH](https://archaeologydataservice.ac.uk/about/policies/metadata/metadata-services/) and an (extensive documentation)[https://archaeologydataservice.ac.uk/help-guidance/], including on [data repositories citing the ADS, that might have an API](https://archaeologydataservice.ac.uk/help-guidance/data-reuse/fair-data/)
+    + Interoperability **MEDIUM/HIGH**: uses standards (DOI, ORCID, Dublin Core) and very well documented. The documentation is also very accessible. Automatic access would need to be through harvesting or an external repository, making things a bit harder.
+    + **Not** cross-domain, as per definition.
 
 * [Europeana, providing access to cultural heritage data from European institutions](https://www.europeana.eu)
+    + Online only.
+    + There is an API, as shown with a footer link "See requests to Europeana APIs", but without any visible documentation.
+    + Interoperability **LOW**: it is a repository of medias with a powerful search/filter, but without clear API.
+    + **Not** cross-domain, as per definition.
 
 ## Bibliography
 
