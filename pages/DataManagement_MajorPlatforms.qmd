@@ -415,6 +415,26 @@ All are inherently cross-platform and most follow the FAIR principle.
     + [Extensive API using RDF](https://udata.readthedocs.io/en/stable/rdf/)
     + Interoperability **HIGH**: Return RDF following the [Data Catalog Vocabulary](https://www.w3.org/TR/vocab-dcat/).
 
+* [DSpace, Open Digital Repository](https://dspace.org/)
+    + [Docker install, but not recommended for production](https://wiki.lyrasis.org/display/DSPACE/Try+out+DSpace+8)
+    + [Extensive API](https://github.com/DSpace/DSpace/releases/tag/dspace-8.0), full part of the back-end, [well-documented](https://github.com/DSpace/RestContract?tab=readme-ov-file#rest-endpoints)
+    + Interoperability **HIGH**: uses well-documented JSON.
+
+* [Dryad, Open Source Publishing Platform](https://datadryad.org/)
+    + Only online.
+    + [Extensive API, well documented](https://datadryad.org/stash/api)
+    + Interoperability **HIGH**: uses well-documented JSON.
+
+* [Elsevier Data Repository](https://elsevier.digitalcommonsdata.com/research-data/)
+    + Online, with a possibility for a [commercial local setup](https://www.elsevier.com/products/digital-commons/data).
+    + [Extensive API, well documented](https://elsevier.digitalcommonsdata.com/api/docs/).
+    + Interoperability **HIGH**: uses well-documented JSON.
+
+* [Figshare, Research Repository](https://figshare.com/)
+    + Only Online, with free access for non-profit research.
+    + [Extensive API, well documented](https://help.figshare.com/article/how-to-use-the-figshare-api) and [integrations](https://knowledge.figshare.com/app-category/integrations).
+    + Interoperability **HIGH**: uses well-documented JSON and mamy examples, also in several programming languages.
+
 ## Authority control
 
 * [ORCID, Open Researcher and Contributor ID](https://orcid.org/)
