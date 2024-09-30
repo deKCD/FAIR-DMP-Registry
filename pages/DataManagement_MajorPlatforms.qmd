@@ -57,12 +57,10 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + [Extensive API](https://docs.seek4science.org/help/user-guide/api.html)
     + Interoperability **HIGH**: uses well-documented JSON.
     + **Mostly** cross-domain: Seek is highly configurable and could be used as a sharing platform for other domains, without any coding needs.
-
-    + Related: [Just Enough Results Model (JERM)](https://jermontology.org/)
+        - Related: [Just Enough Results Model (JERM)](https://jermontology.org/)
 
 * [Aruna Object Storage (AOS)](https://aruna-storage.org/)
     + "Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface."
-
     + Online but provide a [Docker Compose installation](https://github.com/ArunaStorage/aruna?tab=readme-ov-file#getting-started)
     + [Extensive API](https://github.com/ArunaStorage/api)
     + Interoperability **HIGH**: well documented, uses protocol-buffers and the gRPC framework and exposes the S3 API .
@@ -516,7 +514,6 @@ All are inherently cross-platform and most follow the FAIR principle.
     + NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugins, such as a plugin to integrate an office suite, such as LibreOffice.
     As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook.
     NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.
-
     + [Docker](https://docs.nextcloud.com/server/latest/admin_manual/office/example-docker.html), [Docker compose](https://github.com/nextcloud/all-in-one/blob/main/manual-install/latest.yml) and Kubernetes installation, with [Helm chart](https://github.com/nextcloud/helm) 
     + [Extensive API](https://docs.nextcloud.com/server/latest/developer_manual/client_apis/general.html)
     + Interoperability **HIGH**: The API is well documented and there is several ways of doing things. Then NextCloud is highly flexible, so the use will need to be defined clearly and there might need to restrict it using the API for uploads in order to integrate it in an assembly.

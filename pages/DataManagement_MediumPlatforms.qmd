@@ -5,14 +5,22 @@ title: "DeKCD - Medium Data Management platforms - Draft"
 ## Life Science
 
 * [NextSeek](https://github.com/BMCBCC/NExtSEEK)
+    + Docker image via dockerfile (root of repository)
+    + Wrapper on [Seek](DataManagement_MajorPlatforms.qmd?#life-science), so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn't find a documentation.
+    + Interoperability **high**: inheriting from Seek interoperability.
+    + **Mostly** cross-domain: should let Seek be configurable.
 
 * [Bexis2 DM tool. Research Data management software for BioDiversity](https://bexis2.uni-jena.de/)
-
     + Running on ASP, no containerization.
+    + API documented internally only, and we could not check it beyond the [demo Swagger page](https://demo.bexis2.uni-jena.de/swagger/docs/v1). There is an [harvesting module following the OAI-PMH protocol](https://github.com/BEXIS2/OAI-PMH-Module), but not updated recently.
+    + Interoperability **low/medium**, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.
+    + **Fully** cross-domain, not restricted in type of data.
 
-* [OpenClinica, clinical research EDC platform](https://www.openclinica.com/)
-
+* [OpenClinica, clinical research EDC platform](https://www.openclinica.com/) with an [Open Source version](https://www.openclinica.com/get-free-community-edition-software/)
     + No containerization, java-based.
+    + [Extensive API, well documented](https://docs.openclinica.com/oc4/how-and-when-to-use-apis/)
+    + Interoperability **high**: uses [well-documented XML](https://docs.openclinica.com/oc4/how-and-when-to-use-apis/cdisc-odm-xml/) for its data format and Json for the API operations.
+    + **Mostly not** cross-domain: built around clinical research. Then the result can be used in other domains.
 
 Extensive API.
 
@@ -26,17 +34,30 @@ Extensive API.
 * [JAX BioConnect, "an index of research data that supports data sharing, high-quality curation, and consistent data description"](https://docs.bioconnect.jax.org/)
     + Online
     + [Command-line based API, well documented](https://docs.bioconnect.jax.org/tools/jbq/)
-    + Interoperability **high**: well documented, follow the ISA schema.
+    +  well documented, follow the ISA schema.
     + **Not** cross-domain: dedicated to bioscience
 
 ## Documents
 
-* Open Contracts, [Community Edition](https://www.openclinica.com/get-free-community-edition-software/) & [Commercial](https://jsv4.github.io/OpenContracts/)
+* [Open Contracts, free and Open Source Document Analytics Platform](https://jsv4.github.io/OpenContracts/)
+    + [Docker compose installation](https://github.com/JSv4/OpenContracts/blob/main/docs/quick-start.md)
+    + It seems to be several ways of integrations, but no simple API,
+    + Interoperability **medium**: usage is well documented, including some integrations, but it seems highly technical and spending time on the documentation is needed.
+    + **Fully** cross-domain: it can be used for any domain.
+
 
 ## Bibliography
 
 * [ILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)](https://inveniosoftware.org/products/ils/)
+    + [Docker compose installation](https://github.com/inveniosoftware/invenio-app-ils)
+    + [API, well documented](https://invenioils.docs.cern.ch/reference/api/)
+    + Interoperability **HIGH**: uses well-documented JSON.
+    + **Fully** cross-domain: it can be used for any domain.
 
 ## Generalists
 
-* [Coscine, Research Data Management platform, based on RDS](https://about.coscine.de/)
+* [Coscine, COllaborative SCientific INtegration Environment, Research Data Management platform, based on RDS](https://about.coscine.de/en/)
+    + Online only
+    + [Extensive API, well documented](https://docs.coscine.de/en/api/api/)
+    + Interoperability **HIGH**: uses well-documented JSON.
+    + **Fully** cross-domain: it can be used for any domain.
