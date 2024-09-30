@@ -8,7 +8,8 @@ Many ontologies, thesauri and classifications are listed on [BARTOC](https://bar
 
 BARTOC also lists other [registries](https://bartoc.org/registries)
 
-    * [Extensive API](https://bartoc.org/api/)
+
+* Offer an  [Extensive API](https://bartoc.org/api/)
 
 ## Life Science
 
@@ -18,13 +19,15 @@ Most ontologies for life sciences are listed by the [Ontology Lookup Service](ht
 
 As such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.
 
-    * [Extensive API](https://www.ebi.ac.uk/ols4/help)
+
+* Offer an  [Extensive API](https://www.ebi.ac.uk/ols4/help)
 
 ### BioPortal, Biomedical Repository
 
 Similarly, most biomedical ontologies are listed on [BioPortal](https://bioportal.bioontology.org/)
 
-    * [Extensive API](http://data.bioontology.org/documentation)
+
+* Offer an [Extensive API](http://data.bioontology.org/documentation)
 
 ### Major Ontologies
 
