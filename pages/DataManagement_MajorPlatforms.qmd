@@ -276,23 +276,55 @@ The format is keep as simple as possible so it is easier to modify. We find it m
 
 ## Astronomy
 
-Astronomy is largely standardized and relies on many tools developed over several decades, and online catalogues. As such many are standalone tools and are potentially cloud-friendly, though will need some more technical adaptations.
+Astronomy is largely standardized and relies on many tools developed over several decades, and online catalogues. As such many are standalone tools and are potentially cloud-friendly, though will need some more technical adaptations. Most platforms are not cross-domain are they give data from astronomical observations. But as such, if there is an actual need for such data in another domain, the technical effort for the integration will probably be worth it. The technical effort changes greatly between platform and can be rather high with many specialised tools and specialised vocabulary.
 
 * [Virtual Observatory (VO), the International Virtual Observatory Alliance (IVOA) provides resources for discovering and accessing astronomical data, including standards for data sharing and interoperability](https://www.ivoa.net/)
+    + Online only
+    + Many tools but no clear or official API.
+    + Interoperability **LOW**: related to previous point.
+    + **Not** cross-domain, per definition.
 
 * [ALMA Science Archive, the ALMA archive gives access to data from the Atacama Large Millimeter/submillimeter Array, providing public access to radio astronomy dataset](https://almascience.nrao.edu/aq/)
+    + Online only
+    + Many tools and documentations but it is also difficult to find an official API
+    + Interoperability **LOW**: related to previous point.
+    + **Not** cross-domain, per definition. 
 
 * [European Space Agency (ESA) Archives, ESA’s space science archives, including data from missions like Gaia and Hubble, offering open access to space mission data](https://www.cosmos.esa.int/web/esdc)
+    + Online only,
+    + Some archives have an API access, such as the [herschel science archive](http://archives.esac.esa.int/hsa/whsa/), but it is not uniform.
+    + Interoperability **LOW to HIGH**: related to previous point, depending on the archive.
+    + **Not** cross-domain, per definition.
 
 * [NASA’s Astrophysics Data System (ADS), ADS is a digital library for astronomy and physics, linking research papers with relevant datasets and providing extensive search capabilities](https://ui.adsabs.harvard.edu/)
+    + Online only,
+    + [Extensive API, well documented with examples](https://ui.adsabs.harvard.edu/help/api/)
+    + Interoperability **HIGH**: uses well-documented JSON.
+    + **Mostly** cross-domain: some papers referenced are cross-domain or in another domain.
 
 * [SIMBAD (Set of Identifications, Measurements, and Bibliography for Astronomical Data), SIMBAD is a database providing detailed records of celestial objects and their bibliographical references](http://simbad.u-strasbg.fr/simbad/)
+    + Online only,
+    + [API, documented](http://simbad.cds.unistra.fr/guide/sim-url.htx)
+    + Interoperability **MEDIUM/HIGH**: the API needs some technical understanding of the domain to be of use.
+    + **Not** cross-domain, per definition.
 
 * [SkyServer (Sloan Digital Sky Survey, SDSS), SkyServer provides access to data from the Sloan Digital Sky Survey, with resources for professional astronomers and public users](http://skyserver.sdss.org/)
+    + Online only,
+    + [Extensive APi, well documented](https://skyserver.sdss.org/dr18/Support/Api). Also propose a nice [SQL tutorial](https://skyserver.sdss.org/dr16/en/help/howto/search/searchhowtohome.aspx) 
+    + Interoperability **HIGH**: well-documented API, simple to use,
+    + **Not** cross-domain, per definition.
 
 * [TESS Data Portal, the TESS Data Portal provides access to data from the Transiting Exoplanet Survey Satellite, focusing on exoplanet discovery](https://archive.stsci.edu/missions-and-data/tess)
+    + Online only,
+    + [API, documented](https://astroquery.readthedocs.io/en/latest/mast/mast.html)
+    + Interoperability **MEDIUM/HIGH**: the API needs some technical understanding of the domain to be of use.
+    + **Not** cross-domain, per definition.
 
 * [ESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis](http://archive.eso.org/)
+    + Online only,
+    + [API, documented](http://archive.eso.org/programmatic/)
+    Interoperability **MEDIUM/HIGH**: the API needs some technical understanding of the domain to be of use.
+    + **Not** cross-domain, per definition.    
 
 * [ESO Reflex](https://www.eso.org/sci/software/esoreflex/)
     + Based on [Kepler, which seems out of support](https://kepler-project.org/users/downloads.html), standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the [VLT Instrument Pipelines](https://www.eso.org/sci/software/pipelines/)
