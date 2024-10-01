@@ -33,7 +33,7 @@ In LifeScience, Elixir's initiatives list tools and data management platforms, i
 
 ## [Major platforms](pages\DataManagement_MajorPlatforms.html)
 
-## [Medium platforms
+## [Medium platforms](pages\DataManagement_MediumPlatforms.html)
 
 ## Taxonomies, ontologies & formats
 
