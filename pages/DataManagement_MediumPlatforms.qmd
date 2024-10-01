@@ -1,12 +1,12 @@
 ---
-title: "DeKCD - Medium Data Management platforms - Draft"
+title: "De.KCD - Medium Data Management platforms - Draft"
 ---
 
 ## Life Science
 
 * [NextSeek](https://github.com/BMCBCC/NExtSEEK)
     + Docker image via dockerfile (root of repository)
-    + Wrapper on [Seek](DataManagement_MajorPlatforms.qmd?#life-science), so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn't find a documentation.
+    + Wrapper on [Seek](DataManagement_MajorPlatforms.html?#life-science), so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn't find a documentation.
     + Interoperability **high**: inheriting from Seek interoperability.
     + **Mostly** cross-domain: should let Seek be configurable.
 

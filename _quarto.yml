@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "CloudForDMQ"
+  title: "De.KCD - Registry of Data Management Platforms and general information"
   navbar:
     left:
       - href: index.qmd

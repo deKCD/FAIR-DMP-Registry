@@ -1,5 +1,5 @@
 ---
-title: "DeKCD - Cloud For Data Management"
+title: "De.KCD - Cloud For Data Management - Repository and general informations"
 ---
 
 Documentation, tutorials and overview about Data Management in the Cloud, and to some extent outside the Cloud.
@@ -22,25 +22,30 @@ An in-depth description of data-management is presented on [RDM Kit](https://rdm
 
 ## Introduction to Security issues
 
-# A short overview of Data Management Platforms
+# Overview of Data Management Platforms
 
-https://bio.tools/
+In LifeScience, Elixir's initiatives list tools and data management platforms, including existing assemblies (several platforms connected):
 
-https://rdmkit.elixir-europe.org/national_resources
 
-https://rdmkit.elixir-europe.org/tool_assembly
+* [bio.tools](https://bio.tools/)
+* [RDM Kit](https://rdmkit.elixir-europe.org/national_resources)
+* [RDM Kit assemblies](https://rdmkit.elixir-europe.org/tool_assembly)
 
-## Major platforms
+## [Major platforms](pages\DataManagement_MajorPlatforms.html)
 
-## Medium platforms
+## [Medium platforms
 
-## Small platforms and others
+## Taxonomies, ontologies & formats
 
-## Data Management repositories
+* [Taxonomies](pages\DataManagement_Taxonomies.html)
+* [Ontologies](pages\DataManagement_Taxonomies.html)
+* [Formats (TBC)](pages\formats.html)
 
 ## Data Management Planning tools
 
-## Useful Tools and Platforms for Data Management
+TBC
+
+## [Useful Tools and Platforms for Data Management](pages\DataManagement_UsefulToolsAndPlatforms.html)
 
 # Being FAIR
 

@@ -1,5 +1,5 @@
 ---
-title: "DeKCD - Useful tools and platforms for Data Management - Draft"
+title: "De.KCD - Useful tools and platforms for Data Management - Draft"
 ---
 
 ## To be part of an assembly

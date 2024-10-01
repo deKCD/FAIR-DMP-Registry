@@ -1,5 +1,5 @@
 ---
-title: "DeKCD - Major taxonomies/classifications"
+title: "De.KCD - Major taxonomies/classifications"
 ---
 
 ## Bartoc.org list of software for controlled vocabularies

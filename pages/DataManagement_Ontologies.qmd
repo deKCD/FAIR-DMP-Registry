@@ -1,5 +1,5 @@
 ---
-title: "DeKCD - Major Ontologies/Thesauruses"
+title: "De.KCD - Major Ontologies/Thesauruses"
 ---
 
 ## BARTOC, Basic Register of Thesauri, Ontologies & Classifications
