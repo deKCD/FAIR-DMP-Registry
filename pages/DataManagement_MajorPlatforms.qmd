@@ -46,6 +46,12 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + Interoperability **HIGH**: uses well-documented JSON.
     + **Mostly** cross-domain: though mostly for life-science applications, it can support any kind of workflow. Tools for other domains can be added.
 
+* [BioContainers, "community-driven project to create and manage bioinformatics software containers"](https://biocontainers.pro/)
+    + Tools to create container and registry of created containers
+    + [API](https://api.biocontainers.pro/ga4gh/trs/v2/ui/)
+    + Interoperability **HIGH**: made for helping other tools being more interoperable
+    + **Mostly** cross-domain: the registry is for bioinformatics software only but some tools, mostly [Mulled](https://github.com/BioContainers/mulled) can be used in any domain.
+
 * [Omero, an open source imaging platform for microscopy outputs](https://www.openmicroscopy.org/omero/)
     + [Docker Image](https://hub.docker.com/r/openmicroscopy/omero-web-standalone) and [Helm chart](https://github.com/manics/kubernetes-omero)
     + [Extensive API](https://omero.readthedocs.io/en/v5.6.13/developers/json-api.html)
@@ -464,6 +470,11 @@ All are inherently cross-platform and most follow the FAIR principle.
     + Only Online, with free access for non-profit research.
     + [Extensive API, well documented](https://help.figshare.com/article/how-to-use-the-figshare-api) and [integrations](https://knowledge.figshare.com/app-category/integrations).
     + Interoperability **HIGH**: uses well-documented JSON and mamy examples, also in several programming languages.
+
+* [NextFlow, using software containers for scientific workflow](https://www.nextflow.io/)
+    + [Docker image](https://hub.docker.com/r/nextflow/nextflow)
+    + [Externally developed API, documented](https://github.com/SciDAS/nextflow-api)
+    + Interoperability **LOW/MEDIUM**: aside the external API and some standard storage options, such as AWS, there is no clear way to use NextFlow programmatically
 
 ## Authority control
 
