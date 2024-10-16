@@ -79,7 +79,7 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + Interoperability **HIGH**: uses well-documented JSON.
     + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications. In the medical domain, support many applications via [plugins](https://marketplace.xnat.org/plugins/)
 
-* [REDCap – Research Electronic Data Capture](https://www.project-redcap.org/)
+* [REDCap - Research Electronic Data Capture](https://www.project-redcap.org/)
     + Free for non-profit institutions but not Open Source, available upon request.
     + No containerization.
     + Extensive API, but most documentation is for registered members.
@@ -139,6 +139,14 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + Interoperability **high**: uses well-documented JSON.
     + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications
 
+## Chemistry & Chemical Sciences
+
+* [Chemotion, an open-source Electronic Lab Notebook for chemists](https://chemotion.net/) and its related [registry](https://www.chemotion-repository.net/welcome)
+    + [Docker & Docker compose installation](https://chemotion.net/docs/eln/install_configure)
+    + [API and OAI-PMH harvesting service](https://chemotion.net/docs/repo/interfaces) with [Swagger API documentation](https://www.chemotion-repository.net/swagger_doc), seemingly read-only.
+    + Interoperability **medium**: uses well-documented JSON but seems to be only for reading from chemotion. Further integrations are supported but [documented for devices](https://chemotion.net/docs/eln/devices), thus not easy to grasp for a non-chemist.
+    + **Not** cross-domain: it is a highly specialised tool and would not be adapted for other applications
+    
 ## Materials science
 
 * [NOMAD, management and sharing of material science data (online)](https://nomad-lab.eu/nomad-lab/)
