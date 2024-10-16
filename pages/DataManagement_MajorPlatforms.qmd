@@ -14,10 +14,7 @@ We filled the information by the best of our knowlegde and after a reasonable am
 
 ## Progress
 
-* TODO: Analysis of combinability, transferability to other domains and their adaptability to cloud architectures.
-The first step is to complete a dry list of solution with their adaptability to cloud architecture (mostly if they have a containerization set-up).
-
-* Incomplete: astronomy. 
+* TODO: Eventually a clear view of the adaptability to cloud architectures.
 
 ## Process
 
@@ -32,8 +29,6 @@ The format is keep as simple as possible so it is easier to modify. We find it m
 * Write about non-software dedicated DM approach (for instance semantic-web, RDF or Apache Spark).
 
 * Better presentation, without making editing more complex
-
-* How to present transferability
 
 ## Life Science
 
