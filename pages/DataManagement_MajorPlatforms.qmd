@@ -479,6 +479,16 @@ All are inherently cross-platform and most follow the FAIR principle.
     + [Externally developed API, documented](https://github.com/SciDAS/nextflow-api)
     + Interoperability **LOW/MEDIUM**: aside the external API and some standard storage options, such as AWS, there is no clear way to use NextFlow programmatically
 
+* [iRODS, Open Source Data Management Software](https://irods.org/)
+    + No up-to-date docker image or others (dead links can easily be found).
+    + [Rest API, documented](https://github.com/irods/irods_client_http_api/blob/main/API.md), [APIs for various languages](https://docs.irods.org/4.3.3/developers/development_tools/) and a [CLI interface](https://docs.irods.org/4.3.3/icommands/user/)
+    + Interoperability **MEDIUM/HIGH**: while it is documented and offering many way of interoperability, the documentation is not always very clear. The ease of integration will greatly vary depending on the used technology.
+
+* [Pegasus, a (scientific) workflow management system](https://pegasus.isi.edu/)
+    + [Docker image](https://hub.docker.com/r/pegasus/pegasus/)
+    + [Expensive API for various languages & REST API, well documented](https://pegasus.isi.edu/documentation/reference-guide/api-reference.html#), REST API is for read-only access.
+    + Interoperability **HIGH**: very well documented with schema and examples
+
 ## Authority control
 
 * [ORCID, Open Researcher and Contributor ID](https://orcid.org/)
