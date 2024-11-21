@@ -1,5 +1,5 @@
 ---
-title: "De.KCD - Major Data Management platforms - Draft"
+title: "De.KCD - Major Data Management platforms"
 ---
 
 ## FAIR - **F**indable, **A**ccessible, **I**nteroperable, **R**eusable

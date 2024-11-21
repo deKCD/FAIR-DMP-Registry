@@ -1,7 +1,6 @@
 ---
 title: "About"
 ---
-This web site is currently a collection of many related pages and might be cut (using forks) for organisation, and eventually reorganized later in a global site.
 
-General information, tutorials, tips and warning about Data Management within a Cloud. It also apply to non-Cloud environment, and will present the different possibilities, from server based installation to a cloud-based setup of interconnected tools.
-The various solutions, issues and characteristic of Cloud will also be covered.
+As part of the [De.KCD project](https://datenkompetenz.cloud/) this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability.
+All contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition.

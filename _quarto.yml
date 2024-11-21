@@ -2,12 +2,11 @@ project:
   type: website
 
 website:
-  title: "De.KCD - Registry of Data Management Platforms and general information"
+  title: "De.KCD - Registry of Data Management Platforms"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - static_md/tutorials_links.md
       - about.qmd
 
   sidebar:

@@ -1,26 +1,6 @@
 ---
-title: "De.KCD - Cloud For Data Management - Repository and general informations"
+title: "De.KCD - Cloud For Data Management - Repository of data-management platforms"
 ---
-
-Documentation, tutorials and overview about Data Management in the Cloud, and to some extent outside the Cloud.
-
-# General Introduction
-
-# From pure software to Cloud
-
-## What is a data-management platform
-
-A Data-Management platform is a software that store your (research) data in a way it can be used, reused and shared in the most efficient way. They often support standard data formats, meta-data formats, sometimes follow a standard schema, such as ISA (Investigations, Studies, Assays), and might support standard Ontologies, such as those listed on [OLS](https://www.ebi.ac.uk/ols4).
-
-The word "standard" is not repeated by mistake, a good data-management platform should deal mostly with standard formats, so that nothing is new or unknown for an external user. However, it does not mean that the software is only dealing with standard data format, but there should be a clear way to get the format following a standard.
-
-An in-depth description of data-management is presented on [RDM Kit](https://rdmkit.elixir-europe.org/index), and most training material are listed on [TESS](https://tess.elixir-europe.org/)
-
-## Where do you want it to be?
-
-## Costs and benefits
-
-## Introduction to Security issues
 
 # Overview of Data Management Platforms
 
@@ -37,151 +17,19 @@ In LifeScience, Elixir's initiatives list tools and data management platforms, i
 
 ## Taxonomies, ontologies & formats
 
-* [Taxonomies](pages\DataManagement_Taxonomies.html)
-* [Ontologies](pages\DataManagement_Taxonomies.html)
-* [Formats (TBC)](pages\formats.html)
+* [Taxonomies](pages/DataManagement_Taxonomies.html)
+* [Ontologies](pages/DataManagement_Taxonomies.html)
+* [Formats (TBC)](pages/formats.html)
 
-## Data Management Planning tools
+## [Useful Tools and Platforms for Data Management](pages/DataManagement_UsefulToolsAndPlatforms.html)
 
-TBC
+## [Toward Provisionning](pages/TowardProvisionning.qmd)
 
-## [Useful Tools and Platforms for Data Management](pages\DataManagement_UsefulToolsAndPlatforms.html)
 
-# Being FAIR
+# Credits
 
-## Why it is important
 
-Research Results are useful if the can be used, easily Findable and Accessible, the data output should be Interoperable and Reusable.
-FAIR is being helped or made possible by the 4 Cs -> Consensus, Curation, Consolidation, Conservation
-
-## Technical considerations
-
-## Non-technical considerations
-
-## Datamanagement planning
-
-[The Elixir FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html)
-
-# General set-up
-
-## Toward provisionning
-
-## Downloadable software
-
-## On server  and virtual servers
-
-## In Containers
-
-## On virtual environments
-
-Proxmox, VMware & clusters
-
-Ansible & Terraform, Slurm
-
-## On the Cloud, without orchestration
-
-VM
-
-Containers ~ to virtual envs
-
-## Orchestrated, introduction to Kubernetes
-
-# Backups and security
-
-## Planning for disaster (other term less dramatic?)
-
-## Backups and Recovery
-
-Try to check a full recovery from a really blank software stack -> doing a recovery using a local setup might miss another needed backup.
-
-## Extending Kubernetes
-
-Code to manifest: https://cdk8s.io/
-
-# Interconnected platforms
-
-## Why -> creating a workflow
-
-## How
-
-## Making things easier
-
-## Benefits
-
-## Costs
-
-More dependencies
-Added complexity
-
-Hidden complexity
-Containers are not as secure as isolated virtual machine for their host. An issue is the isolation mechanism could allow an attack on the host.
-
-## The limits of exchange
-
-### Formats
-
-### Privacy
-
-### Security
-
-# Useful tools
-
-## R
-
-## Go
-
-## Scilab
-
-
-# TODO
-
-Project-Management tools (Trello, GitHub projects, GitLab)
-
-Versioning and version control systems
-
-Cheat Sheets
-
-DB replication concern, also key-value storage
-
-Data format, meta-data/taxonomies/ontologies
-
-Set-up: CLI vs UI
-
-Container issue, "hot"-swap
-
-Managing load
-
-OpenStack
-
-Other clouds solution
-
-JupyterLab
-
-Elixir Auth
-
-Apache Spark / ELK
-
-Semantic queries
-
-RabbitMQ
-
-Redis
-
-# TO CONSIDER
-
-A topic for each section on how to train-> local setup (for instance Docker Desktop for K8s or Minikube), online sandboxes (script languages, documentation platforms), collab and JupyterLab...
-And propose whenever possible-> List wished tutorial as TO DO.
-
-Choice overflow
-
-# TO CHECK
-
-AI to help define a workflow
-
-# CONCERNS
-
-On which levels do we try to gain the expertise
-
+---
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
