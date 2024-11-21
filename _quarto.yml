@@ -13,12 +13,12 @@ website:
     style : "docked"
     search: true
     contents:
-        - pages/formats.qmd
         - pages/DataManagement_MajorPlatforms.qmd
         - pages/DataManagement_MediumPlatforms.qmd
         - pages/DataManagement_UsefulToolsAndPlatforms.qmd
         - pages/DataManagement_Ontologies.qmd
         - pages/DataManagement_Taxonomies.qmd
+        - pages/formats.qmd
       
 format:
   html:
