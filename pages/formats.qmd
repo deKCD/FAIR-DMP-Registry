@@ -1,5 +1,5 @@
 ---
-title: "De.KCD - Formats and standards - Draft"
+title: "Formats and standards - Draft"
 ---
 
 **Common Formats are an important part of being FAIR**

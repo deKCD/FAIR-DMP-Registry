@@ -1,5 +1,5 @@
 ---
-title: "De.KCD - Medium Data Management platforms"
+title: "Medium Data Management platforms"
 ---
 
 ## Life Science
