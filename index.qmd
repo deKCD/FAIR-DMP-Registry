@@ -18,7 +18,7 @@ In LifeScience, Elixir's initiatives list tools and data management platforms, i
 ## Taxonomies, ontologies & formats
 
 * [Taxonomies](pages/DataManagement_Taxonomies.html)
-* [Ontologies](pages/DataManagement_Taxonomies.html)
+* [Ontologies](pages/DataManagement_Ontologies.html)
 * [Formats (TBC)](pages/formats.html)
 
 ## [Useful Tools and Platforms for Data Management](pages/DataManagement_UsefulToolsAndPlatforms.html)
