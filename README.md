@@ -1,7 +1,13 @@
-# CloudForDM
+# Repository of Data Management Platforms respecting the FAIR principle with a focus on Cloud usage
 
-Source for the global [website](https://abecam.github.io/CloudForDM/)
+Source for the [website](https://abecam.github.io/CloudForDM/)
 
-It is currently a collection of many related pages and might be cut (using forks) for organisation, and eventually reorganized later in a global site.
+A succinct repository of most major Data Management Platforms with an emphasis on the FAIR principle and their affinity with Cloud Platform: if they are containerized, interoperable and clearly documented.
 
-General information, best practices, recipes, tutorials and other about using an OpenSource-based cloud (initially OpenStack) for Data Management.
+This repository is for all domains of Research.
+
+All contributions are welcome!
+
+# De.KCD
+
+Work done as part of the [De.KCD project](https://datenkompetenz.cloud/)

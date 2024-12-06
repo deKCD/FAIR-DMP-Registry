@@ -28,8 +28,10 @@ In LifeScience, Elixir's initiatives list tools and data management platforms, i
 
 # Credits
 
+Work done as part of the [De.KCD project](https://datenkompetenz.cloud/)
 
----
+# Document system used
+
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
