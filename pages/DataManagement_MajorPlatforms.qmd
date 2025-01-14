@@ -383,6 +383,11 @@ Astronomy is largely standardized and relies on many tools developed over severa
 
 All are inherently cross-platform and most follow the FAIR principle.
 
+* [RUCIO, Scientific Data Management for very large and distributed data sets](https://rucio.cern.ch/)
+    + Fully cloud based, with a default Kubernetes installation using [Helm charts](https://github.com/rucio/helm-charts), the storage backend needs to be setup in advance.
+    + [Extensive APIs (REST API, Python and CLI), well documented (links in the header of the main documentation)](https://rucio.cern.ch/documentation/)
+    + Interoperability **HIGH**: uses well-documented JSON.
+
 * [Open Science Framework (OSF), a platform that supports open research](https://osf.io)
     + Online
     + [Extensive API](https://developer.osf.io/)
