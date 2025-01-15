@@ -1,5 +1,6 @@
 ---
 title: "Formats and standards - Draft"
+draft: true
 ---
 
 **Common Formats are an important part of being FAIR**
