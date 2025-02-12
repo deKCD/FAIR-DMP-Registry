@@ -9,8 +9,23 @@ On the other hand, a platform based on common standards such as RDF or Apache Sp
 
 ## Contributions are welcome
 
-Feel free to contribute by forking the repository or creating an issue.
+Feel free to contribute by forking the repository or creating an issue: [GitHub sources](https://github.com/abecam/CloudForDM).
 We filled the information by the best of our knowlegde and after a reasonable amount of research, but that does not prevent us from doing mistakes. Once again we will be glad for any correction.
+
+* Ask for a change: create an issue,
+* Add or change something: fork, then do a Pull Request,
+
+Typical entry:
+
+```markdown
+* [Name, quick description](https:URL of main web page)
+	+ Description and/or link to potential Docker image/Docker compose/Kubernetes manifest/…
+	+ Link to API(s), quick clarification on how well documented it is.
+	+ Interoperability **NONE/LOW/MEDIUM/HIGH** / No interoperability: explanation on why.
+	+ **Not/Partly/Mostly/Fully** cross-domain: explanation on why.
+```
+
+Navigational elements are configured in _quarto.yml
 
 ## Progress
 
@@ -75,7 +90,7 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + **Not** cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications. In the medical domain, support many applications via [plugins](https://marketplace.xnat.org/plugins/)
 
 * [REDCap - Research Electronic Data Capture](https://www.project-redcap.org/)
-    + Free for non-profit institutions but not Open Source, available upon request.
+    + Free for non-profit institutions but not Open Source, available upon request, with a restrictive licence.
     + No containerization.
     + Extensive API, but most documentation is for registered members.
     + Interoperability **unknown but presumably high/medium**.
@@ -84,7 +99,7 @@ The format is keep as simple as possible so it is easier to modify. We find it m
 * [ISA format, set of formats and related tools for bioscience experiment](http://isa-tools.org)
     + Standalone tools that could be containerized with a little technical effort.
     + Formats and tools are well-documented
-    + Interoperability **high**: well-documented workflow (https://isa-tools.org/software-suite.html), all format explained.
+    + Interoperability **high**: well-documented [workflow](https://isa-tools.org/software-suite.html), all format explained.
     + **Mostly not** cross-domain: these are dedicated tools for biosciense. However everything is open-source and could be used as base for other tools.
 
 * ["LifeMonitor is a service to support the sustainability and reusability of published computational workflows"](https://crs4.github.io/life_monitor/)
@@ -361,7 +376,7 @@ Astronomy is largely standardized and relies on many tools developed over severa
 
 * [Archaeology Data Service (ADS), for archiving digital data in archaeology.](https://archaeologydataservice.ac.uk)
     + Online only.
-    + No API but a [harvesting interface using OAI-PMH](https://archaeologydataservice.ac.uk/about/policies/metadata/metadata-services/) and an (extensive documentation)[https://archaeologydataservice.ac.uk/help-guidance/], including on [data repositories citing the ADS, that might have an API](https://archaeologydataservice.ac.uk/help-guidance/data-reuse/fair-data/)
+    + No API but a [harvesting interface using OAI-PMH](https://archaeologydataservice.ac.uk/about/policies/metadata/metadata-services/) and an [extensive documentation)[https://archaeologydataservice.ac.uk/help-guidance/], including on [data repositories citing the ADS, that might have an API](https://archaeologydataservice.ac.uk/help-guidance/data-reuse/fair-data/)
     + Interoperability **MEDIUM/HIGH**: uses standards (DOI, ORCID, Dublin Core) and very well documented. The documentation is also very accessible. Automatic access would need to be through harvesting or an external repository, making things a bit harder.
     + **Not** cross-domain, as per definition.
 

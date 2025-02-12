@@ -2,6 +2,8 @@
 title: "De.KCD - Cloud For Data Management - Repository of data-management platforms"
 ---
 
+Feel free to contribute: [GitHub sources](https://github.com/abecam/CloudForDM)
+
 # Overview of Data Management Platforms
 
 In LifeScience, Elixir's initiatives list tools and data management platforms, including existing assemblies (several platforms connected):
