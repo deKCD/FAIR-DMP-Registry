@@ -53,6 +53,7 @@ Documentations systems
 * [Collab is a Google-hosted Jupyter Notebook service, useful for online tutorials](https://colab.google/)
 
 * [WebTop, "Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser."](https://github.com/linuxserver/docker-webtop)
+    + [Docker and docker-compose installations](https://github.com/linuxserver/docker-webtop?tab=readme-ov-file#usage)
 
-[Docker and docker-compose installations](https://github.com/linuxserver/docker-webtop?tab=readme-ov-file#usage)
-
+* [Quarto, used for this website, "An open-source scientific and technical publishing system"](https://quarto.org/)
+    + Available as standalone, but also as extension for text editors and github action for rendering [GitHub pages](https://quarto.org/docs/publishing/github-pages.html)
