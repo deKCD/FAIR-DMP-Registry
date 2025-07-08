@@ -1,0 +1,1 @@
+Sitemap: https://deKCD.github.io/FAIR-DMP-Registry/sitemap.xml
