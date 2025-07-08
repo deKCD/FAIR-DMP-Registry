@@ -1,0 +1,597 @@
+[
+  {
+    "objectID": "pages/TowardProvisionning.html",
+    "href": "pages/TowardProvisionning.html",
+    "title": "Toward provisionning",
+    "section": "",
+    "text": "One important aspect of Software usage is the targeted use:\n\nthe importance of it and of its data: if it is main output of a project, if it is patient-related data, …\nthe scope of usage: for local users only, for the public, for the founding members, for the time of the project, for X years,\nand the variety of usage: consultation only, API usage, export using standardised data, …\n\nAll that has a great influence on the provisionning needed, for needed persons:\n\ncritical data might need the involvement of a cybersecurity engineer,\npersonal data (about persons) might need a data protection specialist or some compliance assessments,\nSoftware that need to run after the end of the project might need a dedicated sys-admin for the planned time,\nSpecific Data usage might need a Software Engineer to adapt, prepare and explain,\n\nBut also for needed technical solution:\n\nA physical server or a Cloud to host the Software, its data and backups,\nSome extra Software such as an Identity Server, so that users are centrally managed,\nA regular backup,\nA monitoring of the logs (access logs, software logs, …) for ** or attacks, an unknown anomaly could be the result of an attack,\nA monitoring of the installed ressources, to be sure there was no malicious tinckering,\nSet-up of automatic updates,\nAuthorized-lists and Nonauthorized-lists, Firewall rules,\nAudit of security,"
+  },
+  {
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "",
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "",
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "As extra of a solution or an assembly",
+    "text": "As extra of a solution or an assembly\n\nHeimdall is a web-application that provide a dashboard on other web-applications\n\nDocker installation\n\nGreyLog, centralized log management application\n\nDocker and docker-compose installations\n\nGrafana, Grafana is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data sources (wikipedia)\n\nWith installation with docker, docker-compose, kubernetes and helm charts",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "For tutorials",
+    "text": "For tutorials\nDocumentations systems\n\nJupyterLab, “web-based interactive development environment for notebooks, code, and data”\n\nInstallation of Jupyter Hub (multi-user) on Kubernetes\n\nCollab is a Google-hosted Jupyter Notebook service, useful for online tutorials\nWebTop, “Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.”\n\nDocker and docker-compose installations\n\nQuarto, used for this website, “An open-source scientific and technical publishing system”\n\nAvailable as standalone, but also as extension for text editors and github action for rendering GitHub pages",
+    "crumbs": [
+      "Home",
+      "Useful tools and platforms for Data Management"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html",
+    "href": "pages/DataManagement_Ontologies.html",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "",
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
+    "href": "pages/DataManagement_Ontologies.html#bartoc-basic-register-of-thesauri-ontologies-classifications",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "",
+    "text": "Many ontologies, thesauri and classifications are listed on BARTOC.\nBARTOC also lists other registries\n\nOffer an Extensive API",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#life-science",
+    "href": "pages/DataManagement_Ontologies.html#life-science",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "Life Science",
+    "text": "Life Science\n\nOntology Lookup Service\nMost ontologies for life sciences are listed by the Ontology Lookup Service.\nAs such, we will list only the major one here. Feel free to contact us (via a GitHub issue for instance) if you think one should be listed here.\n\nOffer an Extensive API\n\n\n\nBioPortal, Biomedical Repository\nSimilarly, most biomedical ontologies are listed on BioPortal\n\nOffer an Extensive API\n\n\n\nMajor Ontologies\n\nGene Ontology, provides consistent descriptions of gene products across species.\nProtein Ontology (PRO), describes protein forms and relationships between them\nPlant Ontology (PO), provides structured vocabularies for plant anatomy and development\nHuman Phenotype Ontology (HPO), offers a standard vocabulary for phenotypic abnormalities in humans\nCell Ontology (CL), classifies cell types in animals\nSequence Ontology (SO), provides terms to describe biological sequence features\nOntology of Biomedical Investigations (OBI), standardizes terminology for the description of life science and clinical investigations",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-health-medical-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Health & Medical Sciences",
+    "text": "For Health & Medical Sciences\n\nFoundational Model of Anatomy (FMA), represents a reference ontology for human anatomy\nNational Cancer Institute Thesaurus (NCIT), contains terms for cancers and related diseases\nICD-11 (International Classification of Diseases), used for health statistics, diagnosis, and reimbursement codes\nRXNorm, provides normalized names for clinical drugs",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-environmental-ecological-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-environmental-ecological-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Environmental & Ecological Sciences",
+    "text": "For Environmental & Ecological Sciences\n\nCommunity Ontology Repository\nThe Community Ontology Repository lists the Ontologies for Earth Sciences\n\n\nMajor Ontologies\n\nEnvO (Environment Ontology), describes environments for use in ecology and environmental health\nEOL (Encyclopedia of Life), a comprehensive reference for all known species of life on Earth\nGEMET (General Multilingual Environmental Thesaurus). a thesaurus covering environmental terms\nSemantic Web for Earth and Environmental Terminology (SWEET), provides a highly expressive suite of ontologies for Earth sciences",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-chemistry-chemical-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-chemistry-chemical-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Chemistry & Chemical Sciences",
+    "text": "For Chemistry & Chemical Sciences\n\nChEBI (Chemical Entities of Biological Interest), focuses on ‘small’ chemical compounds\nChEMBL, manages chemical information, including bioactive compounds\nChemical Information Ontology (CHEMINF), describes chemical information and data formats",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-astronomy-space-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-astronomy-space-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Astronomy & Space Sciences",
+    "text": "For Astronomy & Space Sciences\n\nUnified Astronomy Thesaurus (UAT), a modern and open thesaurus for the astronomy community",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-social-sciences",
+    "href": "pages/DataManagement_Ontologies.html#for-social-sciences",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Social Sciences",
+    "text": "For Social Sciences\n\nBasic Formal Ontology (BFO), a top-level ontology framework used across many domains including social sciences",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-physics",
+    "href": "pages/DataManagement_Ontologies.html#for-physics",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Physics",
+    "text": "For Physics\n\nPhysical Quantities and Units Ontology (QUDT), for physical quantities, units of measure, and associated standards",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#for-engineering",
+    "href": "pages/DataManagement_Ontologies.html#for-engineering",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "For Engineering",
+    "text": "For Engineering\n\nMDO (Materials Domain Ontology), “An Ontology for the Materials Design Domain”",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Ontologies.html#generalist",
+    "href": "pages/DataManagement_Ontologies.html#generalist",
+    "title": "Major Ontologies/Thesauruses",
+    "section": "Generalist",
+    "text": "Generalist\n\nDublin Core Metadata Initiative (DCMI), provides a standard for resource description and discovery on the web",
+    "crumbs": [
+      "Home",
+      "Major Ontologies/Thesauruses"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html",
+    "href": "pages/DataManagement_MajorPlatforms.html",
+    "title": "Major Data Management platforms",
+    "section": "",
+    "text": "The Data Management platforms listed should respect the FAIR principle to some extend. The details follow this idea: if a platform offers an extensive API but it is very difficult to find a documentation, then it is not findable or accessible, thus should be considered as such. On the other hand, a platform based on common standards such as RDF or Apache Spark might be interoperable and reusable without needing to document RDF or Apache Spark as their documentation are easily available.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#fair---findable-accessible-interoperable-reusable",
+    "href": "pages/DataManagement_MajorPlatforms.html#fair---findable-accessible-interoperable-reusable",
+    "title": "Major Data Management platforms",
+    "section": "",
+    "text": "The Data Management platforms listed should respect the FAIR principle to some extend. The details follow this idea: if a platform offers an extensive API but it is very difficult to find a documentation, then it is not findable or accessible, thus should be considered as such. On the other hand, a platform based on common standards such as RDF or Apache Spark might be interoperable and reusable without needing to document RDF or Apache Spark as their documentation are easily available.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#contributions-are-welcome",
+    "href": "pages/DataManagement_MajorPlatforms.html#contributions-are-welcome",
+    "title": "Major Data Management platforms",
+    "section": "Contributions are welcome",
+    "text": "Contributions are welcome\nFeel free to contribute by forking the repository or creating an issue: GitHub sources. We filled the information by the best of our knowlegde and after a reasonable amount of research, but that does not prevent us from doing mistakes. Once again we will be glad for any correction.\n\nAsk for a change: create an issue,\nAdd or change something: fork, then do a Pull Request.\n\nThe site has been written using Quarto and the main syntax is PanDoc, which mostly like Markdown, and is well documented on the Quarto web site. The pages are in pages, with the name corresponding to the title. Each entry is on the same model, so a copy-past is the best way to add a new one. Quarto has extensions for several editors, so a preview is often possible from within the editor. Visual Studio Code has a good support.\nTypical entry:\n* [Name, quick description](https:URL of main web page)\n    + Description and/or link to potential Docker image/Docker compose/Kubernetes manifest/…\n    + Link to API(s), quick clarification on how well documented it is.\n    + Interoperability **NONE/LOW/MEDIUM/HIGH** / No interoperability: explanation on why.\n    + **Not/Partly/Mostly/Fully** cross-domain: explanation on why.\nNavigational elements are configured in _quarto.yml",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#progress",
+    "href": "pages/DataManagement_MajorPlatforms.html#progress",
+    "title": "Major Data Management platforms",
+    "section": "Progress",
+    "text": "Progress\n\nTODO: Eventually a clear view of the adaptability to cloud architectures.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#process",
+    "href": "pages/DataManagement_MajorPlatforms.html#process",
+    "title": "Major Data Management platforms",
+    "section": "Process",
+    "text": "Process\nTop-Down approach: first listing with technical information (online, containers, …), then API support. Finally interoperability (data format of API), possibility of transfer to other domains and adaptability to cloud. Major platforms are easy-to-find and popular platforms. Draft should be in to_sort or to_investigate pages.\nThe format is keep as simple as possible so it is easier to modify. We find it more important to encourage contributions as to keep the list up-to-date. This is why we don’t use tables for instance.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#to-work-on",
+    "href": "pages/DataManagement_MajorPlatforms.html#to-work-on",
+    "title": "Major Data Management platforms",
+    "section": "To Work-On",
+    "text": "To Work-On\n\nWrite about non-software dedicated DM approach (for instance semantic-web, RDF or Apache Spark).\nBetter presentation, without making editing more complex",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#life-science",
+    "href": "pages/DataManagement_MajorPlatforms.html#life-science",
+    "title": "Major Data Management platforms",
+    "section": "Life Science",
+    "text": "Life Science\n\nOpen Source or free\n\nGalaxy, an web-based platform for biomedical research, allowing cloud-based workflows\n\nGalaxy is already a cloud-based solution, widely used.\nIt is a very powerful tool and as such with tutorials, documentation, training events, faqs and discussions\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\nMostly cross-domain: though mostly for life-science applications, it can support any kind of workflow. Tools for other domains can be added.\n\nBioContainers, “community-driven project to create and manage bioinformatics software containers”\n\nTools to create container and registry of created containers\nAPI\nInteroperability HIGH: made for helping other tools being more interoperable\nMostly cross-domain: the registry is for bioinformatics software only but some tools, mostly Mulled can be used in any domain.\n\nOmero, an open source imaging platform for microscopy outputs\n\nDocker Image and Helm chart\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\nMostly cross-domain: despite being targeted at microscopy image, can have an use for any image data management. Omero can be extended using OMERO.scripts which are written in MATLAB or Python. It also offers binding in Python, C++, MATLAB and Java.\n\nSeek\n\nDocker Compose(one instance on one server!)\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\nMostly cross-domain: Seek is highly configurable and could be used as a sharing platform for other domains, without any coding needs.\n\nRelated: Just Enough Results Model (JERM)\n\n\nAruna Object Storage (AOS)\n\n“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”\nOnline but provide a Docker Compose installation\nExtensive API\nInteroperability HIGH: well documented, uses protocol-buffers and the gRPC framework and exposes the S3 API .\nFully cross-domain: can be used for any kind of storage.\n\nXNAT\n\nXNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM & NIfTI). Presentation on usage\nDocker Compose installation, Docker Compose\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\nNot cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications. In the medical domain, support many applications via plugins\n\nREDCap - Research Electronic Data Capture\n\nFree for non-profit institutions but not Open Source, available upon request, with a restrictive licence.\nNo containerization.\nExtensive API, but most documentation is for registered members.\nInteroperability unknown but presumably high/medium.\nProbably not cross-domain: software adaptation is limited to built-in software development tools. There is no public documentation.\n\nISA format, set of formats and related tools for bioscience experiment\n\nStandalone tools that could be containerized with a little technical effort.\nFormats and tools are well-documented\nInteroperability high: well-documented workflow, all format explained.\nMostly not cross-domain: these are dedicated tools for biosciense. However everything is open-source and could be used as base for other tools.\n\n“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”\n\nA github app for workflows hosted on GitHub, also with docker-compose installation\nExtensive API, well documented\nInteroperability high: uses well-documented JSON.\nMostly not cross-domain: it could be used to test different domains’ workflow, but it does not seem to be obvious.\n\nWorkflow Hub, registry for describing, sharing and publishing scientific computational workflow\n\nOnline, based on Seek\nExtensive API, well documented\nInteroperability high: uses well-documented JSON.\nFully cross-domain: “WorkflowHub is a domain-agnostic workflow registry designed around FAIR principles.”\n\nBioModels, a repository of mathematical models of biological and biomedical systems\n\nOnline only.\nExtensive APIs\nInteroperability high: uses well-documented JSON or XML.\nNot cross-domain: by definition\n\n\n\n\nCommercials\n\nOracle Clinical, an Electronic Health Record and Data Management platform\n\nNo easily findable public documentation\nNot cross-domain\n\nMediData, a set of platforms for clinical trials, Electronic Health Record and Data management\n\nNo easily findable public documentation\nNot cross-domain\n\nCastor, Electronic Health Record\n\nExtensive API, well documented\nInteroperability high: uses well-documented JSON.\nNot cross-domain",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#pharmaceutics",
+    "href": "pages/DataManagement_MajorPlatforms.html#pharmaceutics",
+    "title": "Major Data Management platforms",
+    "section": "Pharmaceutics",
+    "text": "Pharmaceutics\n\nLabKey, an open-source platform that helps manage biomedical research data, focusing on clinical and laboratory data\n\nA limited free edition and several paid versions,\nExtensive APIs, well documented\nInteroperability medium/high: APIs are well-documented but are programmatic only (i.e no REST API)\nModerately cross-domain: while many function could be used for other domain, it is mostly dedicated to biomedical research.\n\nCIViC (Clinical Interpretation of Variants in Cancer), an open-access platform that curates and manages clinical cancer variant data. It is used for pharmaceutical oncology research.\n\nMostly online, fully Open Source, no containerization.\nExtensive API, well documented\nInteroperability high: uses well-documented JSON.\nNot cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#chemistry-chemical-sciences",
+    "href": "pages/DataManagement_MajorPlatforms.html#chemistry-chemical-sciences",
+    "title": "Major Data Management platforms",
+    "section": "Chemistry & Chemical Sciences",
+    "text": "Chemistry & Chemical Sciences\n\nChemotion, an open-source Electronic Lab Notebook for chemists and its related registry\n\nDocker & Docker compose installation\nAPI and OAI-PMH harvesting service with Swagger API documentation, seemingly read-only.\nInteroperability medium: uses well-documented JSON but seems to be only for reading from chemotion. Further integrations are supported but documented for devices, thus not easy to grasp for a non-chemist.\nNot cross-domain: it is a highly specialised tool and would not be adapted for other applications",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#materials-science",
+    "href": "pages/DataManagement_MajorPlatforms.html#materials-science",
+    "title": "Major Data Management platforms",
+    "section": "Materials science",
+    "text": "Materials science\n\nNOMAD, management and sharing of material science data (online)\n\nWith many tutorials, also on Youtube\nOnline first, but with docker compose installation. Another instance of NOMAD, called NOMAD Oasis, can upload to the central NOMAD installation.\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\nNot cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications.\n\npyiron, complex workflow made based on JupiterLab and pyiron workflow with many extensions\n\nWith a set of docker images\nBased on JupiterLab, supporting a command-line interface that can be easily extended, and well documented.\nInteroperability HIGH: standard JupiterLab capabililities, all documented.\nFully cross-domain: even if dedicated to material science, its integration to JupiterLab makes using any part usable in other domains.\n\nHELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle\n\nNo container-based installation. Mosty online versions, restricted to members of Helmhotz or associated institutions.\nExtensive API and extensions support.\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: already extended for other uses. But the online versions are currently restricted to members of Helmhotz or associated institutions.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#geomatics",
+    "href": "pages/DataManagement_MajorPlatforms.html#geomatics",
+    "title": "Major Data Management platforms",
+    "section": "Geomatics",
+    "text": "Geomatics\n\nOpen Source\n\nGeoServer, “an open source server for sharing geospatial data”\n\nNo container-based installation.\nExtensive API and many extensions, well documented.\nInteroperability HIGH: support many common formats, well documented.\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.\n\nMapGuide Open Source, ” a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services.” and MapServer, a mapping engine, part of a large portofolio of Geospatial tools\n\nNo container-based installation.\nExtensive API via the related tools.\nInteroperability HIGH: support many common formats, documented. One issue of the OSGeo portfolio is the high number of projects with many subpages. As such the contribution to the community is very high, but it can be difficult to navigate.\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.\n\nMapnik, open-source mapping toolkit\n\nNo container-based installation as it is a toolkit to develop mapping applications.\nMostly to be used as an API or through Python bindings. It is largely documented but mostly aimed as developers. Interoperability MEDIUM/HIGH: it is aimed at helping develop any kind of mapping applications, but will probably be out of reach as such for non-developers.\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.\n\nArangoDB, open-source and commercial graph and spatial database, community version limited to 100gb of data on a single cluster and non-commercial use.\n\nDocker and Kubernetes installations\nExtensive API, well documented, also built-in using Swagger.IO\nInteroperability HIGH: it is all well-documented and uses JSON.\nFully cross-domain: it is a general multi-model database\n\nGeoNetwork, catalog application to manage spatially referenced resources\n\nDocker image\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.\n\nGeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management\n\nDocker-based installation\nExtensive API, very well documented\nInteroperability HIGH: uses well-documented JSON.\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.\n\nOpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research\n\nMostly online with the map of the full world, with many surrounding tools\nExtensive API, very well documented\nInteroperability HIGH: uses well-documented XML, JSON. Maps are either using a text-based format, giving a large size but easy to use, such as OSM XML or a binary format such as PBF, giving a small size but harder to use. The list of map format is on the wiki\nMostly cross-domain: it can be use for any domain. Its usage can be quite complex though, depending on several aspects: extracting a small map can be rather easy using one tool, extracting a large map (such as for a country) can be complex depending on the level of detail needed. The binary format for large map\n\n\n\n\nCommercials\n\nESRI ArcGIS, geospatial platform\n\nMany tutorials which are rather hard to navigate and an extensive developer documentation, not linked on the product page.\nExtensive APIs, well documented with many Open Source tools and samples\nInteroperability HIGH: many APIs and tools, with documentation and samples.\n\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.\n\nSMARTGeo, visualization and analytics platform\n\nNo easily findable public documentation\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.\n\nCARTO, cloud-based spatial analysis\n\nAll documentation is available publicly with a set of tutorials covering the bases of geospatial data as well\nOffer several possibilities of connections, all documented and several well documented APIs.\nInteroperability HIGH: APIs uses well-documented JSON\nMostly cross-domain: it is dedicated to geospatial data but could be use for any domain as such.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#urbanism",
+    "href": "pages/DataManagement_MajorPlatforms.html#urbanism",
+    "title": "Major Data Management platforms",
+    "section": "Urbanism",
+    "text": "Urbanism\n\nOpen Source or free\n\nMetropolis (Urban Observatory Data), offers large-scale urban data and insights about cities, covering everything from mobility patterns to energy consumption\n\nOnline collection of urban case studies.\nNo API\nNo interoperability, per definition\nPartly cross-domain: as the case studies are about urbanism with themes which can be relevant for other domains.\n\nCitySDK, a toolkit offering standard API specifications for urban services, helping cities release open data and enabling developers to create city-related applications\n\nSDK to build Smart City services and applications,\nEncourages to build a standardised API, using JSON, XML or CSV\nInteroperability HIGH: encourages the use of standards\nMostly cross-domain: it should to be used for city management, but does not restrict on any use.\n\n\n\n\nCommercials\n\nESRI ArcGIS Urban\n\nArcGIS Urban is part of the ArcGIS portfolio, so have the same characteristics.\nMany tutorials which are rather hard to navigate and an extensive developer documentation, not linked on the product page.\nExtensive APIs, well documented with many Open Source tools and samples\nInteroperability HIGH: many APIs and tools, with documentation and samples.\nMostly cross-domain, it is dedicated to geospatial data but could be use for any domain as such.\n\nGoogle Transit, provides data on urban transport, such as real-time traffic, transit options, and pedestrian data, used in urban planning and mobility solutions\n\nit is an online feed using the GTFS format with some documented changes for the realtime transit.\nInteroperability HIGH: straightforward and well documented\nNot cross-domain, as per definition.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#digital-lab-notebooks",
+    "href": "pages/DataManagement_MajorPlatforms.html#digital-lab-notebooks",
+    "title": "Major Data Management platforms",
+    "section": "Digital Lab Notebooks",
+    "text": "Digital Lab Notebooks\n\nOpenBis\n\nDocker image\nExtensive APIs, well documented\nInteroperability HIGH: while there is no REST APIs, the other APIs are well documented and the Python API is simple to use even for non-developers.\nFully cross-domain: OpenBis is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured. Then it is not the easiest platform to set-up and configure.\n\neLabFTW\n\nDocker\nExtensive APIs, well documented\nInteroperability HIGH: the REST API uses well-documented JSON and the Python API offers plenty of examples.\nFully cross-domain: eLabFTW is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured.\n\nRSpace, electronic noteboook and inventory management\n\nOpen Source and commercial solutions.\nDocker Compose\nExtensive API and SDK, well documented.\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: eLabFTW is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#astronomy",
+    "href": "pages/DataManagement_MajorPlatforms.html#astronomy",
+    "title": "Major Data Management platforms",
+    "section": "Astronomy",
+    "text": "Astronomy\nAstronomy is largely standardized and relies on many tools developed over several decades, and online catalogues. As such many are standalone tools and are potentially cloud-friendly, though will need some more technical adaptations. Most platforms are not cross-domain are they give data from astronomical observations. But as such, if there is an actual need for such data in another domain, the technical effort for the integration will probably be worth it. The technical effort changes greatly between platform and can be rather high with many specialised tools and specialised vocabulary.\n\nVirtual Observatory (VO), the International Virtual Observatory Alliance (IVOA) provides resources for discovering and accessing astronomical data, including standards for data sharing and interoperability\n\nOnline only\nMany tools but no clear or official API.\nInteroperability LOW: related to previous point.\nNot cross-domain, per definition.\n\nALMA Science Archive, the ALMA archive gives access to data from the Atacama Large Millimeter/submillimeter Array, providing public access to radio astronomy dataset\n\nOnline only\nMany tools and documentations but it is also difficult to find an official API\nInteroperability LOW: related to previous point.\nNot cross-domain, per definition.\n\nEuropean Space Agency (ESA) Archives, ESA’s space science archives, including data from missions like Gaia and Hubble, offering open access to space mission data\n\nOnline only,\nSome archives have an API access, such as the herschel science archive, but it is not uniform.\nInteroperability LOW to HIGH: related to previous point, depending on the archive.\nNot cross-domain, per definition.\n\nNASA’s Astrophysics Data System (ADS), ADS is a digital library for astronomy and physics, linking research papers with relevant datasets and providing extensive search capabilities\n\nOnline only,\nExtensive API, well documented with examples\nInteroperability HIGH: uses well-documented JSON.\nMostly cross-domain: some papers referenced are cross-domain or in another domain.\n\nSIMBAD (Set of Identifications, Measurements, and Bibliography for Astronomical Data), SIMBAD is a database providing detailed records of celestial objects and their bibliographical references\n\nOnline only,\nAPI, documented\nInteroperability MEDIUM/HIGH: the API needs some technical understanding of the domain to be of use.\nNot cross-domain, per definition.\n\nSkyServer (Sloan Digital Sky Survey, SDSS), SkyServer provides access to data from the Sloan Digital Sky Survey, with resources for professional astronomers and public users\n\nOnline only,\nExtensive APi, well documented. Also propose a nice SQL tutorial\nInteroperability HIGH: well-documented API, simple to use,\nNot cross-domain, per definition.\n\nTESS Data Portal, the TESS Data Portal provides access to data from the Transiting Exoplanet Survey Satellite, focusing on exoplanet discovery\n\nOnline only,\nAPI, documented\nInteroperability MEDIUM/HIGH: the API needs some technical understanding of the domain to be of use.\nNot cross-domain, per definition.\n\nESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis\n\nOnline only,\nAPI, documented Interoperability MEDIUM/HIGH: the API needs some technical understanding of the domain to be of use.\nNot cross-domain, per definition.\n\nESO Reflex\n\nBased on Kepler, which seems out of support, standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the VLT Instrument Pipelines\nStandalone, no container-based installation.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#humanities",
+    "href": "pages/DataManagement_MajorPlatforms.html#humanities",
+    "title": "Major Data Management platforms",
+    "section": "Humanities",
+    "text": "Humanities\n\nTAPAS (TEI Archiving, Publishing, and Access Service), a platform for archiving and publishing TEI (Text Encoding Initiative) documents.\n\nOnline only.\nUses the Text Encoding Initiative XML format (TEI)\nNo easily findable API\nInteroperability LOW/MEDIUM: despite the lack of API, each element is findable online and is composed of a well-documented XML and images.\nNot cross-domain, as per definition.\n\nHumanities Commons, a network for scholars to share work and connect, with the CORE repository\n\nOnline only.\nNo easily findable API\nInteroperability LOW: it is a repository of documents that are in binary format (docx, pdf for instance), with only metadata in XML\nNot cross-domain, as per definition.\n\nOmeka, a content management system for digital collections and exhibitions\n\nNo container-based installation, though it was dockerized previously.\n2 versions, Omeka S for sharable resource pool across multiple sites and Omeka Classic for individual projects.\nExtensive PHP API, more limited REST API, well documented\nInteroperability MEDIUM/HIGH: uses JSON, seems to be lacking examples and/or samples. Offer a DSpace connector and Zortero Import\nFully cross-domain: can be used for referencing any kind of digital resources.\n\nArchaeology Data Service (ADS), for archiving digital data in archaeology.\n\nOnline only.\nNo API but a harvesting interface using OAI-PMH and an [extensive documentation)[https://archaeologydataservice.ac.uk/help-guidance/], including on data repositories citing the ADS, that might have an API\nInteroperability MEDIUM/HIGH: uses standards (DOI, ORCID, Dublin Core) and very well documented. The documentation is also very accessible. Automatic access would need to be through harvesting or an external repository, making things a bit harder.\nNot cross-domain, as per definition.\n\nEuropeana, providing access to cultural heritage data from European institutions\n\nOnline only.\nThere is an API, as shown with a footer link “See requests to Europeana APIs”, but without any visible documentation.\nInteroperability LOW: it is a repository of medias with a powerful search/filter, but without clear API.\nNot cross-domain, as per definition.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#bibliography",
+    "href": "pages/DataManagement_MajorPlatforms.html#bibliography",
+    "title": "Major Data Management platforms",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n“Zotero is free and open-source reference management software to manage bibliographic data and related research materials”\n\nMostly online with browser’s extension. It is a tool to help getting information from web-sites, organize and cite.\nMany extensions providing some web API support.\nInteroperability HIGH: again with many plugins but also integrations.\nBy definition cross-domain: it is a tool to build and manage bibliographic data",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#generalists",
+    "href": "pages/DataManagement_MajorPlatforms.html#generalists",
+    "title": "Major Data Management platforms",
+    "section": "Generalists",
+    "text": "Generalists\nAll are inherently cross-platform and most follow the FAIR principle.\n\nRUCIO, Scientific Data Management for very large and distributed data sets\n\nFully cloud based, with a default Kubernetes installation using Helm charts, the storage backend needs to be setup in advance.\nExtensive APIs (REST API, Python and CLI), well documented (links in the header of the main documentation)\nInteroperability HIGH: uses well-documented JSON.\n\nOpen Science Framework (OSF), a platform that supports open research\n\nOnline\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\n\nRDMO - Research Data Management Organiser\n\nDocker Compose\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\n\nThe Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)\n\nDocker Compose\nAPI\nInteroperability MEDIUM: the API is not documented fully.\n\nDataverse, an open source research data repository software\n\nDocker Compose and Kubernetes\nExtensive API\nInteroperability HIGH: uses documented JSON.\n\n“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”\n\nMostly used online, but provide a Docker Compose\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\n\nBARTOC is a register of Thesauri, Ontologies & Classifications\n\nDocker and docker-compose installation supported but mostly supposed to be used online as a register\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\n\nRDM, turn-key research data management repository\n\nDocker image\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\n\nINVENIO, a framework for large-scale digital repositories\n\nFramework to develop repositories, such as RDM\nAPI\nInteroperability HIGH: All documented, used to build other repositories.\n\nRODARE, ROssendorf DAta REpository, Online Data Repository\n\nBased on INVENIO Digital Library framework, fork of Zenodo.\nExplain how it is FAIR\nExtensive API, per community\nInteroperability MEDIUM/HIGH: It lacks a simple API documentation.\n\nREANA, Reproducible and reusable research data analysis platform\n\nKubernetes, Helm and Kubernetes in Docker\nExtensive APIs\nInteroperability HIGH: use a yaml file which is fully documented\n\nUNICORE, A European Federation Software Suite\n\nDocker image but mostly for evaluation\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\n\nSciCat, management and annotation of scientific data based on Elastic Search\n\nDefault docker-compose installation\nExtensive API\nInteroperability HIGH: uses well-documented JSON.\n\nre3data, registry of research data repositories\n\nOnline.\nExtensive API\nInteroperability HIGH: uses XML following a given schema.\n\nudata, social platform dedicated to open data\n\nDocker compose and docker images\nExtensive API using RDF\nInteroperability HIGH: Return RDF following the Data Catalog Vocabulary.\n\nDSpace, Open Digital Repository\n\nDocker install, but not recommended for production\nExtensive API, full part of the back-end, well-documented\nInteroperability HIGH: uses well-documented JSON.\n\nDryad, Open Source Publishing Platform\n\nOnly online.\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\n\nElsevier Data Repository\n\nOnline, with a possibility for a commercial local setup.\nExtensive API, well documented.\nInteroperability HIGH: uses well-documented JSON.\n\nFigshare, Research Repository\n\nOnly Online, with free access for non-profit research.\nExtensive API, well documented and integrations.\nInteroperability HIGH: uses well-documented JSON and mamy examples, also in several programming languages.\n\nNextFlow, using software containers for scientific workflow\n\nDocker image\nExternally developed API, documented\nInteroperability LOW/MEDIUM: aside the external API and some standard storage options, such as AWS, there is no clear way to use NextFlow programmatically\n\niRODS, Open Source Data Management Software\n\nNo up-to-date docker image or others (dead links can easily be found).\nRest API, documented, APIs for various languages and a CLI interface\nInteroperability MEDIUM/HIGH: while it is documented and offering many way of interoperability, the documentation is not always very clear. The ease of integration will greatly vary depending on the used technology.\n\nPegasus, a (scientific) workflow management system\n\nDocker image\nExpensive API for various languages & REST API, well documented, REST API is for read-only access.\nInteroperability HIGH: very well documented with schema and examples",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#authority-control",
+    "href": "pages/DataManagement_MajorPlatforms.html#authority-control",
+    "title": "Major Data Management platforms",
+    "section": "Authority control",
+    "text": "Authority control\n\nORCID, Open Researcher and Contributor ID\n\nOnline.\nExtensive API\nInteroperability HIGH: provide a defined model with XSD\nFully cross-domains\n\nROR, “a global, community-led registry of open persistent identifiers for research organizations”\n\nOnline\nExtensive API\nInteroperability HIGH: uses well-documented JSON and the metadata is fully documented\nFully cross-domains\n\nDOI, Digital Object Identifier\n\nNo need for API: the DOI reference the object\nInteroperability HIGH: Fully documented\nFully cross-domains\n\nISSN, International Identifier for serials\n\nNo need for API: An ID for serial publications, such as journals, magazines.\nLookup available and other services available, API for lookup is not free. Other tools have free API, well documented.\nInteroperability HIGH: Fully documented\nFully cross-domains\n\nISBN, International Standard Book Number\n\nNo need for API: An ID for books. Lookups are available but not part of the ISBN.\n\nOne lookup service is ISBNDB, with a well documented API\n\nInteroperability HIGH: Fully documented\nFully cross-domain\n\nVIAF, Virtual International Authority File\n\nOnline\nNo API or not documented.\nInteroperability LOW: not documented or documentation hard to find.\nFully cross-domain.\n\nGeoNames, database of placenames\n\nOnline, not open-source. Data is under CC-BY licence.\nExpensive APIs, well documented, also with many client libraries\nInteroperability HIGH: all data formats are well documented.\nNot cross-domain but can be used for any need of geographic data.",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MajorPlatforms.html#others",
+    "href": "pages/DataManagement_MajorPlatforms.html#others",
+    "title": "Major Data Management platforms",
+    "section": "Others",
+    "text": "Others\n\nNextCloud\n\nNextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugins, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.\nDocker, Docker compose and Kubernetes installation, with Helm chart\nExtensive API\nInteroperability HIGH: The API is well documented and there is several ways of doing things. Then NextCloud is highly flexible, so the use will need to be defined clearly and there might need to restrict it using the API for uploads in order to integrate it in an assembly.\nFully cross-domain",
+    "crumbs": [
+      "Home",
+      "Major Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "As part of the De.KCD project this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability. All contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "",
+    "text": "Feel free to contribute: GitHub sources"
+  },
+  {
+    "objectID": "index.html#major-platforms",
+    "href": "index.html#major-platforms",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Major platforms",
+    "text": "Major platforms"
+  },
+  {
+    "objectID": "index.html#medium-platforms",
+    "href": "index.html#medium-platforms",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Medium platforms",
+    "text": "Medium platforms"
+  },
+  {
+    "objectID": "index.html#taxonomies-ontologies-formats",
+    "href": "index.html#taxonomies-ontologies-formats",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Taxonomies, ontologies & formats",
+    "text": "Taxonomies, ontologies & formats\n\nTaxonomies\nOntologies\nFormats (TBC)"
+  },
+  {
+    "objectID": "index.html#useful-tools-and-platforms-for-data-management",
+    "href": "index.html#useful-tools-and-platforms-for-data-management",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Useful Tools and Platforms for Data Management",
+    "text": "Useful Tools and Platforms for Data Management"
+  },
+  {
+    "objectID": "index.html#toward-provisionning",
+    "href": "index.html#toward-provisionning",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Toward Provisionning",
+    "text": "Toward Provisionning"
+  },
+  {
+    "objectID": "pages/DataManagement_MediumPlatforms.html",
+    "href": "pages/DataManagement_MediumPlatforms.html",
+    "title": "Medium Data Management platforms",
+    "section": "",
+    "text": "NextSeek\n\nDocker image via dockerfile (root of repository)\nWrapper on Seek, so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn’t find a documentation.\nInteroperability high: inheriting from Seek interoperability.\nMostly cross-domain: should let Seek be configurable.\n\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\nAPI documented internally only, and we could not check it beyond the demo Swagger page. There is an harvesting module following the OAI-PMH protocol, but not updated recently.\nInteroperability low/medium, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.\nFully cross-domain, not restricted in type of data.\n\nOpenClinica, clinical research EDC platform with an Open Source version\n\nNo containerization, java-based.\nExtensive API, well documented\nInteroperability high: uses well-documented XML for its data format and Json for the API operations.\nMostly not cross-domain: built around clinical research. Then the result can be used in other domains.\n\n\nExtensive API.\n\nRightField\n\nStandalone tool in Java that could be containerized with a little technical effort.\nWell documented, using standard Excel spreadsheets and standard ontologies formats.\nInteroperability high: well documented.\nFully cross-domain\n\nJAX BioConnect, “an index of research data that supports data sharing, high-quality curation, and consistent data description”\n\nOnline\nCommand-line based API, well documented\nwell documented, follow the ISA schema.\nNot cross-domain: dedicated to bioscience",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MediumPlatforms.html#life-science",
+    "href": "pages/DataManagement_MediumPlatforms.html#life-science",
+    "title": "Medium Data Management platforms",
+    "section": "",
+    "text": "NextSeek\n\nDocker image via dockerfile (root of repository)\nWrapper on Seek, so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn’t find a documentation.\nInteroperability high: inheriting from Seek interoperability.\nMostly cross-domain: should let Seek be configurable.\n\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\nAPI documented internally only, and we could not check it beyond the demo Swagger page. There is an harvesting module following the OAI-PMH protocol, but not updated recently.\nInteroperability low/medium, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.\nFully cross-domain, not restricted in type of data.\n\nOpenClinica, clinical research EDC platform with an Open Source version\n\nNo containerization, java-based.\nExtensive API, well documented\nInteroperability high: uses well-documented XML for its data format and Json for the API operations.\nMostly not cross-domain: built around clinical research. Then the result can be used in other domains.\n\n\nExtensive API.\n\nRightField\n\nStandalone tool in Java that could be containerized with a little technical effort.\nWell documented, using standard Excel spreadsheets and standard ontologies formats.\nInteroperability high: well documented.\nFully cross-domain\n\nJAX BioConnect, “an index of research data that supports data sharing, high-quality curation, and consistent data description”\n\nOnline\nCommand-line based API, well documented\nwell documented, follow the ISA schema.\nNot cross-domain: dedicated to bioscience",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MediumPlatforms.html#documents",
+    "href": "pages/DataManagement_MediumPlatforms.html#documents",
+    "title": "Medium Data Management platforms",
+    "section": "Documents",
+    "text": "Documents\n\nOpen Contracts, free and Open Source Document Analytics Platform\n\nDocker compose installation\nIt seems to be several ways of integrations, but no simple API,\nInteroperability medium: usage is well documented, including some integrations, but it seems highly technical and spending time on the documentation is needed.\nFully cross-domain: it can be used for any domain.",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MediumPlatforms.html#bibliography",
+    "href": "pages/DataManagement_MediumPlatforms.html#bibliography",
+    "title": "Medium Data Management platforms",
+    "section": "Bibliography",
+    "text": "Bibliography\n\nILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)\n\nDocker compose installation\nAPI, well documented\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: it can be used for any domain.",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MediumPlatforms.html#generalists",
+    "href": "pages/DataManagement_MediumPlatforms.html#generalists",
+    "title": "Medium Data Management platforms",
+    "section": "Generalists",
+    "text": "Generalists\n\nCoscine, COllaborative SCientific INtegration Environment, Research Data Management platform, based on RDS\n\nOnline only\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: it can be used for any domain.",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html",
+    "href": "pages/DataManagement_Taxonomies.html",
+    "title": "Major taxonomies/classifications",
+    "section": "",
+    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
+    "href": "pages/DataManagement_Taxonomies.html#bartoc.org-list-of-software-for-controlled-vocabularies",
+    "title": "Major taxonomies/classifications",
+    "section": "",
+    "text": "Bartoc offers a list of software for controlled vocabularies that can be extended on GitHub",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-life-sciences",
+    "href": "pages/DataManagement_Taxonomies.html#for-life-sciences",
+    "title": "Major taxonomies/classifications",
+    "section": "For Life Sciences",
+    "text": "For Life Sciences\n\nMeSH (Medical Subject Headings), controlled vocabulary for indexing articles in life sciences\n\nTools: MeSH Browser, PubMed\n\nNCBI Taxonomy, classification of organisms\n\nTool: NCBI Taxonomy Browser\n\nHUGO Gene Nomenclature, nomenclature for human genes\n\nTool: HGNC Database\n\nUniProt Controlled Vocabulary, vocabulary for protein sequences and functions\n\nTool: UniProt Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-health-and-medicine",
+    "href": "pages/DataManagement_Taxonomies.html#for-health-and-medicine",
+    "title": "Major taxonomies/classifications",
+    "section": "For Health and Medicine",
+    "text": "For Health and Medicine\n\nSNOMED CT (Systematized Nomenclature of Medicine – Clinical Terms), comprehensive, multilingual healthcare terminology\n\nTools: SNOMED CT Browser, IHTSDO\n\nLOINC (Logical Observation Identifiers Names and Codes), standard vocabulary for clinical observations and lab results\n\nTool: LOINC Browser\n\nICD-10 (International Classification of Diseases, 10th Revision), codes for diseases, conditions, and health issues.\n\nTools: ICD-10 Browser, WHO\n\nRxNorm, standard names for clinical drugs\n\nTool: RxNav Browser\n\nUMLS (Unified Medical Language System), integrates biomedical vocabularies\n\nTool: UMLS Metathesaurus Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-chemistry",
+    "href": "pages/DataManagement_Taxonomies.html#for-chemistry",
+    "title": "Major taxonomies/classifications",
+    "section": "For Chemistry",
+    "text": "For Chemistry\n\nIUPAC Nomenclature, system for naming chemical compounds\n\nTool: IUPAC Nomenclature Browser\n\nCAS Registry, database of chemical substances\n\nTools: SciFinder, CAS Registry Browser\n\nInChI (International Chemical Identifier), identifier for chemical substances\n\nTools: InChI Resolver, PubChem\n\nPubChem, public database of chemical molecules\n\nTools: PubChem Search, NIH Entrez",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-environmental-science",
+    "href": "pages/DataManagement_Taxonomies.html#for-environmental-science",
+    "title": "Major taxonomies/classifications",
+    "section": "For Environmental Science",
+    "text": "For Environmental Science\n\nAGROVOC, multilingual controlled vocabulary for agriculture, forestry, and environment\n\nTool: AGROVOC Browser\n\nEPA Terminology Services, terminology for environmental protection and related subjects\n\nTool: EPA Terminology Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-earth-sciences-geospatial-data",
+    "href": "pages/DataManagement_Taxonomies.html#for-earth-sciences-geospatial-data",
+    "title": "Major taxonomies/classifications",
+    "section": "For Earth Sciences & Geospatial Data",
+    "text": "For Earth Sciences & Geospatial Data\n\nCF Conventions (Climate and Forecast Metadata), metadata for climate and geospatial data\n\nTool: CF Standard Names Browser\n\nGCMD Science Keywords (Global Change Master Directory), vocabulary for Earth science data\n\nTool: NASA Earth Science Data Browser\n\nINSPIRE Directive, vocabulary for spatial data and metadata.\n\nTool: INSPIRE Geoportal",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-physics-engineering",
+    "href": "pages/DataManagement_Taxonomies.html#for-physics-engineering",
+    "title": "Major taxonomies/classifications",
+    "section": "For Physics & Engineering",
+    "text": "For Physics & Engineering\n\nPhysics Subject Headings (PhySH), vocabulary for physical sciences literature\n\nTool: PhySH Browser\n\nCSD (Crystallography Structural Database), database of crystal structures\n\nTool: CSD System Browser\n\nInternational Electrotechnical Vocabulary (IEV), standardized terms in electrical technologies\n\nTool: IEV Online Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#for-social-sciences-humanities",
+    "href": "pages/DataManagement_Taxonomies.html#for-social-sciences-humanities",
+    "title": "Major taxonomies/classifications",
+    "section": "For Social Sciences & Humanities",
+    "text": "For Social Sciences & Humanities\n\nDDC (Dewey Decimal Classification), classification system for organizing knowledge\n\nTool: WebDewey Browser\n\nGetty Vocabularies (AAT, TGN, ULAN), vocabulary for art, architecture, and geographic names\n\nTool: Getty Vocabularies Browser",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_Taxonomies.html#generalists",
+    "href": "pages/DataManagement_Taxonomies.html#generalists",
+    "title": "Major taxonomies/classifications",
+    "section": "Generalists",
+    "text": "Generalists\n\nDublin Core Metadata Initiative (DCMI), standard for metadata terms\n\nTool: DCMI Metadata Terms Browser\n\nISO 25964 Thesaurus Standard, thesaurus construction and controlled vocabulary standard\n\nTool: ISO Online Browsing Platform",
+    "crumbs": [
+      "Home",
+      "Major taxonomies/classifications"
+    ]
+  }
+]

@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.46">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Major Data Management platforms – De.KCD - Registry of Data Management Platforms</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">De.KCD - Registry of Data Management Platforms</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/DataManagement_MajorPlatforms.html">Major Data Management platforms</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/DataManagement_MajorPlatforms.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Major Data Management platforms</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/DataManagement_MediumPlatforms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Medium Data Management platforms</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/DataManagement_UsefulToolsAndPlatforms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful tools and platforms for Data Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/DataManagement_Ontologies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Major Ontologies/Thesauruses</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/DataManagement_Taxonomies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Major taxonomies/classifications</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fair---findable-accessible-interoperable-reusable" id="toc-fair---findable-accessible-interoperable-reusable" class="nav-link active" data-scroll-target="#fair---findable-accessible-interoperable-reusable">FAIR - <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>eusable</a></li>
+  <li><a href="#contributions-are-welcome" id="toc-contributions-are-welcome" class="nav-link" data-scroll-target="#contributions-are-welcome">Contributions are welcome</a></li>
+  <li><a href="#progress" id="toc-progress" class="nav-link" data-scroll-target="#progress">Progress</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
+  <li><a href="#to-work-on" id="toc-to-work-on" class="nav-link" data-scroll-target="#to-work-on">To Work-On</a></li>
+  <li><a href="#life-science" id="toc-life-science" class="nav-link" data-scroll-target="#life-science">Life Science</a>
+  <ul class="collapse">
+  <li><a href="#open-source-or-free" id="toc-open-source-or-free" class="nav-link" data-scroll-target="#open-source-or-free">Open Source or free</a></li>
+  <li><a href="#commercials" id="toc-commercials" class="nav-link" data-scroll-target="#commercials">Commercials</a></li>
+  </ul></li>
+  <li><a href="#pharmaceutics" id="toc-pharmaceutics" class="nav-link" data-scroll-target="#pharmaceutics">Pharmaceutics</a></li>
+  <li><a href="#chemistry-chemical-sciences" id="toc-chemistry-chemical-sciences" class="nav-link" data-scroll-target="#chemistry-chemical-sciences">Chemistry &amp; Chemical Sciences</a></li>
+  <li><a href="#materials-science" id="toc-materials-science" class="nav-link" data-scroll-target="#materials-science">Materials science</a></li>
+  <li><a href="#geomatics" id="toc-geomatics" class="nav-link" data-scroll-target="#geomatics">Geomatics</a>
+  <ul class="collapse">
+  <li><a href="#open-source" id="toc-open-source" class="nav-link" data-scroll-target="#open-source">Open Source</a></li>
+  <li><a href="#commercials-1" id="toc-commercials-1" class="nav-link" data-scroll-target="#commercials-1">Commercials</a></li>
+  </ul></li>
+  <li><a href="#urbanism" id="toc-urbanism" class="nav-link" data-scroll-target="#urbanism">Urbanism</a>
+  <ul class="collapse">
+  <li><a href="#open-source-or-free-1" id="toc-open-source-or-free-1" class="nav-link" data-scroll-target="#open-source-or-free-1">Open Source or free</a></li>
+  <li><a href="#commercials-2" id="toc-commercials-2" class="nav-link" data-scroll-target="#commercials-2">Commercials</a></li>
+  </ul></li>
+  <li><a href="#digital-lab-notebooks" id="toc-digital-lab-notebooks" class="nav-link" data-scroll-target="#digital-lab-notebooks">Digital Lab Notebooks</a></li>
+  <li><a href="#astronomy" id="toc-astronomy" class="nav-link" data-scroll-target="#astronomy">Astronomy</a></li>
+  <li><a href="#humanities" id="toc-humanities" class="nav-link" data-scroll-target="#humanities">Humanities</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
+  <li><a href="#generalists" id="toc-generalists" class="nav-link" data-scroll-target="#generalists">Generalists</a></li>
+  <li><a href="#authority-control" id="toc-authority-control" class="nav-link" data-scroll-target="#authority-control">Authority control</a></li>
+  <li><a href="#others" id="toc-others" class="nav-link" data-scroll-target="#others">Others</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Major Data Management platforms</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="fair---findable-accessible-interoperable-reusable" class="level2">
+<h2 class="anchored" data-anchor-id="fair---findable-accessible-interoperable-reusable">FAIR - <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>eusable</h2>
+<p>The Data Management platforms listed should respect the FAIR principle to some extend. The details follow this idea: if a platform offers an extensive API but it is very difficult to find a documentation, then it is not findable or accessible, thus should be considered as such. On the other hand, a platform based on common standards such as RDF or Apache Spark might be interoperable and reusable without needing to document RDF or Apache Spark as their documentation are easily available.</p>
+</section>
+<section id="contributions-are-welcome" class="level2">
+<h2 class="anchored" data-anchor-id="contributions-are-welcome">Contributions are welcome</h2>
+<p>Feel free to contribute by forking the repository or creating an issue: <a href="https://github.com/abecam/CloudForDM">GitHub sources</a>. We filled the information by the best of our knowlegde and after a reasonable amount of research, but that does not prevent us from doing mistakes. Once again we will be glad for any correction.</p>
+<ul>
+<li>Ask for a change: create an issue,</li>
+<li>Add or change something: fork, then do a Pull Request.</li>
+</ul>
+<p>The site has been written using <a href="https://quarto.org/docs/websites">Quarto</a> and the main syntax is PanDoc, which mostly like Markdown, and is well documented on the <a href="https://quarto.org/docs/authoring/markdown-basics.html">Quarto web site</a>. The pages are in pages, with the name corresponding to the title. Each entry is on the same model, so a copy-past is the best way to add a new one. Quarto has extensions for several editors, so a preview is often possible from within the editor. Visual Studio Code has a good support.</p>
+<p>Typical entry:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">Name, quick description</span><span class="co">](https:URL of main web page)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ss">    + </span>Description and/or link to potential Docker image/Docker compose/Kubernetes manifest/…</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ss">    + </span>Link to API(s), quick clarification on how well documented it is.</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ss">    + </span>Interoperability **NONE/LOW/MEDIUM/HIGH** / No interoperability: explanation on why.</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ss">    + </span>**Not/Partly/Mostly/Fully** cross-domain: explanation on why.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Navigational elements are configured in _quarto.yml</p>
+</section>
+<section id="progress" class="level2">
+<h2 class="anchored" data-anchor-id="progress">Progress</h2>
+<ul>
+<li>TODO: Eventually a clear view of the adaptability to cloud architectures.</li>
+</ul>
+</section>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>Top-Down approach: first listing with technical information (online, containers, …), then API support. Finally interoperability (data format of API), possibility of transfer to other domains and adaptability to cloud. Major platforms are easy-to-find and popular platforms. Draft should be in to_sort or to_investigate pages.</p>
+<p>The format is keep as simple as possible so it is easier to modify. We find it more important to encourage contributions as to keep the list up-to-date. This is why we don’t use tables for instance.</p>
+</section>
+<section id="to-work-on" class="level2">
+<h2 class="anchored" data-anchor-id="to-work-on">To Work-On</h2>
+<ul>
+<li><p>Write about non-software dedicated DM approach (for instance semantic-web, RDF or Apache Spark).</p></li>
+<li><p>Better presentation, without making editing more complex</p></li>
+</ul>
+</section>
+<section id="life-science" class="level2">
+<h2 class="anchored" data-anchor-id="life-science">Life Science</h2>
+<section id="open-source-or-free" class="level3">
+<h3 class="anchored" data-anchor-id="open-source-or-free">Open Source or free</h3>
+<ul>
+<li><a href="https://usegalaxy.org/">Galaxy, an web-based platform for biomedical research, allowing cloud-based workflows</a>
+<ul>
+<li>Galaxy is already a cloud-based solution, widely used.</li>
+<li>It is a very powerful tool and as such with <a href="https://training.galaxyproject.org/">tutorials</a>, <a href="https://galaxyproject.org/get-started/">documentation</a>, <a href="https://training.galaxyproject.org/training-material/events/index.html">training events</a>, <a href="https://training.galaxyproject.org/training-material/faqs/">faqs</a> and <a href="https://help.galaxyproject.org/">discussions</a></li>
+<li><a href="https://training.galaxyproject.org/training-material/api/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain: though mostly for life-science applications, it can support any kind of workflow. Tools for other domains can be added.</li>
+</ul></li>
+<li><a href="https://biocontainers.pro/">BioContainers, “community-driven project to create and manage bioinformatics software containers”</a>
+<ul>
+<li>Tools to create container and registry of created containers</li>
+<li><a href="https://api.biocontainers.pro/ga4gh/trs/v2/ui/">API</a></li>
+<li>Interoperability <strong>HIGH</strong>: made for helping other tools being more interoperable</li>
+<li><strong>Mostly</strong> cross-domain: the registry is for bioinformatics software only but some tools, mostly <a href="https://github.com/BioContainers/mulled">Mulled</a> can be used in any domain.</li>
+</ul></li>
+<li><a href="https://www.openmicroscopy.org/omero/">Omero, an open source imaging platform for microscopy outputs</a>
+<ul>
+<li><a href="https://hub.docker.com/r/openmicroscopy/omero-web-standalone">Docker Image</a> and <a href="https://github.com/manics/kubernetes-omero">Helm chart</a></li>
+<li><a href="https://omero.readthedocs.io/en/v5.6.13/developers/json-api.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain: despite being targeted at microscopy image, can have an use for any image data management. Omero can be extended using <a href="https://omero.readthedocs.io/en/v5.6.13/developers/scripts/index.html">OMERO.scripts</a> which are written in MATLAB or Python. It also offers binding in Python, C++, MATLAB and Java.</li>
+</ul></li>
+<li><a href="https://seek4science.org/">Seek</a>
+<ul>
+<li><a href="https://docs.seek4science.org/tech/docker/docker-compose.html">Docker Compose(one instance on one server!)</a></li>
+<li><a href="https://docs.seek4science.org/help/user-guide/api.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain: Seek is highly configurable and could be used as a sharing platform for other domains, without any coding needs.
+<ul>
+<li>Related: <a href="https://jermontology.org/">Just Enough Results Model (JERM)</a></li>
+</ul></li>
+</ul></li>
+<li><a href="https://aruna-storage.org/">Aruna Object Storage (AOS)</a>
+<ul>
+<li>“Aruna Object Storage (AOS) is a modern distributed storage platform designed to meet the increasing demand for effective data management and storage of scientific data. It is the central storage of the Research Data Commons (RDC) cloud layer and the data foundation for the upper layers. It is a cloud-native, scalable system with an API and a S3-compatible interface.”</li>
+<li>Online but provide a <a href="https://github.com/ArunaStorage/aruna?tab=readme-ov-file#getting-started">Docker Compose installation</a></li>
+<li><a href="https://github.com/ArunaStorage/api">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: well documented, uses protocol-buffers and the gRPC framework and exposes the S3 API .</li>
+<li><strong>Fully</strong> cross-domain: can be used for any kind of storage.</li>
+</ul></li>
+<li><a href="https://www.xnat.org/">XNAT</a>
+<ul>
+<li>XNAT is an open source imaging informatics platform, mostly for MRT/CT Scan images (DICOM &amp; NIfTI). <a href="https://tu-dresden.de/bereichsuebergreifendes/nic/ressourcen/dateien/nic-data-management/2020-12-10_Neukam_X-Nat-Data-Management.pdf?lang=de">Presentation on usage</a></li>
+<li><a href="https://www.xnat.org/download/">Docker Compose installation</a>, <a href="https://github.com/NrgXnat/xnat-docker-compose">Docker Compose</a></li>
+<li><a href="https://wiki.xnat.org/xnat-api/xnat-rest-api-directory">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Not</strong> cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications. In the medical domain, support many applications via <a href="https://marketplace.xnat.org/plugins/">plugins</a></li>
+</ul></li>
+<li><a href="https://www.project-redcap.org/">REDCap - Research Electronic Data Capture</a>
+<ul>
+<li>Free for non-profit institutions but not Open Source, available upon request, with a restrictive licence.</li>
+<li>No containerization.</li>
+<li>Extensive API, but most documentation is for registered members.</li>
+<li>Interoperability <strong>unknown but presumably high/medium</strong>.</li>
+<li><strong>Probably not</strong> cross-domain: software adaptation is limited to built-in software development tools. There is no public documentation.</li>
+</ul></li>
+<li><a href="http://isa-tools.org">ISA format, set of formats and related tools for bioscience experiment</a>
+<ul>
+<li>Standalone tools that could be containerized with a little technical effort.</li>
+<li>Formats and tools are well-documented</li>
+<li>Interoperability <strong>high</strong>: well-documented <a href="https://isa-tools.org/software-suite.html">workflow</a>, all format explained.</li>
+<li><strong>Mostly not</strong> cross-domain: these are dedicated tools for biosciense. However everything is open-source and could be used as base for other tools.</li>
+</ul></li>
+<li><a href="https://crs4.github.io/life_monitor/">“LifeMonitor is a service to support the sustainability and reusability of published computational workflows”</a>
+<ul>
+<li>A github app for workflows hosted on GitHub, also with <a href="https://github.com/crs4/life_monitor?tab=readme-ov-file#getting-started">docker-compose installation</a></li>
+<li><a href="https://api.lifemonitor.eu/static/specs/apidocs.html#overview">Extensive API, well documented</a></li>
+<li>Interoperability <strong>high</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly not</strong> cross-domain: it could be used to test different domains’ workflow, but it does not seem to be obvious.</li>
+</ul></li>
+<li><a href="https://about.workflowhub.eu/">Workflow Hub, registry for describing, sharing and publishing scientific computational workflow</a>
+<ul>
+<li>Online, based on Seek</li>
+<li><a href="https://about.workflowhub.eu/developer/">Extensive API, well documented</a></li>
+<li>Interoperability <strong>high</strong>: uses well-documented JSON.</li>
+<li><strong>Fully</strong> cross-domain: “WorkflowHub is a domain-agnostic workflow registry designed around FAIR principles.”</li>
+</ul></li>
+<li><a href="https://www.ebi.ac.uk/biomodels/">BioModels, a repository of mathematical models of biological and biomedical systems</a>
+<ul>
+<li>Online only.</li>
+<li><a href="https://www.ebi.ac.uk/biomodels/dev">Extensive APIs</a></li>
+<li>Interoperability <strong>high</strong>: uses well-documented JSON or XML.</li>
+<li><strong>Not</strong> cross-domain: by definition</li>
+</ul></li>
+</ul>
+</section>
+<section id="commercials" class="level3">
+<h3 class="anchored" data-anchor-id="commercials">Commercials</h3>
+<ul>
+<li><a href="https://www.oracle.com/life-sciences/clinical-trials/">Oracle Clinical, an Electronic Health Record and Data Management platform</a>
+<ul>
+<li>No easily findable public documentation</li>
+<li><strong>Not</strong> cross-domain</li>
+</ul></li>
+<li><a href="https://www.medidata.com">MediData, a set of platforms for clinical trials, Electronic Health Record and Data management</a>
+<ul>
+<li>No easily findable public documentation</li>
+<li><strong>Not</strong> cross-domain</li>
+</ul></li>
+<li><a href="https://www.castoredc.com/electronic-data-capture-system/">Castor, Electronic Health Record</a>
+<ul>
+<li><a href="https://data.castoredc.com/api">Extensive API, well documented</a></li>
+<li>Interoperability <strong>high</strong>: uses well-documented JSON.</li>
+<li><strong>Not</strong> cross-domain</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="pharmaceutics" class="level2">
+<h2 class="anchored" data-anchor-id="pharmaceutics">Pharmaceutics</h2>
+<ul>
+<li><a href="https://www.labkey.org">LabKey, an open-source platform that helps manage biomedical research data, focusing on clinical and laboratory data</a>
+<ul>
+<li>A limited free edition and several paid versions,</li>
+<li><a href="https://www.labkey.org/Documentation/wiki-page.view?name=viewApis">Extensive APIs, well documented</a></li>
+<li>Interoperability <strong>medium/high</strong>: APIs are well-documented but are programmatic only (i.e no REST API)</li>
+<li><strong>Moderately cross-domain</strong>: while many function could be used for other domain, it is mostly dedicated to biomedical research.</li>
+</ul></li>
+<li><a href="https://civicdb.org">CIViC (Clinical Interpretation of Variants in Cancer), an open-access platform that curates and manages clinical cancer variant data. It is used for pharmaceutical oncology research.</a>
+<ul>
+<li>Mostly online, fully Open Source, no containerization.</li>
+<li><a href="https://griffithlab.github.io/civic-v2/">Extensive API, well documented</a></li>
+<li>Interoperability <strong>high</strong>: uses well-documented JSON.</li>
+<li><strong>Not</strong> cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications</li>
+</ul></li>
+</ul>
+</section>
+<section id="chemistry-chemical-sciences" class="level2">
+<h2 class="anchored" data-anchor-id="chemistry-chemical-sciences">Chemistry &amp; Chemical Sciences</h2>
+<ul>
+<li><a href="https://chemotion.net/">Chemotion, an open-source Electronic Lab Notebook for chemists</a> and its related <a href="https://www.chemotion-repository.net/welcome">registry</a>
+<ul>
+<li><a href="https://chemotion.net/docs/eln/install_configure">Docker &amp; Docker compose installation</a></li>
+<li><a href="https://chemotion.net/docs/repo/interfaces">API and OAI-PMH harvesting service</a> with <a href="https://www.chemotion-repository.net/swagger_doc">Swagger API documentation</a>, seemingly read-only.</li>
+<li>Interoperability <strong>medium</strong>: uses well-documented JSON but seems to be only for reading from chemotion. Further integrations are supported but <a href="https://chemotion.net/docs/eln/devices">documented for devices</a>, thus not easy to grasp for a non-chemist.</li>
+<li><strong>Not</strong> cross-domain: it is a highly specialised tool and would not be adapted for other applications</li>
+</ul></li>
+</ul>
+</section>
+<section id="materials-science" class="level2">
+<h2 class="anchored" data-anchor-id="materials-science">Materials science</h2>
+<ul>
+<li><a href="https://nomad-lab.eu/nomad-lab/">NOMAD, management and sharing of material science data (online)</a>
+<ul>
+<li>With many <a href="https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat">tutorials</a>, also on <a href="https://www.youtube.com/watch?v=FqTTeAgqiuw">Youtube</a></li>
+<li>Online first, but with <a href="https://nomad-lab.eu/prod/v1/docs/howto/oasis/install.html">docker compose installation</a>. Another instance of NOMAD, called NOMAD Oasis, can upload to the central NOMAD installation.</li>
+<li><a href="https://nomad-lab.eu/prod/v1/docs/howto/programmatic/api.html">Extensive API, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Not</strong> cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications.</li>
+</ul></li>
+<li><a href="https://pyiron.org/">pyiron, complex workflow made based on JupiterLab</a> and <a href="https://github.com/pyiron/pyiron_workflow">pyiron workflow</a> with many <a href="https://github.com/pyiron">extensions</a>
+<ul>
+<li>With a set of <a href="https://github.com/pyiron/docker-stacks">docker images</a></li>
+<li>Based on JupiterLab, supporting a <a href="https://pyiron.readthedocs.io/en/latest/source/commandline.html">command-line interface</a> that can be easily extended, and well documented.</li>
+<li>Interoperability <strong>HIGH</strong>: standard JupiterLab capabililities, all documented.</li>
+<li><strong>Fully</strong> cross-domain: even if dedicated to material science, its integration to JupiterLab makes using any part usable in other domains.</li>
+</ul></li>
+<li><a href="https://heliport.hzdr.de/">HELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle</a>
+<ul>
+<li>No container-based installation. Mosty online versions, restricted to members of Helmhotz or associated institutions.</li>
+<li>Extensive API and extensions support.</li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Fully</strong> cross-domain: already extended for other uses. But the online versions are currently restricted to members of Helmhotz or associated institutions.</li>
+</ul></li>
+</ul>
+</section>
+<section id="geomatics" class="level2">
+<h2 class="anchored" data-anchor-id="geomatics">Geomatics</h2>
+<section id="open-source" class="level3">
+<h3 class="anchored" data-anchor-id="open-source">Open Source</h3>
+<ul>
+<li><a href="https://geoserver.org/">GeoServer, “an open source server for sharing geospatial data”</a>
+<ul>
+<li>No container-based installation.</li>
+<li><a href="https://docs.geoserver.org/latest/en/user/">Extensive API</a> and many extensions, well documented.</li>
+<li>Interoperability <strong>HIGH</strong>: support many common formats, well documented.</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://www.osgeo.org/projects/mapguide-open-source/">MapGuide Open Source, ” a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services.”</a> and <a href="https://mapserver.org/">MapServer, a mapping engine</a>, part of a large portofolio of <a href="https://www.osgeo.org/">Geospatial tools</a>
+<ul>
+<li>No container-based installation.</li>
+<li>Extensive API via the related tools.</li>
+<li>Interoperability <strong>HIGH</strong>: support many common formats, documented. One issue of the OSGeo portfolio is the high number of projects with many subpages. As such the contribution to the community is very high, but it can be difficult to navigate.</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://mapnik.org/">Mapnik, open-source mapping toolkit</a>
+<ul>
+<li>No container-based installation as it is a toolkit to develop mapping applications.</li>
+<li>Mostly to be used as an API or through Python bindings. It is largely <a href="https://github.com/mapnik/mapnik/wiki/LearningMapnik">documented</a> but mostly aimed as developers. Interoperability <strong>MEDIUM/HIGH</strong>: it is aimed at helping develop any kind of mapping applications, but will probably be out of reach as such for non-developers.</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://arangodb.com/">ArangoDB, open-source and commercial graph and spatial database</a>, community version limited to 100gb of data on a single cluster and non-commercial use.
+<ul>
+<li><a href="https://arangodb.com/download-major/">Docker and Kubernetes installations</a></li>
+<li><a href="https://docs.arangodb.com/stable/develop/http-api/#restful-api">Extensive API, well documented, also built-in using Swagger.IO</a></li>
+<li>Interoperability <strong>HIGH</strong>: it is all well-documented and uses JSON.</li>
+<li><strong>Fully</strong> cross-domain: it is a general multi-model database</li>
+</ul></li>
+<li><a href="https://geonetwork-opensource.org/">GeoNetwork, catalog application to manage spatially referenced resources</a>
+<ul>
+<li><a href="https://docs.geonetwork-opensource.org/4.4/install-guide/installing-with-docker/">Docker image</a></li>
+<li><a href="https://docs.geonetwork-opensource.org/4.4/api/">Extensive API, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://geonode.org">GeoNode, an open-source platform for geospatial data sharing, often used for urban planning. It integrates tools for geographic data visualization, editing, and management</a>
+<ul>
+<li><a href="https://docs.geonode.org/en/master/install/basic/index.html">Docker-based installation</a></li>
+<li><a href="https://docs.geonode.org/en/master/devel/index.html">Extensive API, very well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://www.openstreetmap.org">OpenStreetMap (OSM), a collaborative project to create a free, editable map of the world, providing spatial data for urban planning, navigation, and research</a>
+<ul>
+<li>Mostly online with the map of the full world, with many surrounding tools</li>
+<li><a href="https://wiki.openstreetmap.org/wiki/API">Extensive API, very well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented XML, JSON. Maps are either using a text-based format, giving a large size but easy to use, such as <a href="https://wiki.openstreetmap.org/wiki/OSM_XML">OSM XML</a> or a binary format such as <a href="https://wiki.openstreetmap.org/wiki/PBF_Format">PBF</a>, giving a small size but harder to use. The list of map format is on the <a href="https://wiki.openstreetmap.org/wiki/Category:OSM_file_formats">wiki</a></li>
+<li><strong>Mostly</strong> cross-domain: it can be use for any domain. Its usage can be quite complex though, depending on several aspects: extracting a small map can be rather easy using one tool, extracting a large map (such as for a country) can be complex depending on the level of detail needed. The binary format for large map</li>
+</ul></li>
+</ul>
+</section>
+<section id="commercials-1" class="level3">
+<h3 class="anchored" data-anchor-id="commercials-1">Commercials</h3>
+<ul>
+<li><a href="https://www.esri.com/en-us/arcgis/geospatial-platform/overview">ESRI ArcGIS, geospatial platform</a>
+<ul>
+<li>Many <a href="https://learn.arcgis.com/en/gallery/">tutorials</a> which are rather hard to navigate and an <a href="https://developers.arcgis.com/documentation/">extensive developer documentation</a>, not linked on the product page.</li>
+<li><a href="https://developers.arcgis.com/documentation/">Extensive APIs, well documented</a> with many <a href="https://esri.github.io/">Open Source tools and samples</a></li>
+<li>Interoperability <strong>HIGH</strong>: many APIs and tools, with documentation and samples.<br>
+</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://smartgeo.io/">SMARTGeo, visualization and analytics platform</a>
+<ul>
+<li>No easily findable public documentation</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://carto.com/">CARTO, cloud-based spatial analysis</a>
+<ul>
+<li><a href="https://docs.carto.com/">All documentation is available publicly</a> with a <a href="https://academy.carto.com/">set of tutorials covering the bases of geospatial data as well</a></li>
+<li>Offer <a href="https://docs.carto.com/carto-user-manual/connections">several possibilities of connections, all documented</a> and several <a href="https://docs.carto.com/carto-for-developers/key-concepts/apis">well documented APIs</a>.</li>
+<li>Interoperability <strong>HIGH</strong>: APIs uses well-documented JSON</li>
+<li><strong>Mostly</strong> cross-domain: it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="urbanism" class="level2">
+<h2 class="anchored" data-anchor-id="urbanism">Urbanism</h2>
+<section id="open-source-or-free-1" class="level3">
+<h3 class="anchored" data-anchor-id="open-source-or-free-1">Open Source or free</h3>
+<ul>
+<li><a href="https://use.metropolis.org">Metropolis (Urban Observatory Data), offers large-scale urban data and insights about cities, covering everything from mobility patterns to energy consumption</a>
+<ul>
+<li>Online collection of urban case studies.</li>
+<li>No API</li>
+<li>No interoperability, per definition</li>
+<li><strong>Partly</strong> cross-domain: as the case studies are about urbanism with themes which can be relevant for other domains.</li>
+</ul></li>
+<li><a href="http://www.citysdk.eu">CitySDK, a toolkit offering standard API specifications for urban services, helping cities release open data and enabling developers to create city-related applications</a>
+<ul>
+<li>SDK to build Smart City services and applications,</li>
+<li>Encourages to build a <a href="https://www.citysdk.eu/wp-content/uploads/2017/11/20171116_APIrecommendations_WEB.pdf">standardised API, using JSON, XML or CSV</a></li>
+<li>Interoperability <strong>HIGH</strong>: encourages the use of <a href="https://www.citysdk.eu/citysdk-toolkit/components-of-the-toolkit/">standards</a></li>
+<li><strong>Mostly</strong> cross-domain: it should to be used for city management, but does not restrict on any use.</li>
+</ul></li>
+</ul>
+</section>
+<section id="commercials-2" class="level3">
+<h3 class="anchored" data-anchor-id="commercials-2">Commercials</h3>
+<ul>
+<li><a href="https://urban.arcgis.com/">ESRI ArcGIS Urban</a>
+<ul>
+<li>ArcGIS Urban is part of the ArcGIS portfolio, so have the same characteristics.</li>
+<li>Many <a href="https://learn.arcgis.com/en/gallery/">tutorials</a> which are rather hard to navigate and an <a href="https://developers.arcgis.com/documentation/">extensive developer documentation</a>, not linked on the product page.</li>
+<li><a href="https://developers.arcgis.com/documentation/">Extensive APIs, well documented</a> with many <a href="https://esri.github.io/">Open Source tools and samples</a></li>
+<li>Interoperability <strong>HIGH</strong>: many APIs and tools, with documentation and samples.</li>
+<li><strong>Mostly</strong> cross-domain, it is dedicated to geospatial data but could be use for any domain as such.</li>
+</ul></li>
+<li><a href="https://developers.google.com/transit">Google Transit, provides data on urban transport, such as real-time traffic, transit options, and pedestrian data, used in urban planning and mobility solutions</a>
+<ul>
+<li>it is an online feed using the GTFS format with some <a href="https://developers.google.com/transit/gtfs-realtime/reference">documented changes for the realtime transit</a>.</li>
+<li>Interoperability <strong>HIGH</strong>: straightforward and well documented</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="digital-lab-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="digital-lab-notebooks">Digital Lab Notebooks</h2>
+<ul>
+<li><a href="https://openbis.ch/">OpenBis</a>
+<ul>
+<li><a href="https://unlimited.ethz.ch/display/openbis/openBIS+Download+Page">Docker image</a></li>
+<li><a href="https://openbis.readthedocs.io/en/20.10.x/software-developer-documentation/apis/index.html">Extensive APIs, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: while there is no REST APIs, the other APIs are well documented and the Python API is simple to use even for non-developers.</li>
+<li><strong>Fully</strong> cross-domain: OpenBis is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured. Then it is not the easiest platform to set-up and configure.</li>
+</ul></li>
+<li><a href="https://www.elabftw.net/">eLabFTW</a>
+<ul>
+<li><a href="https://doc.elabftw.net/install.html">Docker</a></li>
+<li><a href="https://doc.elabftw.net/api.html">Extensive APIs, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: the REST API uses well-documented JSON and the Python API offers plenty of examples.</li>
+<li><strong>Fully</strong> cross-domain: eLabFTW is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured.</li>
+</ul></li>
+<li><a href="https://www.researchspace.com/">RSpace, electronic noteboook and inventory management</a>
+<ul>
+<li>Open Source and commercial solutions.</li>
+<li><a href="https://github.com/rspace-os/rspace-docker">Docker Compose</a></li>
+<li><a href="https://documentation.researchspace.com/category/ifpi5pwbck-for-developers">Extensive API and SDK, well documented</a>.</li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Fully</strong> cross-domain: eLabFTW is highly configurable so can be use for any domain as a notebook but can also be used for other needs if properly configured.</li>
+</ul></li>
+</ul>
+</section>
+<section id="astronomy" class="level2">
+<h2 class="anchored" data-anchor-id="astronomy">Astronomy</h2>
+<p>Astronomy is largely standardized and relies on many tools developed over several decades, and online catalogues. As such many are standalone tools and are potentially cloud-friendly, though will need some more technical adaptations. Most platforms are not cross-domain are they give data from astronomical observations. But as such, if there is an actual need for such data in another domain, the technical effort for the integration will probably be worth it. The technical effort changes greatly between platform and can be rather high with many specialised tools and specialised vocabulary.</p>
+<ul>
+<li><a href="https://www.ivoa.net/">Virtual Observatory (VO), the International Virtual Observatory Alliance (IVOA) provides resources for discovering and accessing astronomical data, including standards for data sharing and interoperability</a>
+<ul>
+<li>Online only</li>
+<li>Many tools but no clear or official API.</li>
+<li>Interoperability <strong>LOW</strong>: related to previous point.</li>
+<li><strong>Not</strong> cross-domain, per definition.</li>
+</ul></li>
+<li><a href="https://almascience.nrao.edu/aq/">ALMA Science Archive, the ALMA archive gives access to data from the Atacama Large Millimeter/submillimeter Array, providing public access to radio astronomy dataset</a>
+<ul>
+<li>Online only</li>
+<li>Many tools and documentations but it is also difficult to find an official API</li>
+<li>Interoperability <strong>LOW</strong>: related to previous point.</li>
+<li><strong>Not</strong> cross-domain, per definition.</li>
+</ul></li>
+<li><a href="https://www.cosmos.esa.int/web/esdc">European Space Agency (ESA) Archives, ESA’s space science archives, including data from missions like Gaia and Hubble, offering open access to space mission data</a>
+<ul>
+<li>Online only,</li>
+<li>Some archives have an API access, such as the <a href="http://archives.esac.esa.int/hsa/whsa/">herschel science archive</a>, but it is not uniform.</li>
+<li>Interoperability <strong>LOW to HIGH</strong>: related to previous point, depending on the archive.</li>
+<li><strong>Not</strong> cross-domain, per definition.</li>
+</ul></li>
+<li><a href="https://ui.adsabs.harvard.edu/">NASA’s Astrophysics Data System (ADS), ADS is a digital library for astronomy and physics, linking research papers with relevant datasets and providing extensive search capabilities</a>
+<ul>
+<li>Online only,</li>
+<li><a href="https://ui.adsabs.harvard.edu/help/api/">Extensive API, well documented with examples</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+<li><strong>Mostly</strong> cross-domain: some papers referenced are cross-domain or in another domain.</li>
+</ul></li>
+<li><a href="http://simbad.u-strasbg.fr/simbad/">SIMBAD (Set of Identifications, Measurements, and Bibliography for Astronomical Data), SIMBAD is a database providing detailed records of celestial objects and their bibliographical references</a>
+<ul>
+<li>Online only,</li>
+<li><a href="http://simbad.cds.unistra.fr/guide/sim-url.htx">API, documented</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: the API needs some technical understanding of the domain to be of use.</li>
+<li><strong>Not</strong> cross-domain, per definition.</li>
+</ul></li>
+<li><a href="http://skyserver.sdss.org/">SkyServer (Sloan Digital Sky Survey, SDSS), SkyServer provides access to data from the Sloan Digital Sky Survey, with resources for professional astronomers and public users</a>
+<ul>
+<li>Online only,</li>
+<li><a href="https://skyserver.sdss.org/dr18/Support/Api">Extensive APi, well documented</a>. Also propose a nice <a href="https://skyserver.sdss.org/dr16/en/help/howto/search/searchhowtohome.aspx">SQL tutorial</a></li>
+<li>Interoperability <strong>HIGH</strong>: well-documented API, simple to use,</li>
+<li><strong>Not</strong> cross-domain, per definition.</li>
+</ul></li>
+<li><a href="https://archive.stsci.edu/missions-and-data/tess">TESS Data Portal, the TESS Data Portal provides access to data from the Transiting Exoplanet Survey Satellite, focusing on exoplanet discovery</a>
+<ul>
+<li>Online only,</li>
+<li><a href="https://astroquery.readthedocs.io/en/latest/mast/mast.html">API, documented</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: the API needs some technical understanding of the domain to be of use.</li>
+<li><strong>Not</strong> cross-domain, per definition.</li>
+</ul></li>
+<li><a href="http://archive.eso.org/">ESO Science Archive Facility, the European Southern Observatory (ESO) archive contains data from its observatories, including the Very Large Telescope (VLT), and provides tools for data retrieval and analysis</a>
+<ul>
+<li>Online only,</li>
+<li><a href="http://archive.eso.org/programmatic/">API, documented</a> Interoperability <strong>MEDIUM/HIGH</strong>: the API needs some technical understanding of the domain to be of use.</li>
+<li><strong>Not</strong> cross-domain, per definition.</li>
+</ul></li>
+<li><a href="https://www.eso.org/sci/software/esoreflex/">ESO Reflex</a>
+<ul>
+<li>Based on <a href="https://kepler-project.org/users/downloads.html">Kepler, which seems out of support</a>, standalone tools for reducing VLT (Very Large Telescope)/VLTI (Very Large Telescope Interferometer) science data. Part of the <a href="https://www.eso.org/sci/software/pipelines/">VLT Instrument Pipelines</a></li>
+<li>Standalone, no container-based installation.</li>
+</ul></li>
+</ul>
+</section>
+<section id="humanities" class="level2">
+<h2 class="anchored" data-anchor-id="humanities">Humanities</h2>
+<ul>
+<li><a href="http://www.tapasproject.org">TAPAS (TEI Archiving, Publishing, and Access Service), a platform for archiving and publishing TEI (Text Encoding Initiative) documents.</a>
+<ul>
+<li>Online only.</li>
+<li>Uses the <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text Encoding Initiative XML format (TEI)</a></li>
+<li>No easily findable API</li>
+<li>Interoperability <strong>LOW/MEDIUM</strong>: despite the lack of API, each element is findable online and is composed of a well-documented XML and images.</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
+<li><a href="https://hcommons.org">Humanities Commons, a network for scholars to share work and connect, with the CORE repository</a>
+<ul>
+<li>Online only.</li>
+<li>No easily findable API</li>
+<li>Interoperability <strong>LOW</strong>: it is a repository of documents that are in binary format (docx, pdf for instance), with only metadata in XML</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
+<li><a href="https://omeka.org">Omeka, a content management system for digital collections and exhibitions</a>
+<ul>
+<li>No container-based installation, though it was dockerized previously.</li>
+<li>2 versions, Omeka S for sharable resource pool across multiple sites and Omeka Classic for individual projects.</li>
+<li><a href="https://omeka.org/s/docs/developer/api/">Extensive PHP API, more limited REST API, well documented</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: uses JSON, seems to be lacking examples and/or samples. Offer a <a href="https://omeka.org/s/docs/user-manual/modules/dspaceconnector/">DSpace connector</a> and <a href="https://omeka.org/s/docs/user-manual/modules/zoteroimport/">Zortero Import</a></li>
+<li><strong>Fully</strong> cross-domain: can be used for referencing any kind of digital resources.</li>
+</ul></li>
+<li><a href="https://archaeologydataservice.ac.uk">Archaeology Data Service (ADS), for archiving digital data in archaeology.</a>
+<ul>
+<li>Online only.</li>
+<li>No API but a <a href="https://archaeologydataservice.ac.uk/about/policies/metadata/metadata-services/">harvesting interface using OAI-PMH</a> and an [extensive documentation)[https://archaeologydataservice.ac.uk/help-guidance/], including on <a href="https://archaeologydataservice.ac.uk/help-guidance/data-reuse/fair-data/">data repositories citing the ADS, that might have an API</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: uses standards (DOI, ORCID, Dublin Core) and very well documented. The documentation is also very accessible. Automatic access would need to be through harvesting or an external repository, making things a bit harder.</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
+<li><a href="https://www.europeana.eu">Europeana, providing access to cultural heritage data from European institutions</a>
+<ul>
+<li>Online only.</li>
+<li>There is an API, as shown with a footer link “See requests to Europeana APIs”, but without any visible documentation.</li>
+<li>Interoperability <strong>LOW</strong>: it is a repository of medias with a powerful search/filter, but without clear API.</li>
+<li><strong>Not</strong> cross-domain, as per definition.</li>
+</ul></li>
+</ul>
+</section>
+<section id="bibliography" class="level2">
+<h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
+<ul>
+<li><a href="https://www.zotero.org/">“Zotero is free and open-source reference management software to manage bibliographic data and related research materials”</a>
+<ul>
+<li>Mostly online with browser’s extension. It is a tool to help getting information from web-sites, organize and cite.</li>
+<li>Many <a href="https://www.zotero.org/support/plugins">extensions</a> providing some web API support.</li>
+<li>Interoperability <strong>HIGH</strong>: again with many plugins but also <a href="https://www.zotero.org/support/word_processor_integration">integrations</a>.</li>
+<li>By definition cross-domain: it is a tool to build and manage bibliographic data</li>
+</ul></li>
+</ul>
+</section>
+<section id="generalists" class="level2">
+<h2 class="anchored" data-anchor-id="generalists">Generalists</h2>
+<p>All are inherently cross-platform and most follow the FAIR principle.</p>
+<ul>
+<li><a href="https://rucio.cern.ch/">RUCIO, Scientific Data Management for very large and distributed data sets</a>
+<ul>
+<li>Fully cloud based, with a default Kubernetes installation using <a href="https://github.com/rucio/helm-charts">Helm charts</a>, the storage backend needs to be setup in advance.</li>
+<li><a href="https://rucio.cern.ch/documentation/">Extensive APIs (REST API, Python and CLI), well documented (links in the header of the main documentation)</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://osf.io">Open Science Framework (OSF), a platform that supports open research</a>
+<ul>
+<li>Online</li>
+<li><a href="https://developer.osf.io/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://rdmorganiser.github.io/en/">RDMO - Research Data Management Organiser</a>
+<ul>
+<li><a href="https://github.com/rdmorganiser/rdmo-docker-compose">Docker Compose</a></li>
+<li><a href="https://rdmo.readthedocs.io/en/latest/administration/api.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://ckan.org/">The Comprehensive Knowledge Archive Network (CKAN) is an open-source open data portal for the storage and distribution of open data (wikipedia)</a>
+<ul>
+<li><a href="https://docs.ckan.org/en/2.11/maintaining/installing/index.html">Docker Compose</a></li>
+<li><a href="https://docs.ckan.org/en/2.11/api/index.html">API</a></li>
+<li>Interoperability <strong>MEDIUM</strong>: the API is not documented fully.</li>
+</ul></li>
+<li><a href="https://dataverse.org/">Dataverse, an open source research data repository software</a>
+<ul>
+<li><a href="https://guides.dataverse.org/en/latest/developers/containers.html">Docker Compose and Kubernetes</a></li>
+<li><a href="https://guides.dataverse.org/en/latest/api/index.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses documented JSON.</li>
+</ul></li>
+<li><a href="https://zenodo.org/">“Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN”</a>
+<ul>
+<li>Mostly used online, but provide a <a href="https://github.com/zenodo/zenodo-rdm">Docker Compose</a></li>
+<li><a href="https://developers.zenodo.org/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://bartoc.org/">BARTOC is a register of Thesauri, Ontologies &amp; Classifications</a>
+<ul>
+<li><a href="https://github.com/gbv/bartoc.org/blob/main/docker/README.md">Docker and docker-compose installation supported but mostly supposed to be used online as a register</a></li>
+<li><a href="https://bartoc.org/vocabularies?search=BARTOC">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://inveniordm.docs.cern.ch/">RDM, turn-key research data management repository</a>
+<ul>
+<li><a href="https://inveniordm.docs.cern.ch/maintenance/docker-images/">Docker image</a></li>
+<li><a href="https://inveniordm.docs.cern.ch/reference/rest_api_index/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://invenio.readthedocs.io/en/latest/">INVENIO, a framework for large-scale digital repositories</a>
+<ul>
+<li>Framework to develop repositories, such as RDM</li>
+<li><a href="https://invenio-records-rest.readthedocs.io/en/latest/">API</a></li>
+<li>Interoperability <strong>HIGH</strong>: All documented, used to build other repositories.</li>
+</ul></li>
+<li><a href="https://rodare.hzdr.de/about/">RODARE, ROssendorf DAta REpository, Online Data Repository</a>
+<ul>
+<li>Based on INVENIO Digital Library framework, fork of Zenodo.</li>
+<li>Explain <a href="https://rodare.hzdr.de/about/principles/">how it is FAIR</a></li>
+<li><a href="https://rodare.hzdr.de/communities/">Extensive API, per community</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: It lacks a simple API documentation.</li>
+</ul></li>
+<li><a href="https://reanahub.io/">REANA, Reproducible and reusable research data analysis platform</a>
+<ul>
+<li><a href="https://docs.reana.io/administration/">Kubernetes, Helm and Kubernetes in Docker</a></li>
+<li><a href="https://docs.reana.io/reference/">Extensive APIs</a></li>
+<li>Interoperability <strong>HIGH</strong>: use a yaml file which is <a href="https://docs.reana.io/reference/reana-yaml/">fully documented</a></li>
+</ul></li>
+<li><a href="https://www.unicore.eu/">UNICORE, A European Federation Software Suite</a>
+<ul>
+<li><a href="https://unicore-docs.readthedocs.io/en/latest/gettingstarted.html?highlight=docker#evaluating-unicore">Docker image but mostly for evaluation</a></li>
+<li><a href="https://unicore-docs.readthedocs.io/en/latest/user-docs/rest-api/index.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://scicatproject.github.io/">SciCat, management and annotation of scientific data based on Elastic Search</a>
+<ul>
+<li><a href="https://scicatproject.github.io/scicatlive/latest/">Default docker-compose installation</a></li>
+<li><a href="https://scicatproject.github.io/api-documentation/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://www.re3data.org/">re3data, registry of research data repositories</a>
+<ul>
+<li>Online.</li>
+<li><a href="https://www.re3data.org/api/doc">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses XML following a given schema.</li>
+</ul></li>
+<li><a href="https://github.com/opendatateam/udata">udata, social platform dedicated to open data</a>
+<ul>
+<li><a href="https://udata.readthedocs.io/en/stable/docker-deployment/">Docker compose and docker images</a></li>
+<li><a href="https://udata.readthedocs.io/en/stable/rdf/">Extensive API using RDF</a></li>
+<li>Interoperability <strong>HIGH</strong>: Return RDF following the <a href="https://www.w3.org/TR/vocab-dcat/">Data Catalog Vocabulary</a>.</li>
+</ul></li>
+<li><a href="https://dspace.org/">DSpace, Open Digital Repository</a>
+<ul>
+<li><a href="https://wiki.lyrasis.org/display/DSPACE/Try+out+DSpace+8">Docker install, but not recommended for production</a></li>
+<li><a href="https://github.com/DSpace/DSpace/releases/tag/dspace-8.0">Extensive API</a>, full part of the back-end, <a href="https://github.com/DSpace/RestContract?tab=readme-ov-file#rest-endpoints">well-documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://datadryad.org/">Dryad, Open Source Publishing Platform</a>
+<ul>
+<li>Only online.</li>
+<li><a href="https://datadryad.org/stash/api">Extensive API, well documented</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://elsevier.digitalcommonsdata.com/research-data/">Elsevier Data Repository</a>
+<ul>
+<li>Online, with a possibility for a <a href="https://www.elsevier.com/products/digital-commons/data">commercial local setup</a>.</li>
+<li><a href="https://elsevier.digitalcommonsdata.com/api/docs/">Extensive API, well documented</a>.</li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON.</li>
+</ul></li>
+<li><a href="https://figshare.com/">Figshare, Research Repository</a>
+<ul>
+<li>Only Online, with free access for non-profit research.</li>
+<li><a href="https://help.figshare.com/article/how-to-use-the-figshare-api">Extensive API, well documented</a> and <a href="https://knowledge.figshare.com/app-category/integrations">integrations</a>.</li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON and mamy examples, also in several programming languages.</li>
+</ul></li>
+<li><a href="https://www.nextflow.io/">NextFlow, using software containers for scientific workflow</a>
+<ul>
+<li><a href="https://hub.docker.com/r/nextflow/nextflow">Docker image</a></li>
+<li><a href="https://github.com/SciDAS/nextflow-api">Externally developed API, documented</a></li>
+<li>Interoperability <strong>LOW/MEDIUM</strong>: aside the external API and some standard storage options, such as AWS, there is no clear way to use NextFlow programmatically</li>
+</ul></li>
+<li><a href="https://irods.org/">iRODS, Open Source Data Management Software</a>
+<ul>
+<li>No up-to-date docker image or others (dead links can easily be found).</li>
+<li><a href="https://github.com/irods/irods_client_http_api/blob/main/API.md">Rest API, documented</a>, <a href="https://docs.irods.org/4.3.3/developers/development_tools/">APIs for various languages</a> and a <a href="https://docs.irods.org/4.3.3/icommands/user/">CLI interface</a></li>
+<li>Interoperability <strong>MEDIUM/HIGH</strong>: while it is documented and offering many way of interoperability, the documentation is not always very clear. The ease of integration will greatly vary depending on the used technology.</li>
+</ul></li>
+<li><a href="https://pegasus.isi.edu/">Pegasus, a (scientific) workflow management system</a>
+<ul>
+<li><a href="https://hub.docker.com/r/pegasus/pegasus/">Docker image</a></li>
+<li><a href="https://pegasus.isi.edu/documentation/reference-guide/api-reference.html#">Expensive API for various languages &amp; REST API, well documented</a>, REST API is for read-only access.</li>
+<li>Interoperability <strong>HIGH</strong>: very well documented with schema and examples</li>
+</ul></li>
+</ul>
+</section>
+<section id="authority-control" class="level2">
+<h2 class="anchored" data-anchor-id="authority-control">Authority control</h2>
+<ul>
+<li><a href="https://orcid.org/">ORCID, Open Researcher and Contributor ID</a>
+<ul>
+<li>Online.</li>
+<li><a href="https://info.orcid.org/documentation/api-tutorials/api-tutorial-read-data-on-a-record/">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: provide a <a href="https://github.com/ORCID/orcid-model">defined model with XSD</a></li>
+<li><strong>Fully</strong> cross-domains</li>
+</ul></li>
+<li><a href="https://ror.org/">ROR, “a global, community-led registry of open persistent identifiers for research organizations”</a>
+<ul>
+<li>Online</li>
+<li><a href="https://ror.readme.io/docs/rest-api">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: uses well-documented JSON and the metadata is <a href="https://ror.readme.io/docs/updates">fully documented</a></li>
+<li><strong>Fully</strong> cross-domains</li>
+</ul></li>
+<li><a href="https://www.doi.org/">DOI, Digital Object Identifier</a>
+<ul>
+<li>No need for API: the DOI reference the object</li>
+<li>Interoperability <strong>HIGH</strong>: Fully <a href="https://www.doi.org/the-identifier/what-is-a-doi/">documented</a></li>
+<li><strong>Fully</strong> cross-domains</li>
+</ul></li>
+<li><a href="https://www.issn.org/">ISSN, International Identifier for serials</a>
+<ul>
+<li>No need for API: An ID for serial publications, such as journals, magazines.</li>
+<li>Lookup available and other services available, API for lookup is <a href="https://portal.issn.org/services">not free</a>. Other tools have free API, well documented.</li>
+<li>Interoperability <strong>HIGH</strong>: Fully <a href="https://www.issn.org/understanding-the-issn/what-is-an-issn/">documented</a></li>
+<li><strong>Fully</strong> cross-domains</li>
+</ul></li>
+<li><a href="https://www.isbn-international.org/">ISBN, International Standard Book Number</a>
+<ul>
+<li>No need for API: An ID for books. Lookups are available but not part of the ISBN.
+<ul>
+<li>One lookup service is <a href="https://isbndb.com/">ISBNDB</a>, with a <a href="https://isbndb.com/apidocs/v2">well documented API</a></li>
+</ul></li>
+<li>Interoperability <strong>HIGH</strong>: Fully <a href="https://www.isbn-international.org/content/isbn-users-manual/29">documented</a></li>
+<li><strong>Fully</strong> cross-domain</li>
+</ul></li>
+<li><a href="https://viaf.org/">VIAF, Virtual International Authority File</a>
+<ul>
+<li>Online</li>
+<li>No API or not documented.</li>
+<li>Interoperability <strong>LOW</strong>: not documented or documentation hard to find.</li>
+<li><strong>Fully</strong> cross-domain.</li>
+</ul></li>
+<li><a href="https://www.geonames.org/">GeoNames, database of placenames</a>
+<ul>
+<li>Online, not open-source. Data is under CC-BY licence.</li>
+<li><a href="https://www.geonames.org/export/web-services.html">Expensive APIs, well documented</a>, also with many <a href="https://www.geonames.org/export/client-libraries.html">client libraries</a></li>
+<li>Interoperability <strong>HIGH</strong>: all data formats are well documented.</li>
+<li><strong>Not</strong> cross-domain <strong>but</strong> can be used for any need of geographic data.</li>
+</ul></li>
+</ul>
+</section>
+<section id="others" class="level2">
+<h2 class="anchored" data-anchor-id="others">Others</h2>
+<ul>
+<li><a href="https://nextcloud.com/">NextCloud</a>
+<ul>
+<li>NextCloud is a file hosting service, similar to Google Drive or Microsoft OneDrive, but OpenSource that can be self-hosted. It is a free file hosting platform, it does not constraint which data are stored and do not follow complex metadata or formats. It can be extended and adapted using plugins, such as a plugin to integrate an office suite, such as LibreOffice. As such, it should be considered a support application before all: a tool to support your work, or a way to store data for other applications. The absence of constraint makes it a poor choice for FAIR data storage, as the users would need to do most of the needed work. Still, interconnected via API to other Software, it could be an essential part of a Data Management solution, even if only as a scrapbook. NextCloud has an extensive API, so could be used with constraint via the API using a dedicated Pipeline. It could be with connection with another application or for a specific use-case.</li>
+<li><a href="https://docs.nextcloud.com/server/latest/admin_manual/office/example-docker.html">Docker</a>, <a href="https://github.com/nextcloud/all-in-one/blob/main/manual-install/latest.yml">Docker compose</a> and Kubernetes installation, with <a href="https://github.com/nextcloud/helm">Helm chart</a></li>
+<li><a href="https://docs.nextcloud.com/server/latest/developer_manual/client_apis/general.html">Extensive API</a></li>
+<li>Interoperability <strong>HIGH</strong>: The API is well documented and there is several ways of doing things. Then NextCloud is highly flexible, so the use will need to be defined clearly and there might need to restrict it using the API for uploads in order to integrate it in an assembly.</li>
+<li>Fully cross-domain</li>
+</ul></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
