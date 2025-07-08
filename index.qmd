@@ -2,7 +2,7 @@
 title: "De.KCD - Cloud For Data Management - Repository of data-management platforms"
 ---
 
-Feel free to contribute: [GitHub sources](https://github.com/abecam/CloudForDM)
+Feel free to contribute: [GitHub sources](https://github.com/deKCD/FAIR-DMP-Registry)
 
 # Overview of Data Management Platforms
 

@@ -9,7 +9,7 @@ On the other hand, a platform based on common standards such as RDF or Apache Sp
 
 ## Contributions are welcome
 
-Feel free to contribute by forking the repository or creating an issue: [GitHub sources](https://github.com/abecam/CloudForDM).
+Feel free to contribute by forking the repository or creating an issue: [GitHub sources](https://github.com/deKCD/FAIR-DMP-Registry).
 We filled the information by the best of our knowlegde and after a reasonable amount of research, but that does not prevent us from doing mistakes. Once again we will be glad for any correction.
 
 * Ask for a change: create an issue,

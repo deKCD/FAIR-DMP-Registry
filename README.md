@@ -1,6 +1,6 @@
 # Repository of Data Management Platforms respecting the FAIR principle with a focus on Cloud usage
 
-Source for the [website](https://abecam.github.io/CloudForDM/)
+Source for the [website](https://dekcd.github.io/FAIR-DMP-Registry/)
 
 A succinct repository of most major Data Management Platforms with an emphasis on the FAIR principle and their affinity with Cloud Platform: if they are containerized, interoperable and clearly documented.
 
