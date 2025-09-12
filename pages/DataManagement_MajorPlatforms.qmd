@@ -15,7 +15,7 @@ We filled the information by the best of our knowlegde and after a reasonable am
 * Ask for a change: create an issue,
 * Add or change something: fork, then do a Pull Request.
 
-The site has been written using [Quarto](https://quarto.org/docs/websites) and the main syntax is PanDoc, which mostly like Markdown, and is well documented on the [Quarto web site](https://quarto.org/docs/authoring/markdown-basics.html). The pages are in pages, with the name corresponding to the title. Each entry is on the same model, so a copy-past is the best way to add a new one. Quarto has extensions for several editors, so a preview is often possible from within the editor. Visual Studio Code has a good support. 
+The site has been written using [Quarto](https://quarto.org/docs/websites) and the main syntax is PanDoc, which is mostly like Markdown, and is well documented on the [Quarto web site](https://quarto.org/docs/authoring/markdown-basics.html). The pages are in ```pages```, with the name corresponding to the title. Each entry is on the same model, so a copy-past is the best way to add a new one. Quarto has extensions for several editors, so a preview is often possible from within the editor. Visual Studio Code has a good support. 
 
 Typical entry:
 
