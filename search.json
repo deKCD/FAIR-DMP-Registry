@@ -374,7 +374,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "As part of the De.KCD project this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability. All contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition."
+    "text": "As part of the De.KCD project this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability.\nAll contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition."
   },
   {
     "objectID": "index.html",
