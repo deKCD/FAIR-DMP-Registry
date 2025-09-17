@@ -29,7 +29,7 @@ But also for needed technical solution:
 
 * A regular backup,
 
-* A monitoring of the logs (access logs, software logs, ...) for ** or attacks, an unknown anomaly could be the result of an attack,
+* A monitoring of the logs (access logs, software logs, ...) for outrages or attacks, an unknown anomaly could be the result of an attack,
 
 * A monitoring of the installed ressources, to be sure there was no malicious tinckering,
 
