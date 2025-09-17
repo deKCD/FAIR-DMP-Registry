@@ -8,6 +8,9 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    tools:
+     - icon: github
+       href: https://github.com/deKCD/FAIR-DMP-Registry
 
   sidebar:
     style : "docked"
