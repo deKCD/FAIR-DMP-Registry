@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "As part of the De.KCD project this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability.\nAll contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition."
+  },
+  {
     "objectID": "pages/DataManagement_MajorPlatforms.html",
     "href": "pages/DataManagement_MajorPlatforms.html",
     "title": "Major Data Management platforms",
@@ -102,8 +109,8 @@
     "objectID": "pages/DataManagement_MajorPlatforms.html#materials-science",
     "href": "pages/DataManagement_MajorPlatforms.html#materials-science",
     "title": "Major Data Management platforms",
-    "section": "Materials science",
-    "text": "Materials science\n\nNOMAD, management and sharing of material science data (online)\n\nWith many tutorials, also on Youtube\nOnline first, but with docker compose installation. Another instance of NOMAD, called NOMAD Oasis, can upload to the central NOMAD installation.\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\nNot cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications.\n\npyiron, complex workflow made based on JupiterLab and pyiron workflow with many extensions\n\nWith a set of docker images\nBased on JupiterLab, supporting a command-line interface that can be easily extended, and well documented.\nInteroperability HIGH: standard JupiterLab capabililities, all documented.\nFully cross-domain: even if dedicated to material science, its integration to JupiterLab makes using any part usable in other domains.\n\nHELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle\n\nNo container-based installation. Mosty online versions, restricted to members of Helmhotz or associated institutions.\nExtensive API and extensions support.\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: already extended for other uses. But the online versions are currently restricted to members of Helmhotz or associated institutions.",
+    "section": "Materials Science",
+    "text": "Materials Science\n\nNOMAD, management and sharing of material science data (online)\n\nWith many tutorials, also on Youtube\nOnline first, but with docker compose installation. Another instance of NOMAD, called NOMAD Oasis, can upload to the central NOMAD installation.\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\nNot cross-domain: it is a highly specialised and complex tool and would not be adapted for other applications.\n\npyiron, complex workflow made based on JupiterLab and pyiron workflow with many extensions\n\nWith a set of docker images\nBased on JupiterLab, supporting a command-line interface that can be easily extended, and well documented.\nInteroperability HIGH: standard JupiterLab capabililities, all documented.\nFully cross-domain: even if dedicated to material science, its integration to JupiterLab makes using any part usable in other domains.\n\nHELIPORT (HElmholtz ScIentific Project WORkflow PlaTform)— An Integrated Research Data Lifecycle\n\nNo container-based installation. Mosty online versions, restricted to members of Helmhotz or associated institutions.\nExtensive API and extensions support.\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: already extended for other uses. But the online versions are currently restricted to members of Helmhotz or associated institutions.",
     "crumbs": [
       "Home",
       "Major Data Management platforms"
@@ -209,48 +216,108 @@
     ]
   },
   {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html",
-    "title": "Useful tools and platforms for Data Management",
+    "objectID": "pages/TowardProvisionning.html",
+    "href": "pages/TowardProvisionning.html",
+    "title": "Toward provisionning",
     "section": "",
-    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
-    "crumbs": [
-      "Home",
-      "Useful tools and platforms for Data Management"
-    ]
+    "text": "One important aspect of Software usage is the targeted use:\n\nthe importance of it and of its data: if it is main output of a project, if it is patient-related data, …\nthe scope of usage: for local users only, for the public, for the founding members, for the time of the project, for X years,\nand the variety of usage: consultation only, API usage, export using standardised data, …\n\nAll that has a great influence on the provisionning needed, for needed persons:\n\ncritical data might need the involvement of a cybersecurity engineer,\npersonal data (about persons) might need a data protection specialist or some compliance assessments,\nSoftware that need to run after the end of the project might need a dedicated sys-admin for the planned time,\nSpecific Data usage might need a Software Engineer to adapt, prepare and explain,\n\nBut also for needed technical solution:\n\nA physical server or a Cloud to host the Software, its data and backups,\nSome extra Software such as an Identity Server, so that users are centrally managed,\nA regular backup,\nA monitoring of the logs (access logs, software logs, …) for outrages or attacks, an unknown anomaly could be the result of an attack,\nA monitoring of the installed ressources, to be sure there was no malicious tinckering,\nSet-up of automatic updates,\nAuthorized-lists and Nonauthorized-lists, Firewall rules,\nAudit of security,"
   },
   {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
-    "title": "Useful tools and platforms for Data Management",
+    "objectID": "pages/DataManagement_MediumPlatforms.html",
+    "href": "pages/DataManagement_MediumPlatforms.html",
+    "title": "Medium Data Management platforms",
     "section": "",
-    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
+    "text": "NextSeek\n\nDocker image via dockerfile (root of repository)\nWrapper on Seek, so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn’t find a documentation.\nInteroperability high: inheriting from Seek interoperability.\nMostly cross-domain: should let Seek be configurable.\n\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\nAPI documented internally only, and we could not check it beyond the demo Swagger page. There is an harvesting module following the OAI-PMH protocol, but not updated recently.\nInteroperability low/medium, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.\nFully cross-domain, not restricted in type of data.\n\nOpenClinica, clinical research EDC platform with an Open Source version\n\nNo containerization, java-based.\nExtensive API, well documented\nInteroperability high: uses well-documented XML for its data format and Json for the API operations.\nMostly not cross-domain: built around clinical research. Then the result can be used in other domains.\n\n\nExtensive API.\n\nRightField\n\nStandalone tool in Java that could be containerized with a little technical effort.\nWell documented, using standard Excel spreadsheets and standard ontologies formats.\nInteroperability high: well documented.\nFully cross-domain\n\nJAX BioConnect, “an index of research data that supports data sharing, high-quality curation, and consistent data description”\n\nOnline\nCommand-line based API, well documented\nwell documented, follow the ISA schema.\nNot cross-domain: dedicated to bioscience",
     "crumbs": [
       "Home",
-      "Useful tools and platforms for Data Management"
+      "Medium Data Management platforms"
     ]
   },
   {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
-    "title": "Useful tools and platforms for Data Management",
-    "section": "As extra of a solution or an assembly",
-    "text": "As extra of a solution or an assembly\n\nHeimdall is a web-application that provide a dashboard on other web-applications\n\nDocker installation\n\nGreyLog, centralized log management application\n\nDocker and docker-compose installations\n\nGrafana, Grafana is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data sources (wikipedia)\n\nWith installation with docker, docker-compose, kubernetes and helm charts",
+    "objectID": "pages/DataManagement_MediumPlatforms.html#life-science",
+    "href": "pages/DataManagement_MediumPlatforms.html#life-science",
+    "title": "Medium Data Management platforms",
+    "section": "",
+    "text": "NextSeek\n\nDocker image via dockerfile (root of repository)\nWrapper on Seek, so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn’t find a documentation.\nInteroperability high: inheriting from Seek interoperability.\nMostly cross-domain: should let Seek be configurable.\n\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\nAPI documented internally only, and we could not check it beyond the demo Swagger page. There is an harvesting module following the OAI-PMH protocol, but not updated recently.\nInteroperability low/medium, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.\nFully cross-domain, not restricted in type of data.\n\nOpenClinica, clinical research EDC platform with an Open Source version\n\nNo containerization, java-based.\nExtensive API, well documented\nInteroperability high: uses well-documented XML for its data format and Json for the API operations.\nMostly not cross-domain: built around clinical research. Then the result can be used in other domains.\n\n\nExtensive API.\n\nRightField\n\nStandalone tool in Java that could be containerized with a little technical effort.\nWell documented, using standard Excel spreadsheets and standard ontologies formats.\nInteroperability high: well documented.\nFully cross-domain\n\nJAX BioConnect, “an index of research data that supports data sharing, high-quality curation, and consistent data description”\n\nOnline\nCommand-line based API, well documented\nwell documented, follow the ISA schema.\nNot cross-domain: dedicated to bioscience",
     "crumbs": [
       "Home",
-      "Useful tools and platforms for Data Management"
+      "Medium Data Management platforms"
     ]
   },
   {
-    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
-    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
-    "title": "Useful tools and platforms for Data Management",
-    "section": "For tutorials",
-    "text": "For tutorials\nDocumentations systems\n\nJupyterLab, “web-based interactive development environment for notebooks, code, and data”\n\nInstallation of Jupyter Hub (multi-user) on Kubernetes\n\nCollab is a Google-hosted Jupyter Notebook service, useful for online tutorials\nWebTop, “Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.”\n\nDocker and docker-compose installations\n\nQuarto, used for this website, “An open-source scientific and technical publishing system”\n\nAvailable as standalone, but also as extension for text editors and github action for rendering GitHub pages",
+    "objectID": "pages/DataManagement_MediumPlatforms.html#documents",
+    "href": "pages/DataManagement_MediumPlatforms.html#documents",
+    "title": "Medium Data Management platforms",
+    "section": "Documents",
+    "text": "Documents\n\nOpen Contracts, free and Open Source Document Analytics Platform\n\nDocker compose installation\nIt seems to be several ways of integrations, but no simple API,\nInteroperability medium: usage is well documented, including some integrations, but it seems highly technical and spending time on the documentation is needed.\nFully cross-domain: it can be used for any domain.",
     "crumbs": [
       "Home",
-      "Useful tools and platforms for Data Management"
+      "Medium Data Management platforms"
     ]
+  },
+  {
+    "objectID": "pages/DataManagement_MediumPlatforms.html#bibliography",
+    "href": "pages/DataManagement_MediumPlatforms.html#bibliography",
+    "title": "Medium Data Management platforms",
+    "section": "Bibliography",
+    "text": "Bibliography\n\nILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)\n\nDocker compose installation\nAPI, well documented\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: it can be used for any domain.",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "pages/DataManagement_MediumPlatforms.html#generalists",
+    "href": "pages/DataManagement_MediumPlatforms.html#generalists",
+    "title": "Medium Data Management platforms",
+    "section": "Generalists",
+    "text": "Generalists\n\nCoscine, COllaborative SCientific INtegration Environment, Research Data Management platform, based on RDS\n\nOnline only\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: it can be used for any domain.",
+    "crumbs": [
+      "Home",
+      "Medium Data Management platforms"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "",
+    "text": "Feel free to contribute: GitHub sources"
+  },
+  {
+    "objectID": "index.html#major-platforms",
+    "href": "index.html#major-platforms",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Major platforms",
+    "text": "Major platforms"
+  },
+  {
+    "objectID": "index.html#medium-platforms",
+    "href": "index.html#medium-platforms",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Medium platforms",
+    "text": "Medium platforms"
+  },
+  {
+    "objectID": "index.html#taxonomies-ontologies-formats",
+    "href": "index.html#taxonomies-ontologies-formats",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Taxonomies, ontologies & formats",
+    "text": "Taxonomies, ontologies & formats\n\nTaxonomies\nOntologies\nFormats (TBC)"
+  },
+  {
+    "objectID": "index.html#useful-tools-and-platforms-for-data-management",
+    "href": "index.html#useful-tools-and-platforms-for-data-management",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Useful Tools and Platforms for Data Management",
+    "text": "Useful Tools and Platforms for Data Management"
+  },
+  {
+    "objectID": "index.html#toward-provisionning",
+    "href": "index.html#toward-provisionning",
+    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
+    "section": "Toward Provisionning",
+    "text": "Toward Provisionning"
   },
   {
     "objectID": "pages/DataManagement_Taxonomies.html",
@@ -361,62 +428,6 @@
       "Home",
       "Major taxonomies/classifications"
     ]
-  },
-  {
-    "objectID": "pages/TowardProvisionning.html",
-    "href": "pages/TowardProvisionning.html",
-    "title": "Toward provisionning",
-    "section": "",
-    "text": "One important aspect of Software usage is the targeted use:\n\nthe importance of it and of its data: if it is main output of a project, if it is patient-related data, …\nthe scope of usage: for local users only, for the public, for the founding members, for the time of the project, for X years,\nand the variety of usage: consultation only, API usage, export using standardised data, …\n\nAll that has a great influence on the provisionning needed, for needed persons:\n\ncritical data might need the involvement of a cybersecurity engineer,\npersonal data (about persons) might need a data protection specialist or some compliance assessments,\nSoftware that need to run after the end of the project might need a dedicated sys-admin for the planned time,\nSpecific Data usage might need a Software Engineer to adapt, prepare and explain,\n\nBut also for needed technical solution:\n\nA physical server or a Cloud to host the Software, its data and backups,\nSome extra Software such as an Identity Server, so that users are centrally managed,\nA regular backup,\nA monitoring of the logs (access logs, software logs, …) for outrages or attacks, an unknown anomaly could be the result of an attack,\nA monitoring of the installed ressources, to be sure there was no malicious tinckering,\nSet-up of automatic updates,\nAuthorized-lists and Nonauthorized-lists, Firewall rules,\nAudit of security,"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "As part of the De.KCD project this registry lists some of the major Data-Management platforms over various scientific domains in a short summary with a focus on how suited they are to a cloud environment, including their interoperability.\nAll contributions are welcome so feel free to submit an issue or a pull request to add or edit. If you have been involved in the development of a Data-Management platform, we would be very happy for any correction or addition."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
-    "section": "",
-    "text": "Feel free to contribute: GitHub sources"
-  },
-  {
-    "objectID": "index.html#major-platforms",
-    "href": "index.html#major-platforms",
-    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
-    "section": "Major platforms",
-    "text": "Major platforms"
-  },
-  {
-    "objectID": "index.html#medium-platforms",
-    "href": "index.html#medium-platforms",
-    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
-    "section": "Medium platforms",
-    "text": "Medium platforms"
-  },
-  {
-    "objectID": "index.html#taxonomies-ontologies-formats",
-    "href": "index.html#taxonomies-ontologies-formats",
-    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
-    "section": "Taxonomies, ontologies & formats",
-    "text": "Taxonomies, ontologies & formats\n\nTaxonomies\nOntologies\nFormats (TBC)"
-  },
-  {
-    "objectID": "index.html#useful-tools-and-platforms-for-data-management",
-    "href": "index.html#useful-tools-and-platforms-for-data-management",
-    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
-    "section": "Useful Tools and Platforms for Data Management",
-    "text": "Useful Tools and Platforms for Data Management"
-  },
-  {
-    "objectID": "index.html#toward-provisionning",
-    "href": "index.html#toward-provisionning",
-    "title": "De.KCD - Cloud For Data Management - Repository of data-management platforms",
-    "section": "Toward Provisionning",
-    "text": "Toward Provisionning"
   },
   {
     "objectID": "pages/DataManagement_Ontologies.html",
@@ -540,58 +551,47 @@
     ]
   },
   {
-    "objectID": "pages/DataManagement_MediumPlatforms.html",
-    "href": "pages/DataManagement_MediumPlatforms.html",
-    "title": "Medium Data Management platforms",
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html",
+    "title": "Useful tools and platforms for Data Management",
     "section": "",
-    "text": "NextSeek\n\nDocker image via dockerfile (root of repository)\nWrapper on Seek, so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn’t find a documentation.\nInteroperability high: inheriting from Seek interoperability.\nMostly cross-domain: should let Seek be configurable.\n\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\nAPI documented internally only, and we could not check it beyond the demo Swagger page. There is an harvesting module following the OAI-PMH protocol, but not updated recently.\nInteroperability low/medium, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.\nFully cross-domain, not restricted in type of data.\n\nOpenClinica, clinical research EDC platform with an Open Source version\n\nNo containerization, java-based.\nExtensive API, well documented\nInteroperability high: uses well-documented XML for its data format and Json for the API operations.\nMostly not cross-domain: built around clinical research. Then the result can be used in other domains.\n\n\nExtensive API.\n\nRightField\n\nStandalone tool in Java that could be containerized with a little technical effort.\nWell documented, using standard Excel spreadsheets and standard ontologies formats.\nInteroperability high: well documented.\nFully cross-domain\n\nJAX BioConnect, “an index of research data that supports data sharing, high-quality curation, and consistent data description”\n\nOnline\nCommand-line based API, well documented\nwell documented, follow the ISA schema.\nNot cross-domain: dedicated to bioscience",
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
     "crumbs": [
       "Home",
-      "Medium Data Management platforms"
+      "Useful tools and platforms for Data Management"
     ]
   },
   {
-    "objectID": "pages/DataManagement_MediumPlatforms.html#life-science",
-    "href": "pages/DataManagement_MediumPlatforms.html#life-science",
-    "title": "Medium Data Management platforms",
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#to-be-part-of-an-assembly",
+    "title": "Useful tools and platforms for Data Management",
     "section": "",
-    "text": "NextSeek\n\nDocker image via dockerfile (root of repository)\nWrapper on Seek, so the Seek API is still usable. It seems to be an additional API for NextSeek but we couldn’t find a documentation.\nInteroperability high: inheriting from Seek interoperability.\nMostly cross-domain: should let Seek be configurable.\n\nBexis2 DM tool. Research Data management software for BioDiversity\n\nRunning on ASP, no containerization.\nAPI documented internally only, and we could not check it beyond the demo Swagger page. There is an harvesting module following the OAI-PMH protocol, but not updated recently.\nInteroperability low/medium, seems to be usable mostly from the Web UI and not documented enough for programmatic usage. A clear exposition of the API would help greatly.\nFully cross-domain, not restricted in type of data.\n\nOpenClinica, clinical research EDC platform with an Open Source version\n\nNo containerization, java-based.\nExtensive API, well documented\nInteroperability high: uses well-documented XML for its data format and Json for the API operations.\nMostly not cross-domain: built around clinical research. Then the result can be used in other domains.\n\n\nExtensive API.\n\nRightField\n\nStandalone tool in Java that could be containerized with a little technical effort.\nWell documented, using standard Excel spreadsheets and standard ontologies formats.\nInteroperability high: well documented.\nFully cross-domain\n\nJAX BioConnect, “an index of research data that supports data sharing, high-quality curation, and consistent data description”\n\nOnline\nCommand-line based API, well documented\nwell documented, follow the ISA schema.\nNot cross-domain: dedicated to bioscience",
+    "text": "Authentik is a central authority provider.\n\nDocker and Kubernetes installations\n\nKeycloak, Open Source Identity and Access Management\n\nDocker and Kubernetes installations\n\nAuthelia, an open-source authentication and authorization server\n\nDocker and Kubernetes installations\n\nMinIO, a S3 compatible high performance object store\n\nContainerization via PodMan, not production.\n\nApache Spark, engine for large-scale analytics\n\nA commonly used engine for storing and analysing Scientific data.\nKubernetes installations\n\nRDF, “The Resource Description Framework (RDF) is a general framework for representing interconnected data on the web”",
     "crumbs": [
       "Home",
-      "Medium Data Management platforms"
+      "Useful tools and platforms for Data Management"
     ]
   },
   {
-    "objectID": "pages/DataManagement_MediumPlatforms.html#documents",
-    "href": "pages/DataManagement_MediumPlatforms.html#documents",
-    "title": "Medium Data Management platforms",
-    "section": "Documents",
-    "text": "Documents\n\nOpen Contracts, free and Open Source Document Analytics Platform\n\nDocker compose installation\nIt seems to be several ways of integrations, but no simple API,\nInteroperability medium: usage is well documented, including some integrations, but it seems highly technical and spending time on the documentation is needed.\nFully cross-domain: it can be used for any domain.",
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#as-extra-of-a-solution-or-an-assembly",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "As extra of a solution or an assembly",
+    "text": "As extra of a solution or an assembly\n\nHeimdall is a web-application that provide a dashboard on other web-applications\n\nDocker installation\n\nGreyLog, centralized log management application\n\nDocker and docker-compose installations\n\nGrafana, Grafana is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data sources (wikipedia)\n\nWith installation with docker, docker-compose, kubernetes and helm charts",
     "crumbs": [
       "Home",
-      "Medium Data Management platforms"
+      "Useful tools and platforms for Data Management"
     ]
   },
   {
-    "objectID": "pages/DataManagement_MediumPlatforms.html#bibliography",
-    "href": "pages/DataManagement_MediumPlatforms.html#bibliography",
-    "title": "Medium Data Management platforms",
-    "section": "Bibliography",
-    "text": "Bibliography\n\nILS, an Integrated Library System, part of the Invenio portfolio (see in Generalists in the Major Platforms)\n\nDocker compose installation\nAPI, well documented\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: it can be used for any domain.",
+    "objectID": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
+    "href": "pages/DataManagement_UsefulToolsAndPlatforms.html#for-tutorials",
+    "title": "Useful tools and platforms for Data Management",
+    "section": "For tutorials",
+    "text": "For tutorials\nDocumentations systems\n\nJupyterLab, “web-based interactive development environment for notebooks, code, and data”\n\nInstallation of Jupyter Hub (multi-user) on Kubernetes\n\nCollab is a Google-hosted Jupyter Notebook service, useful for online tutorials\nWebTop, “Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.”\n\nDocker and docker-compose installations\n\nQuarto, used for this website, “An open-source scientific and technical publishing system”\n\nAvailable as standalone, but also as extension for text editors and github action for rendering GitHub pages",
     "crumbs": [
       "Home",
-      "Medium Data Management platforms"
-    ]
-  },
-  {
-    "objectID": "pages/DataManagement_MediumPlatforms.html#generalists",
-    "href": "pages/DataManagement_MediumPlatforms.html#generalists",
-    "title": "Medium Data Management platforms",
-    "section": "Generalists",
-    "text": "Generalists\n\nCoscine, COllaborative SCientific INtegration Environment, Research Data Management platform, based on RDS\n\nOnline only\nExtensive API, well documented\nInteroperability HIGH: uses well-documented JSON.\nFully cross-domain: it can be used for any domain.",
-    "crumbs": [
-      "Home",
-      "Medium Data Management platforms"
+      "Useful tools and platforms for Data Management"
     ]
   }
 ]
