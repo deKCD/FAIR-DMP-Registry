@@ -159,7 +159,7 @@ The format is keep as simple as possible so it is easier to modify. We find it m
     + Interoperability **medium**: uses well-documented JSON but seems to be only for reading from chemotion. Further integrations are supported but [documented for devices](https://chemotion.net/docs/eln/devices), thus not easy to grasp for a non-chemist.
     + **Not** cross-domain: it is a highly specialised tool and would not be adapted for other applications
     
-## Materials science
+## Materials Science
 
 * [NOMAD, management and sharing of material science data (online)](https://nomad-lab.eu/nomad-lab/)
     + With many [tutorials](https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat), also on [Youtube](https://www.youtube.com/watch?v=FqTTeAgqiuw)
