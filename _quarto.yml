@@ -12,6 +12,29 @@ website:
      - icon: github
        href: https://github.com/deKCD/FAIR-DMP-Registry
 
+  body-header:
+    <script type="text/plain" cookie-consent="tracking">
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['setVisitorCookieTimeout', '2592000']);
+      _paq.push(['setSessionCookieTimeout', '0']);
+      _paq.push(["setDomains", ["*.dekcd.github.io/FAIR-DMP-Registry"]]);
+      _paq.push(["setCookieDomain", "*.dekcd.github.io"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      _paq.push(['enableHeartBeatTimer', 15]);
+      (function() {
+        var u="https://piwik.cebitec.uni-bielefeld.de/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '39']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+
+    </script>
+    <noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="https://piwik.cebitec.uni-bielefeld.de/matomo.php?idsite=39&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code --> 
+    
   sidebar:
     style : "docked"
     search: true
@@ -28,6 +51,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
+	include-in-header:
+      - file: CookieConsent.html
 
 
