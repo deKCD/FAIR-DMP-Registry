@@ -1,5 +1,12 @@
 project:
   type: website
+  cookie-consent:
+    type: express
+    style: simple
+    palette: light
+    policy-url: "https://dekcd.github.io/FAIR-DMP-Registry/pages/privacy.html"
+    language: en
+    prefs-text: "Update cookies preferences"
 
 website:
   title: "De.KCD - Registry of Data Management Platforms"
