@@ -8,7 +8,6 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - pages/privacy.qmd
     tools:
      - icon: github
        href: https://github.com/deKCD/FAIR-DMP-Registry

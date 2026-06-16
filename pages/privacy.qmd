@@ -1,0 +1,60 @@
+---
+title: "Privacy Policy"
+number-sections: true
+---
+*Last updated: June 2026*
+
+# Introduction
+
+This website provides educational and technical resources related to the De.KCD project and cloud-based research data management.
+
+We are committed to protecting your privacy and minimizing data collection.
+
+# Data Collection
+
+This website does not require user registration and does not intentionally collect personal information such as names, email addresses, or account details.
+
+Like most websites, the web server may automatically process technical information necessary for the operation and security of the service, such as:
+
+* IP address
+* Browser type and version
+* Operating system
+* Date and time of access
+* Requested pages
+
+These data are used solely for technical operation, security, and troubleshooting purposes.
+
+# Anonymous Usage Statistics
+
+If you consent through the cookie or privacy banner, we collect anonymous usage statistics to help us understand how the website is used and improve its content.
+
+The collected statistics:
+
+* Do not directly identify visitors.
+* Are used only in aggregated form.
+* Are not used for advertising or profiling.
+* Are not shared with third parties for marketing purposes.
+
+You may decline analytics tracking at any time without affecting your ability to use the website.
+
+# Cookies
+
+Analytics may use cookies or similar technologies only after your consent has been provided.
+
+Essential technical cookies may be used when required for the proper functioning of the website.
+
+# Third-Party Services
+
+This website may contain links to external websites. We are not responsible for the privacy practices or content of those external sites.
+
+# Your Rights
+
+If you are located in the European Economic Area (EEA), you may have rights under the General Data Protection Regulation (GDPR), including the right to obtain information about the processing of your personal data and, where applicable, request its deletion or correction.
+
+# Contact
+
+If you have questions regarding this Privacy Policy, please contact the website maintainers through the contact information provided on this website.
+
+# Changes to This Policy
+
+This Privacy Policy may be updated from time to time. Any changes will be published on this page.
