@@ -30,7 +30,6 @@ format:
     css: styles.css
     toc: true
     include-in-header:
-      - file: CookieConsent.html
       - file: matomo.html
 
 
