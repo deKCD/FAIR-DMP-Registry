@@ -95,6 +95,10 @@ The [Community Ontology Repository](http://cor.esipfed.org/ont#/) lists the Onto
 
 * [MDO (Materials Domain Ontology),  "An Ontology for the Materials Design Domain"](https://liusemweb.github.io/mdo/full/1.1/index.html)
 
+## For Humanities
+
+* [CIDOC Conceptual Reference Model,  "ontology for concepts and information in cultural heritage and museum documentation"], (https://cidoc-crm.org/)
+
 ## Generalist
 
 * [Dublin Core Metadata Initiative (DCMI), provides a standard for resource description and discovery on the web](https://www.dublincore.org/)
