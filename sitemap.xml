@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://deKCD.github.io/FAIR-DMP-Registry/index.html</loc>
-    <lastmod>2026-06-16T14:01:43.311Z</lastmod>
-  </url>
-  <url>
     <loc>https://deKCD.github.io/FAIR-DMP-Registry/about.html</loc>
-    <lastmod>2026-06-16T14:01:43.311Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/TowardProvisionning.html</loc>
-    <lastmod>2026-06-16T14:01:43.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_Taxonomies.html</loc>
-    <lastmod>2026-06-16T14:01:43.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_MajorPlatforms.html</loc>
-    <lastmod>2026-06-16T14:01:43.311Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/privacy.html</loc>
-    <lastmod>2026-06-16T14:01:43.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_Ontologies.html</loc>
-    <lastmod>2026-06-16T14:01:43.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_MediumPlatforms.html</loc>
-    <lastmod>2026-06-16T14:01:43.312Z</lastmod>
+    <lastmod>2026-10-10T20:40:50.384Z</lastmod>
   </url>
   <url>
     <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_UsefulToolsAndPlatforms.html</loc>
-    <lastmod>2026-06-16T14:01:43.312Z</lastmod>
+    <lastmod>2026-10-10T20:40:50.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_Taxonomies.html</loc>
+    <lastmod>2026-10-10T20:40:50.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/privacy.html</loc>
+    <lastmod>2026-10-10T20:40:50.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deKCD.github.io/FAIR-DMP-Registry/index.html</loc>
+    <lastmod>2026-10-10T20:40:50.384Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/TowardProvisionning.html</loc>
+    <lastmod>2026-10-10T20:40:50.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_Ontologies.html</loc>
+    <lastmod>2026-10-10T20:40:50.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_MajorPlatforms.html</loc>
+    <lastmod>2026-10-10T20:40:50.384Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deKCD.github.io/FAIR-DMP-Registry/pages/DataManagement_MediumPlatforms.html</loc>
+    <lastmod>2026-10-10T20:40:50.385Z</lastmod>
   </url>
 </urlset>
